@@ -51,7 +51,7 @@
 
         href="https://github.com/aws/aws-sdk-js"
 
-    >aws-sdk (v2.28.0)</a>
+    >aws-sdk (v2.32.0)</a>
 </h1>
 <h4>AWS SDK for JavaScript</h4>
 <div class="apidocSectionDiv"><a
@@ -9302,6 +9302,15 @@
 
         <li>
 
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.S3.ManagedUpload.prototype.getTaggingHeader">
+            function <span class="apidocSignatureSpan">aws-sdk.S3.ManagedUpload.prototype.</span>getTaggingHeader
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
             <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.S3.ManagedUpload.prototype.listeners">
             function <span class="apidocSignatureSpan">aws-sdk.S3.ManagedUpload.prototype.</span>listeners
             <span class="apidocSignatureSpan">(eventName)</span>
@@ -15404,9 +15413,10 @@ constructor: function Response(request) {
   property(this, &#x27;isStreaming&#x27;, shape.streaming || this.isStreaming || false);
   property(this, &#x27;isComposite&#x27;, shape.isComposite || false);
   property(this, &#x27;isShape&#x27;, true, false);
-  property(this, &#x27;isQueryName&#x27;, shape.queryName ? true : false, false);
-  property(this, &#x27;isLocationName&#x27;, shape.locationName ? true : false, false);
+  property(this, &#x27;isQueryName&#x27;, Boolean(shape.queryName), false);
+  property(this, &#x27;isLocationName&#x27;, Boolean(shape.locationName), false);
   property(this, &#x27;isIdempotent&#x27;, shape.idempotencyToken === true);
+  property(this, &#x27;isJsonValue&#x27;, shape.jsonvalue === true);
 
   if (options.documentation) {
     property(this, &#x27;documentation&#x27;, shape.documentation);
@@ -20267,7 +20277,9 @@ constructor: function Config(options) {
 
   function credError(msg, err) {
     return new AWS.util.error(err || new Error(), {
-      code: &#x27;CredentialsError&#x27;, message: msg
+      code: &#x27;CredentialsError&#x27;,
+      message: msg,
+      name: &#x27;CredentialsError&#x27;
     });
   }
 
@@ -21126,9 +21138,9 @@ extractCredentials: function extractCredentials(options) {
   }
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-function credError(msg, err) {
-  return new AWS.util.error(err || new Error(), {
-    code: &#x27;CredentialsError&#x27;, message: msg
+    code: &#x27;CredentialsError&#x27;,
+    message: msg,
+    name: &#x27;CredentialsError&#x27;
   });
 }
 
@@ -21910,17 +21922,9 @@ function getAsyncCredentials() {
   options = options || {};
   var type = typeOf(data);
   if (type === &#x27;Object&#x27;) {
-    var map = {M: {}};
-    for (var key in data) {
-      map[&#x27;M&#x27;][key] = convertInput(data[key], options);
-    }
-    return map;
+    return formatMap(data, options);
   } else if (type === &#x27;Array&#x27;) {
-    var list = {L: []};
-    for (var i = 0; i &#x3c; data.length; i++) {
-      list[&#x27;L&#x27;].push(convertInput(data[i], options));
-    }
-    return list;
+    return formatList(data, options);
   } else if (type === &#x27;Set&#x27;) {
     return formatSet(data, options);
   } else if (type === &#x27;String&#x27;) {
@@ -21939,6 +21943,9 @@ function getAsyncCredentials() {
     return { BOOL: data };
   } else if (type === &#x27;null&#x27;) {
     return { NULL: true };
+  } else if (type !== &#x27;undefined&#x27; &#x26;&#x26; type !== &#x27;Function&#x27;) {
+    // this value has a custom constructor
+    return formatMap(data, options);
   }
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
@@ -22222,9 +22229,9 @@ function getAsyncCredentials() {
   return request;
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-function credError(msg, err) {
-  return new AWS.util.error(err || new Error(), {
-    code: &#x27;CredentialsError&#x27;, message: msg
+    code: &#x27;CredentialsError&#x27;,
+    message: msg,
+    name: &#x27;CredentialsError&#x27;
   });
 }
 
@@ -22522,7 +22529,12 @@ function getAsyncCredentials() {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function retryDelays(retryCount) {
-  var delay = retryCount &#x3e; 0 ? (50 * Math.pow(2, retryCount - 1)) : 0;
+  var retryDelayOptions = AWS.util.copy(this.config.retryDelayOptions);
+
+  if (typeof retryDelayOptions.base !== &#x27;number&#x27;) {
+      retryDelayOptions.base = 50; // default for dynamodb
+  }
+  var delay = AWS.util.calculateRetryDelay(retryCount, retryDelayOptions);
   return delay;
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
@@ -27976,9 +27988,10 @@ constructor: function constructor(service, state) {
   property(this, &#x27;isStreaming&#x27;, shape.streaming || this.isStreaming || false);
   property(this, &#x27;isComposite&#x27;, shape.isComposite || false);
   property(this, &#x27;isShape&#x27;, true, false);
-  property(this, &#x27;isQueryName&#x27;, shape.queryName ? true : false, false);
-  property(this, &#x27;isLocationName&#x27;, shape.locationName ? true : false, false);
+  property(this, &#x27;isQueryName&#x27;, Boolean(shape.queryName), false);
+  property(this, &#x27;isLocationName&#x27;, Boolean(shape.locationName), false);
   property(this, &#x27;isIdempotent&#x27;, shape.idempotencyToken === true);
+  property(this, &#x27;isJsonValue&#x27;, shape.jsonvalue === true);
 
   if (options.documentation) {
     property(this, &#x27;documentation&#x27;, shape.documentation);
@@ -28030,9 +28043,10 @@ constructor: function constructor(service, state) {
   property(this, &#x27;isStreaming&#x27;, shape.streaming || this.isStreaming || false);
   property(this, &#x27;isComposite&#x27;, shape.isComposite || false);
   property(this, &#x27;isShape&#x27;, true, false);
-  property(this, &#x27;isQueryName&#x27;, shape.queryName ? true : false, false);
-  property(this, &#x27;isLocationName&#x27;, shape.locationName ? true : false, false);
+  property(this, &#x27;isQueryName&#x27;, Boolean(shape.queryName), false);
+  property(this, &#x27;isLocationName&#x27;, Boolean(shape.locationName), false);
   property(this, &#x27;isIdempotent&#x27;, shape.idempotencyToken === true);
+  property(this, &#x27;isJsonValue&#x27;, shape.jsonvalue === true);
 
   if (options.documentation) {
     property(this, &#x27;documentation&#x27;, shape.documentation);
@@ -28666,13 +28680,13 @@ addAsync(&#x27;COMPUTE_SHA256&#x27;, &#x27;afterBuild&#x27;, function COMPUTE_SH
   }
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-      return this.fail(&#x27;UnkownType&#x27;, &#x27;Unhandled type &#x27; +
-                       shape.type + &#x27; for &#x27; + context);
-  }
-},
 
 validateString: function validateString(shape, value, context) {
-  if (this.validateType(value, context, [&#x27;string&#x27;])) {
+  var validTypes = [&#x27;string&#x27;];
+  if (shape.isJsonValue) {
+    validTypes = validTypes.concat([&#x27;number&#x27;, &#x27;object&#x27;, &#x27;boolean&#x27;]);
+  }
+  if (value !== null &#x26;&#x26; this.validateType(value, context, validTypes)) {
     this.<span class="apidocCodeKeywordSpan">validateEnum</span>(shape, value, context);
     this.validateRange(shape, value.length, context, &#x27;string length&#x27;);
     this.validatePattern(shape, value, context);
@@ -28861,11 +28875,11 @@ default:
   }
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
+  var validTypes = [&#x27;string&#x27;];
+  if (shape.isJsonValue) {
+    validTypes = validTypes.concat([&#x27;number&#x27;, &#x27;object&#x27;, &#x27;boolean&#x27;]);
   }
-},
-
-validateString: function validateString(shape, value, context) {
-  if (this.validateType(value, context, [&#x27;string&#x27;])) {
+  if (value !== null &#x26;&#x26; this.validateType(value, context, validTypes)) {
     this.validateEnum(shape, value, context);
     this.validateRange(shape, value.length, context, &#x27;string length&#x27;);
     this.<span class="apidocCodeKeywordSpan">validatePattern</span>(shape, value, context);
@@ -29029,7 +29043,11 @@ validateList: function validateList(shape, params, context) {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function validateString(shape, value, context) {
-  if (this.validateType(value, context, [&#x27;string&#x27;])) {
+  var validTypes = [&#x27;string&#x27;];
+  if (shape.isJsonValue) {
+    validTypes = validTypes.concat([&#x27;number&#x27;, &#x27;object&#x27;, &#x27;boolean&#x27;]);
+  }
+  if (value !== null &#x26;&#x26; this.validateType(value, context, validTypes)) {
     this.validateEnum(shape, value, context);
     this.validateRange(shape, value.length, context, &#x27;string length&#x27;);
     this.validatePattern(shape, value, context);
@@ -30135,8 +30153,8 @@ toGet: function toGet() {
   return self;
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-  if (typeof params === &#x27;function&#x27;) {
-    callback = params; params = undefined;
+    }
+    delete params.$waiter;
   }
 
   var request = this.service.makeRequest(this.config.operation, params);
@@ -31167,7 +31185,7 @@ constructor: function constructor(service, state) {
     });
   }
 
-  this.config = this.service.api.waiters[state];
+  this.config = AWS.util.copy(this.service.api.waiters[state]);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
  * @example Create a waiter for running EC2 instances
@@ -31269,6 +31287,17 @@ AWS.ResourceWaiter = inherit({
     <li>description and source-code<pre class="apidocCodePre">function wait(params, callback) {
   if (typeof params === &#x27;function&#x27;) {
     callback = params; params = undefined;
+  }
+
+  if (params &#x26;&#x26; params.$waiter) {
+    params = AWS.util.copy(params);
+    if (typeof params.$waiter.delay === &#x27;number&#x27;) {
+      this.config.delay = params.$waiter.delay;
+    }
+    if (typeof params.$waiter.maxAttempts === &#x27;number&#x27;) {
+      this.config.maxAttempts = params.$waiter.maxAttempts;
+    }
+    delete params.$waiter;
   }
 
   var request = this.service.makeRequest(this.config.operation, params);
@@ -31419,13 +31448,13 @@ function finish(err) {
 
 function credError(msg, err) {
   return new AWS.util.<span class="apidocCodeKeywordSpan">error</span>(err || new Error(), {
-    code: &#x27;CredentialsError&#x27;, message: msg
+    code: &#x27;CredentialsError&#x27;,
+    message: msg,
+    name: &#x27;CredentialsError&#x27;
   });
 }
 
 function getAsyncCredentials() {
-  self.credentials.get(function(err) {
-    if (err) {
 ...</pre></li>
     </ul>
 
@@ -32276,8 +32305,8 @@ toGet: function toGet() {
   return self;
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-  if (typeof params === &#x27;function&#x27;) {
-    callback = params; params = undefined;
+    }
+    delete params.$waiter;
   }
 
   var request = this.service.makeRequest(this.config.operation, params);
@@ -32521,6 +32550,13 @@ Core: new SequentialExecutor().<span class="apidocCodeKeywordSpan">addNamedListe
   if (options.queueSize) this.queueSize = options.queueSize;
   if (options.partSize) this.partSize = options.partSize;
   if (options.leavePartsOnError) this.leavePartsOnError = true;
+  if (options.tags) {
+    if (!Array.isArray(options.tags)) {
+      throw new Error(&#x27;Tags must be specified as an array; &#x27; +
+        typeof options.tags + &#x27; provided.&#x27;);
+    }
+    this.tags = options.tags;
+  }
 
   if (this.partSize &#x3c; this.minPartSize) {
     throw new Error(&#x27;partSize must be greater than &#x27; +
@@ -32719,8 +32755,18 @@ if (!resp.httpResponse.streaming) {
   var self = this;
   var completeParams = { MultipartUpload: { Parts: self.completeInfo.slice(1) } };
   self.service.completeMultipartUpload(completeParams, function(err, data) {
-    if (err) return self.cleanup(err);
-    else self.callback(err, data);
+    if (err) {
+      return self.cleanup(err);
+    }
+
+    if (Array.isArray(self.tags)) {
+      self.service.putObjectTagging(
+        {Tagging: {TagSet: self.tags}},
+        self.callback
+      );
+    } else {
+      self.callback(err, data);
+    }
   });
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
@@ -32746,6 +32792,27 @@ if (!resp.httpResponse.streaming) {
   data.Key = this.request.params.Key;
   data.Bucket = this.request.params.Bucket;
   upload.callback(err, data);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.S3.ManagedUpload.prototype.getTaggingHeader" id="apidoc.element.aws-sdk.S3.ManagedUpload.prototype.getTaggingHeader">
+        function <span class="apidocSignatureSpan">aws-sdk.S3.ManagedUpload.prototype.</span>getTaggingHeader
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function getTaggingHeader() {
+  var kvPairStrings = [];
+  for (var i = 0; i &#x3c; this.tags.length; i++) {
+    kvPairStrings.push(AWS.util.uriEscape(this.tags[i].Key) + &#x27;=&#x27; +
+      AWS.util.uriEscape(this.tags[i].Value));
+  }
+
+  return kvPairStrings.join(&#x27;&#x26;&#x27;);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -32780,7 +32847,11 @@ if (!resp.httpResponse.streaming) {
 
   var partNumber = ++self.totalPartNumbers;
   if (self.isDoneChunking &#x26;&#x26; partNumber === 1) {
-    var req = self.service.putObject({Body: chunk});
+    var params = {Body: chunk};
+    if (this.tags) {
+      params.Tagging = this.getTaggingHeader();
+    }
+    var req = self.service.putObject(params);
     req._managedUpload = self;
     req.on(&#x27;httpUploadProgress&#x27;, self.progress).send(self.finishSinglePart);
     return null;
@@ -35518,8 +35589,8 @@ toGet: function toGet() {
   return self;
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-  if (typeof params === &#x27;function&#x27;) {
-    callback = params; params = undefined;
+    }
+    delete params.$waiter;
   }
 
   var request = this.service.makeRequest(this.config.operation, params);
@@ -36461,11 +36532,11 @@ addAsync(&#x27;COMPUTE_SHA256&#x27;, &#x27;afterBuild&#x27;, function COMPUTE_SH
   return request;
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
- * @return [AWS.Request]
- */
-wait: function wait(params, callback) {
-  if (typeof params === &#x27;function&#x27;) {
-    callback = params; params = undefined;
+    }
+    if (typeof params.$waiter.maxAttempts === &#x27;number&#x27;) {
+      this.config.maxAttempts = params.$waiter.maxAttempts;
+    }
+    delete params.$waiter;
   }
 
   var request = this.service.<span class="apidocCodeKeywordSpan">makeRequest</span>(this.config.operation, params);
@@ -40641,7 +40712,7 @@ add(&#x27;HTTP_DATA&#x27;, &#x27;httpData&#x27;, function HTTP_DATA(chunk, resp)
   if (typeof customBackoff === &#x27;function&#x27;) {
     return customBackoff(retryCount);
   }
-  var base = retryDelayOptions.base || 100;
+  var base = typeof retryDelayOptions.base === &#x27;number&#x27; ? retryDelayOptions.base : 100;
   var delay = Math.random() * (Math.pow(2, retryCount) * base);
   return delay;
 }</pre></li>
@@ -40849,13 +40920,13 @@ function finish(err) {
 
 function credError(msg, err) {
   return new AWS.util.<span class="apidocCodeKeywordSpan">error</span>(err || new Error(), {
-    code: &#x27;CredentialsError&#x27;, message: msg
+    code: &#x27;CredentialsError&#x27;,
+    message: msg,
+    name: &#x27;CredentialsError&#x27;
   });
 }
 
 function getAsyncCredentials() {
-  self.credentials.get(function(err) {
-    if (err) {
 ...</pre></li>
     </ul>
 
