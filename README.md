@@ -3,7 +3,7 @@
 
 [![NPM](https://nodei.co/npm/aws-sdk.png?downloads=true)](https://www.npmjs.com/package/aws-sdk)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-aws-sdk/build/screen-capture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-aws_sdk_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-aws-sdk/build..beta..travis-ci.org/apidoc.html)
+[![apidoc](https://npmdoc.github.io/node-npmdoc-aws-sdk/build/screen-capture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-aws-sdk_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-aws-sdk/build..beta..travis-ci.org/apidoc.html)
 
 ![package-listing](https://npmdoc.github.io/node-npmdoc-aws-sdk/build/screen-capture.npmPackageListing.svg)
 
