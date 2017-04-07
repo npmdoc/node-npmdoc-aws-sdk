@@ -1,615 +1,615 @@
 <svg height="9790" width="720" xmlns="http://www.w3.org/2000/svg">
 <rect height="9790" fill="#555" width="720"></rect>
 <text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
-<tspan x="10" y="26">  0.  2017-04-07 17:38:05 +0000 17268592 bytes  .</tspan>
-<tspan x="10" y="42">  1.  2017-04-07 17:38:05 +0000    45038 bytes  CHANGELOG.md</tspan>
-<tspan x="10" y="58">  2.  2017-04-07 17:38:05 +0000     4556 bytes  CONTRIBUTING.md</tspan>
-<tspan x="10" y="74">  3.  2017-04-07 17:38:05 +0000    11392 bytes  LICENSE.txt</tspan>
-<tspan x="10" y="90">  4.  2017-04-07 17:38:05 +0000      197 bytes  NOTICE.txt</tspan>
-<tspan x="10" y="106">  5.  2017-04-07 17:38:05 +0000     5904 bytes  README.md</tspan>
-<tspan x="10" y="122">  6.  2017-04-07 17:38:05 +0000     6834 bytes  SERVICES.md</tspan>
-<tspan x="10" y="138">  7.  2017-04-07 17:38:05 +0000     5124 bytes  UPGRADING.md</tspan>
-<tspan x="10" y="154">  8.  2017-04-07 17:38:05 +0000     6896 bytes  apis/acm-2015-12-08.min.json</tspan>
-<tspan x="10" y="170">  9.  2017-04-07 17:38:05 +0000      202 bytes  apis/acm-2015-12-08.paginators.json</tspan>
-<tspan x="10" y="186"> 10.  2017-04-07 17:38:05 +0000    83042 bytes  apis/apigateway-2015-07-09.min.json</tspan>
-<tspan x="10" y="202"> 11.  2017-04-07 17:38:05 +0000     1711 bytes  apis/apigateway-2015-07-09.paginators.json</tspan>
-<tspan x="10" y="218"> 12.  2017-04-07 17:38:05 +0000     9536 bytes  apis/application-autoscaling-2016-02-06.examples\</tspan>
+<tspan x="10" y="26">  0.  2017-04-07 17:39:53 +0000 17268592 bytes  .</tspan>
+<tspan x="10" y="42">  1.  2017-04-07 17:39:53 +0000    45038 bytes  CHANGELOG.md</tspan>
+<tspan x="10" y="58">  2.  2017-04-07 17:39:53 +0000     4556 bytes  CONTRIBUTING.md</tspan>
+<tspan x="10" y="74">  3.  2017-04-07 17:39:53 +0000    11392 bytes  LICENSE.txt</tspan>
+<tspan x="10" y="90">  4.  2017-04-07 17:39:53 +0000      197 bytes  NOTICE.txt</tspan>
+<tspan x="10" y="106">  5.  2017-04-07 17:39:53 +0000     5904 bytes  README.md</tspan>
+<tspan x="10" y="122">  6.  2017-04-07 17:39:53 +0000     6834 bytes  SERVICES.md</tspan>
+<tspan x="10" y="138">  7.  2017-04-07 17:39:53 +0000     5124 bytes  UPGRADING.md</tspan>
+<tspan x="10" y="154">  8.  2017-04-07 17:39:53 +0000     6896 bytes  apis/acm-2015-12-08.min.json</tspan>
+<tspan x="10" y="170">  9.  2017-04-07 17:39:53 +0000      202 bytes  apis/acm-2015-12-08.paginators.json</tspan>
+<tspan x="10" y="186"> 10.  2017-04-07 17:39:53 +0000    83042 bytes  apis/apigateway-2015-07-09.min.json</tspan>
+<tspan x="10" y="202"> 11.  2017-04-07 17:39:53 +0000     1711 bytes  apis/apigateway-2015-07-09.paginators.json</tspan>
+<tspan x="10" y="218"> 12.  2017-04-07 17:39:53 +0000     9536 bytes  apis/application-autoscaling-2016-02-06.examples\</tspan>
 <tspan x="10" y="234">.json</tspan>
-<tspan x="10" y="250"> 13.  2017-04-07 17:38:05 +0000     8119 bytes  apis/application-autoscaling-2016-02-06.min.json</tspan>
-<tspan x="10" y="266"> 14.  2017-04-07 17:38:05 +0000      568 bytes  apis/application-autoscaling-2016-02-06.paginato\</tspan>
+<tspan x="10" y="250"> 13.  2017-04-07 17:39:53 +0000     8119 bytes  apis/application-autoscaling-2016-02-06.min.json</tspan>
+<tspan x="10" y="266"> 14.  2017-04-07 17:39:53 +0000      568 bytes  apis/application-autoscaling-2016-02-06.paginato\</tspan>
 <tspan x="10" y="282">rs.json</tspan>
-<tspan x="10" y="298"> 15.  2017-04-07 17:38:05 +0000    11933 bytes  apis/appstream-2016-12-01.min.json</tspan>
-<tspan x="10" y="314"> 16.  2017-04-07 17:38:05 +0000     1263 bytes  apis/appstream-2016-12-01.waiters2.json</tspan>
-<tspan x="10" y="330"> 17.  2017-04-07 17:38:05 +0000    43442 bytes  apis/autoscaling-2011-01-01.examples.json</tspan>
-<tspan x="10" y="346"> 18.  2017-04-07 17:38:05 +0000    38779 bytes  apis/autoscaling-2011-01-01.min.json</tspan>
-<tspan x="10" y="362"> 19.  2017-04-07 17:38:05 +0000     1492 bytes  apis/autoscaling-2011-01-01.paginators.json</tspan>
-<tspan x="10" y="378"> 20.  2017-04-07 17:38:05 +0000    17063 bytes  apis/batch-2016-08-10.examples.json</tspan>
-<tspan x="10" y="394"> 21.  2017-04-07 17:38:05 +0000    18908 bytes  apis/batch-2016-08-10.min.json</tspan>
-<tspan x="10" y="410"> 22.  2017-04-07 17:38:05 +0000     9580 bytes  apis/budgets-2016-10-20.min.json</tspan>
-<tspan x="10" y="426"> 23.  2017-04-07 17:38:05 +0000       26 bytes  apis/budgets-2016-10-20.paginators.json</tspan>
-<tspan x="10" y="442"> 24.  2017-04-07 17:38:05 +0000       44 bytes  apis/clouddirectory-2016-05-10.examples.json</tspan>
-<tspan x="10" y="458"> 25.  2017-04-07 17:38:05 +0000    48386 bytes  apis/clouddirectory-2016-05-10.min.json</tspan>
-<tspan x="10" y="474"> 26.  2017-04-07 17:38:05 +0000     2204 bytes  apis/clouddirectory-2016-05-10.paginators.json</tspan>
-<tspan x="10" y="490"> 27.  2017-04-07 17:38:05 +0000     4308 bytes  apis/cloudformation-2010-05-15.examples.json</tspan>
-<tspan x="10" y="506"> 28.  2017-04-07 17:38:05 +0000    22382 bytes  apis/cloudformation-2010-05-15.min.json</tspan>
-<tspan x="10" y="522"> 29.  2017-04-07 17:38:05 +0000      904 bytes  apis/cloudformation-2010-05-15.paginators.json</tspan>
-<tspan x="10" y="538"> 30.  2017-04-07 17:38:05 +0000     4779 bytes  apis/cloudformation-2010-05-15.waiters2.json</tspan>
-<tspan x="10" y="554"> 31.  2017-04-07 17:38:05 +0000    45995 bytes  apis/cloudfront-2016-11-25.min.json</tspan>
-<tspan x="10" y="570"> 32.  2017-04-07 17:38:05 +0000     1126 bytes  apis/cloudfront-2016-11-25.paginators.json</tspan>
-<tspan x="10" y="586"> 33.  2017-04-07 17:38:05 +0000     1184 bytes  apis/cloudfront-2016-11-25.waiters2.json</tspan>
-<tspan x="10" y="602"> 34.  2017-04-07 17:38:05 +0000    46200 bytes  apis/cloudfront-2017-03-25.min.json</tspan>
-<tspan x="10" y="618"> 35.  2017-04-07 17:38:05 +0000     1125 bytes  apis/cloudfront-2017-03-25.paginators.json</tspan>
-<tspan x="10" y="634"> 36.  2017-04-07 17:38:05 +0000     1184 bytes  apis/cloudfront-2017-03-25.waiters2.json</tspan>
-<tspan x="10" y="650"> 37.  2017-04-07 17:38:05 +0000    10459 bytes  apis/cloudhsm-2014-05-30.min.json</tspan>
-<tspan x="10" y="666"> 38.  2017-04-07 17:38:05 +0000    17377 bytes  apis/cloudsearch-2011-02-01.min.json</tspan>
-<tspan x="10" y="682"> 39.  2017-04-07 17:38:05 +0000      244 bytes  apis/cloudsearch-2011-02-01.paginators.json</tspan>
-<tspan x="10" y="698"> 40.  2017-04-07 17:38:05 +0000    23238 bytes  apis/cloudsearch-2013-01-01.min.json</tspan>
-<tspan x="10" y="714"> 41.  2017-04-07 17:38:05 +0000      383 bytes  apis/cloudsearch-2013-01-01.paginators.json</tspan>
-<tspan x="10" y="730"> 42.  2017-04-07 17:38:05 +0000     7419 bytes  apis/cloudsearchdomain-2013-01-01.min.json</tspan>
-<tspan x="10" y="746"> 43.  2017-04-07 17:38:05 +0000    12266 bytes  apis/cloudtrail-2013-11-01.min.json</tspan>
-<tspan x="10" y="762"> 44.  2017-04-07 17:38:05 +0000      247 bytes  apis/cloudtrail-2013-11-01.paginators.json</tspan>
-<tspan x="10" y="778"> 45.  2017-04-07 17:38:05 +0000    10183 bytes  apis/codebuild-2016-10-06.min.json</tspan>
-<tspan x="10" y="794"> 46.  2017-04-07 17:38:05 +0000       26 bytes  apis/codebuild-2016-10-06.paginators.json</tspan>
-<tspan x="10" y="810"> 47.  2017-04-07 17:38:05 +0000     9608 bytes  apis/codecommit-2015-04-13.min.json</tspan>
-<tspan x="10" y="826"> 48.  2017-04-07 17:38:05 +0000      422 bytes  apis/codecommit-2015-04-13.paginators.json</tspan>
-<tspan x="10" y="842"> 49.  2017-04-07 17:38:05 +0000    26634 bytes  apis/codedeploy-2014-10-06.min.json</tspan>
-<tspan x="10" y="858"> 50.  2017-04-07 17:38:05 +0000      879 bytes  apis/codedeploy-2014-10-06.paginators.json</tspan>
-<tspan x="10" y="874"> 51.  2017-04-07 17:38:05 +0000      662 bytes  apis/codedeploy-2014-10-06.waiters2.json</tspan>
-<tspan x="10" y="890"> 52.  2017-04-07 17:38:05 +0000    36135 bytes  apis/codepipeline-2015-07-09.examples.json</tspan>
-<tspan x="10" y="906"> 53.  2017-04-07 17:38:05 +0000    24445 bytes  apis/codepipeline-2015-07-09.min.json</tspan>
-<tspan x="10" y="922"> 54.  2017-04-07 17:38:05 +0000    11359 bytes  apis/cognito-identity-2014-06-30.min.json</tspan>
-<tspan x="10" y="938"> 55.  2017-04-07 17:38:05 +0000       26 bytes  apis/cognito-identity-2014-06-30.paginators.json</tspan>
-<tspan x="10" y="954"> 56.  2017-04-07 17:38:05 +0000    43292 bytes  apis/cognito-idp-2016-04-18.min.json</tspan>
-<tspan x="10" y="970"> 57.  2017-04-07 17:38:05 +0000    17710 bytes  apis/cognito-sync-2014-06-30.min.json</tspan>
-<tspan x="10" y="986"> 58.  2017-04-07 17:38:05 +0000    20112 bytes  apis/config-2014-11-12.min.json</tspan>
-<tspan x="10" y="1002"> 59.  2017-04-07 17:38:05 +0000      203 bytes  apis/config-2014-11-12.paginators.json</tspan>
-<tspan x="10" y="1018"> 60.  2017-04-07 17:38:05 +0000     2110 bytes  apis/cur-2017-01-06.min.json</tspan>
-<tspan x="10" y="1034"> 61.  2017-04-07 17:38:05 +0000      168 bytes  apis/cur-2017-01-06.paginators.json</tspan>
-<tspan x="10" y="1050"> 62.  2017-04-07 17:38:05 +0000    13429 bytes  apis/datapipeline-2012-10-29.min.json</tspan>
-<tspan x="10" y="1066"> 63.  2017-04-07 17:38:05 +0000      634 bytes  apis/datapipeline-2012-10-29.paginators.json</tspan>
-<tspan x="10" y="1082"> 64.  2017-04-07 17:38:05 +0000    42737 bytes  apis/devicefarm-2015-06-23.examples.json</tspan>
-<tspan x="10" y="1098"> 65.  2017-04-07 17:38:05 +0000    32228 bytes  apis/devicefarm-2015-06-23.min.json</tspan>
-<tspan x="10" y="1114"> 66.  2017-04-07 17:38:05 +0000     1888 bytes  apis/devicefarm-2015-06-23.paginators.json</tspan>
-<tspan x="10" y="1130"> 67.  2017-04-07 17:38:05 +0000    19979 bytes  apis/directconnect-2012-10-25.min.json</tspan>
-<tspan x="10" y="1146"> 68.  2017-04-07 17:38:05 +0000      478 bytes  apis/directconnect-2012-10-25.paginators.json</tspan>
-<tspan x="10" y="1162"> 69.  2017-04-07 17:38:05 +0000    14725 bytes  apis/discovery-2015-11-01.min.json</tspan>
-<tspan x="10" y="1178"> 70.  2017-04-07 17:38:05 +0000       26 bytes  apis/discovery-2015-11-01.paginators.json</tspan>
-<tspan x="10" y="1194"> 71.  2017-04-07 17:38:05 +0000    26281 bytes  apis/dms-2016-01-01.min.json</tspan>
-<tspan x="10" y="1210"> 72.  2017-04-07 17:38:05 +0000    24414 bytes  apis/ds-2015-04-16.min.json</tspan>
-<tspan x="10" y="1226"> 73.  2017-04-07 17:38:05 +0000    13372 bytes  apis/dynamodb-2011-12-05.min.json</tspan>
-<tspan x="10" y="1242"> 74.  2017-04-07 17:38:05 +0000      637 bytes  apis/dynamodb-2011-12-05.paginators.json</tspan>
-<tspan x="10" y="1258"> 75.  2017-04-07 17:38:05 +0000      727 bytes  apis/dynamodb-2011-12-05.waiters2.json</tspan>
-<tspan x="10" y="1274"> 76.  2017-04-07 17:38:05 +0000    16882 bytes  apis/dynamodb-2012-08-10.examples.json</tspan>
-<tspan x="10" y="1290"> 77.  2017-04-07 17:38:05 +0000    25258 bytes  apis/dynamodb-2012-08-10.min.json</tspan>
-<tspan x="10" y="1306"> 78.  2017-04-07 17:38:05 +0000      637 bytes  apis/dynamodb-2012-08-10.paginators.json</tspan>
-<tspan x="10" y="1322"> 79.  2017-04-07 17:38:05 +0000      727 bytes  apis/dynamodb-2012-08-10.waiters2.json</tspan>
-<tspan x="10" y="1338"> 80.  2017-04-07 17:38:05 +0000   110174 bytes  apis/ec2-2016-11-15.examples.json</tspan>
-<tspan x="10" y="1354"> 81.  2017-04-07 17:38:05 +0000   292329 bytes  apis/ec2-2016-11-15.min.json</tspan>
-<tspan x="10" y="1370"> 82.  2017-04-07 17:38:05 +0000     3826 bytes  apis/ec2-2016-11-15.paginators.json</tspan>
-<tspan x="10" y="1386"> 83.  2017-04-07 17:38:05 +0000    15363 bytes  apis/ec2-2016-11-15.waiters2.json</tspan>
-<tspan x="10" y="1402"> 84.  2017-04-07 17:38:05 +0000     7211 bytes  apis/ecr-2015-09-21.examples.json</tspan>
-<tspan x="10" y="1418"> 85.  2017-04-07 17:38:05 +0000    11709 bytes  apis/ecr-2015-09-21.min.json</tspan>
-<tspan x="10" y="1434"> 86.  2017-04-07 17:38:05 +0000      527 bytes  apis/ecr-2015-09-21.paginators.json</tspan>
-<tspan x="10" y="1450"> 87.  2017-04-07 17:38:05 +0000    27987 bytes  apis/ecs-2014-11-13.examples.json</tspan>
-<tspan x="10" y="1466"> 88.  2017-04-07 17:38:05 +0000    27135 bytes  apis/ecs-2014-11-13.min.json</tspan>
-<tspan x="10" y="1482"> 89.  2017-04-07 17:38:05 +0000      956 bytes  apis/ecs-2014-11-13.paginators.json</tspan>
-<tspan x="10" y="1498"> 90.  2017-04-07 17:38:05 +0000     2246 bytes  apis/ecs-2014-11-13.waiters2.json</tspan>
-<tspan x="10" y="1514"> 91.  2017-04-07 17:38:05 +0000    38656 bytes  apis/elasticache-2015-02-02.min.json</tspan>
-<tspan x="10" y="1530"> 92.  2017-04-07 17:38:05 +0000     2170 bytes  apis/elasticache-2015-02-02.paginators.json</tspan>
-<tspan x="10" y="1546"> 93.  2017-04-07 17:38:05 +0000     5118 bytes  apis/elasticache-2015-02-02.waiters2.json</tspan>
-<tspan x="10" y="1562"> 94.  2017-04-07 17:38:05 +0000    37449 bytes  apis/elasticbeanstalk-2010-12-01.examples.json</tspan>
-<tspan x="10" y="1578"> 95.  2017-04-07 17:38:05 +0000    37988 bytes  apis/elasticbeanstalk-2010-12-01.min.json</tspan>
-<tspan x="10" y="1594"> 96.  2017-04-07 17:38:05 +0000      572 bytes  apis/elasticbeanstalk-2010-12-01.paginators.json</tspan>
-<tspan x="10" y="1610"> 97.  2017-04-07 17:38:05 +0000     6454 bytes  apis/elasticfilesystem-2015-02-01.examples.json</tspan>
-<tspan x="10" y="1626"> 98.  2017-04-07 17:38:05 +0000     8899 bytes  apis/elasticfilesystem-2015-02-01.min.json</tspan>
-<tspan x="10" y="1642"> 99.  2017-04-07 17:38:05 +0000    30446 bytes  apis/elasticloadbalancing-2012-06-01.examples.js\</tspan>
+<tspan x="10" y="298"> 15.  2017-04-07 17:39:53 +0000    11933 bytes  apis/appstream-2016-12-01.min.json</tspan>
+<tspan x="10" y="314"> 16.  2017-04-07 17:39:53 +0000     1263 bytes  apis/appstream-2016-12-01.waiters2.json</tspan>
+<tspan x="10" y="330"> 17.  2017-04-07 17:39:53 +0000    43442 bytes  apis/autoscaling-2011-01-01.examples.json</tspan>
+<tspan x="10" y="346"> 18.  2017-04-07 17:39:53 +0000    38779 bytes  apis/autoscaling-2011-01-01.min.json</tspan>
+<tspan x="10" y="362"> 19.  2017-04-07 17:39:53 +0000     1492 bytes  apis/autoscaling-2011-01-01.paginators.json</tspan>
+<tspan x="10" y="378"> 20.  2017-04-07 17:39:53 +0000    17063 bytes  apis/batch-2016-08-10.examples.json</tspan>
+<tspan x="10" y="394"> 21.  2017-04-07 17:39:53 +0000    18908 bytes  apis/batch-2016-08-10.min.json</tspan>
+<tspan x="10" y="410"> 22.  2017-04-07 17:39:53 +0000     9580 bytes  apis/budgets-2016-10-20.min.json</tspan>
+<tspan x="10" y="426"> 23.  2017-04-07 17:39:53 +0000       26 bytes  apis/budgets-2016-10-20.paginators.json</tspan>
+<tspan x="10" y="442"> 24.  2017-04-07 17:39:53 +0000       44 bytes  apis/clouddirectory-2016-05-10.examples.json</tspan>
+<tspan x="10" y="458"> 25.  2017-04-07 17:39:53 +0000    48386 bytes  apis/clouddirectory-2016-05-10.min.json</tspan>
+<tspan x="10" y="474"> 26.  2017-04-07 17:39:53 +0000     2204 bytes  apis/clouddirectory-2016-05-10.paginators.json</tspan>
+<tspan x="10" y="490"> 27.  2017-04-07 17:39:53 +0000     4308 bytes  apis/cloudformation-2010-05-15.examples.json</tspan>
+<tspan x="10" y="506"> 28.  2017-04-07 17:39:53 +0000    22382 bytes  apis/cloudformation-2010-05-15.min.json</tspan>
+<tspan x="10" y="522"> 29.  2017-04-07 17:39:53 +0000      904 bytes  apis/cloudformation-2010-05-15.paginators.json</tspan>
+<tspan x="10" y="538"> 30.  2017-04-07 17:39:53 +0000     4779 bytes  apis/cloudformation-2010-05-15.waiters2.json</tspan>
+<tspan x="10" y="554"> 31.  2017-04-07 17:39:53 +0000    45995 bytes  apis/cloudfront-2016-11-25.min.json</tspan>
+<tspan x="10" y="570"> 32.  2017-04-07 17:39:53 +0000     1126 bytes  apis/cloudfront-2016-11-25.paginators.json</tspan>
+<tspan x="10" y="586"> 33.  2017-04-07 17:39:53 +0000     1184 bytes  apis/cloudfront-2016-11-25.waiters2.json</tspan>
+<tspan x="10" y="602"> 34.  2017-04-07 17:39:53 +0000    46200 bytes  apis/cloudfront-2017-03-25.min.json</tspan>
+<tspan x="10" y="618"> 35.  2017-04-07 17:39:53 +0000     1125 bytes  apis/cloudfront-2017-03-25.paginators.json</tspan>
+<tspan x="10" y="634"> 36.  2017-04-07 17:39:53 +0000     1184 bytes  apis/cloudfront-2017-03-25.waiters2.json</tspan>
+<tspan x="10" y="650"> 37.  2017-04-07 17:39:53 +0000    10459 bytes  apis/cloudhsm-2014-05-30.min.json</tspan>
+<tspan x="10" y="666"> 38.  2017-04-07 17:39:53 +0000    17377 bytes  apis/cloudsearch-2011-02-01.min.json</tspan>
+<tspan x="10" y="682"> 39.  2017-04-07 17:39:53 +0000      244 bytes  apis/cloudsearch-2011-02-01.paginators.json</tspan>
+<tspan x="10" y="698"> 40.  2017-04-07 17:39:53 +0000    23238 bytes  apis/cloudsearch-2013-01-01.min.json</tspan>
+<tspan x="10" y="714"> 41.  2017-04-07 17:39:53 +0000      383 bytes  apis/cloudsearch-2013-01-01.paginators.json</tspan>
+<tspan x="10" y="730"> 42.  2017-04-07 17:39:53 +0000     7419 bytes  apis/cloudsearchdomain-2013-01-01.min.json</tspan>
+<tspan x="10" y="746"> 43.  2017-04-07 17:39:53 +0000    12266 bytes  apis/cloudtrail-2013-11-01.min.json</tspan>
+<tspan x="10" y="762"> 44.  2017-04-07 17:39:53 +0000      247 bytes  apis/cloudtrail-2013-11-01.paginators.json</tspan>
+<tspan x="10" y="778"> 45.  2017-04-07 17:39:53 +0000    10183 bytes  apis/codebuild-2016-10-06.min.json</tspan>
+<tspan x="10" y="794"> 46.  2017-04-07 17:39:53 +0000       26 bytes  apis/codebuild-2016-10-06.paginators.json</tspan>
+<tspan x="10" y="810"> 47.  2017-04-07 17:39:53 +0000     9608 bytes  apis/codecommit-2015-04-13.min.json</tspan>
+<tspan x="10" y="826"> 48.  2017-04-07 17:39:53 +0000      422 bytes  apis/codecommit-2015-04-13.paginators.json</tspan>
+<tspan x="10" y="842"> 49.  2017-04-07 17:39:53 +0000    26634 bytes  apis/codedeploy-2014-10-06.min.json</tspan>
+<tspan x="10" y="858"> 50.  2017-04-07 17:39:53 +0000      879 bytes  apis/codedeploy-2014-10-06.paginators.json</tspan>
+<tspan x="10" y="874"> 51.  2017-04-07 17:39:53 +0000      662 bytes  apis/codedeploy-2014-10-06.waiters2.json</tspan>
+<tspan x="10" y="890"> 52.  2017-04-07 17:39:53 +0000    36135 bytes  apis/codepipeline-2015-07-09.examples.json</tspan>
+<tspan x="10" y="906"> 53.  2017-04-07 17:39:53 +0000    24445 bytes  apis/codepipeline-2015-07-09.min.json</tspan>
+<tspan x="10" y="922"> 54.  2017-04-07 17:39:53 +0000    11359 bytes  apis/cognito-identity-2014-06-30.min.json</tspan>
+<tspan x="10" y="938"> 55.  2017-04-07 17:39:53 +0000       26 bytes  apis/cognito-identity-2014-06-30.paginators.json</tspan>
+<tspan x="10" y="954"> 56.  2017-04-07 17:39:53 +0000    43292 bytes  apis/cognito-idp-2016-04-18.min.json</tspan>
+<tspan x="10" y="970"> 57.  2017-04-07 17:39:53 +0000    17710 bytes  apis/cognito-sync-2014-06-30.min.json</tspan>
+<tspan x="10" y="986"> 58.  2017-04-07 17:39:53 +0000    20112 bytes  apis/config-2014-11-12.min.json</tspan>
+<tspan x="10" y="1002"> 59.  2017-04-07 17:39:53 +0000      203 bytes  apis/config-2014-11-12.paginators.json</tspan>
+<tspan x="10" y="1018"> 60.  2017-04-07 17:39:53 +0000     2110 bytes  apis/cur-2017-01-06.min.json</tspan>
+<tspan x="10" y="1034"> 61.  2017-04-07 17:39:53 +0000      168 bytes  apis/cur-2017-01-06.paginators.json</tspan>
+<tspan x="10" y="1050"> 62.  2017-04-07 17:39:53 +0000    13429 bytes  apis/datapipeline-2012-10-29.min.json</tspan>
+<tspan x="10" y="1066"> 63.  2017-04-07 17:39:53 +0000      634 bytes  apis/datapipeline-2012-10-29.paginators.json</tspan>
+<tspan x="10" y="1082"> 64.  2017-04-07 17:39:53 +0000    42737 bytes  apis/devicefarm-2015-06-23.examples.json</tspan>
+<tspan x="10" y="1098"> 65.  2017-04-07 17:39:53 +0000    32228 bytes  apis/devicefarm-2015-06-23.min.json</tspan>
+<tspan x="10" y="1114"> 66.  2017-04-07 17:39:53 +0000     1888 bytes  apis/devicefarm-2015-06-23.paginators.json</tspan>
+<tspan x="10" y="1130"> 67.  2017-04-07 17:39:53 +0000    19979 bytes  apis/directconnect-2012-10-25.min.json</tspan>
+<tspan x="10" y="1146"> 68.  2017-04-07 17:39:53 +0000      478 bytes  apis/directconnect-2012-10-25.paginators.json</tspan>
+<tspan x="10" y="1162"> 69.  2017-04-07 17:39:53 +0000    14725 bytes  apis/discovery-2015-11-01.min.json</tspan>
+<tspan x="10" y="1178"> 70.  2017-04-07 17:39:53 +0000       26 bytes  apis/discovery-2015-11-01.paginators.json</tspan>
+<tspan x="10" y="1194"> 71.  2017-04-07 17:39:53 +0000    26281 bytes  apis/dms-2016-01-01.min.json</tspan>
+<tspan x="10" y="1210"> 72.  2017-04-07 17:39:53 +0000    24414 bytes  apis/ds-2015-04-16.min.json</tspan>
+<tspan x="10" y="1226"> 73.  2017-04-07 17:39:53 +0000    13372 bytes  apis/dynamodb-2011-12-05.min.json</tspan>
+<tspan x="10" y="1242"> 74.  2017-04-07 17:39:53 +0000      637 bytes  apis/dynamodb-2011-12-05.paginators.json</tspan>
+<tspan x="10" y="1258"> 75.  2017-04-07 17:39:53 +0000      727 bytes  apis/dynamodb-2011-12-05.waiters2.json</tspan>
+<tspan x="10" y="1274"> 76.  2017-04-07 17:39:53 +0000    16882 bytes  apis/dynamodb-2012-08-10.examples.json</tspan>
+<tspan x="10" y="1290"> 77.  2017-04-07 17:39:53 +0000    25258 bytes  apis/dynamodb-2012-08-10.min.json</tspan>
+<tspan x="10" y="1306"> 78.  2017-04-07 17:39:53 +0000      637 bytes  apis/dynamodb-2012-08-10.paginators.json</tspan>
+<tspan x="10" y="1322"> 79.  2017-04-07 17:39:53 +0000      727 bytes  apis/dynamodb-2012-08-10.waiters2.json</tspan>
+<tspan x="10" y="1338"> 80.  2017-04-07 17:39:53 +0000   110174 bytes  apis/ec2-2016-11-15.examples.json</tspan>
+<tspan x="10" y="1354"> 81.  2017-04-07 17:39:53 +0000   292329 bytes  apis/ec2-2016-11-15.min.json</tspan>
+<tspan x="10" y="1370"> 82.  2017-04-07 17:39:53 +0000     3826 bytes  apis/ec2-2016-11-15.paginators.json</tspan>
+<tspan x="10" y="1386"> 83.  2017-04-07 17:39:53 +0000    15363 bytes  apis/ec2-2016-11-15.waiters2.json</tspan>
+<tspan x="10" y="1402"> 84.  2017-04-07 17:39:53 +0000     7211 bytes  apis/ecr-2015-09-21.examples.json</tspan>
+<tspan x="10" y="1418"> 85.  2017-04-07 17:39:53 +0000    11709 bytes  apis/ecr-2015-09-21.min.json</tspan>
+<tspan x="10" y="1434"> 86.  2017-04-07 17:39:53 +0000      527 bytes  apis/ecr-2015-09-21.paginators.json</tspan>
+<tspan x="10" y="1450"> 87.  2017-04-07 17:39:53 +0000    27987 bytes  apis/ecs-2014-11-13.examples.json</tspan>
+<tspan x="10" y="1466"> 88.  2017-04-07 17:39:53 +0000    27135 bytes  apis/ecs-2014-11-13.min.json</tspan>
+<tspan x="10" y="1482"> 89.  2017-04-07 17:39:53 +0000      956 bytes  apis/ecs-2014-11-13.paginators.json</tspan>
+<tspan x="10" y="1498"> 90.  2017-04-07 17:39:53 +0000     2246 bytes  apis/ecs-2014-11-13.waiters2.json</tspan>
+<tspan x="10" y="1514"> 91.  2017-04-07 17:39:53 +0000    38656 bytes  apis/elasticache-2015-02-02.min.json</tspan>
+<tspan x="10" y="1530"> 92.  2017-04-07 17:39:53 +0000     2170 bytes  apis/elasticache-2015-02-02.paginators.json</tspan>
+<tspan x="10" y="1546"> 93.  2017-04-07 17:39:53 +0000     5118 bytes  apis/elasticache-2015-02-02.waiters2.json</tspan>
+<tspan x="10" y="1562"> 94.  2017-04-07 17:39:53 +0000    37449 bytes  apis/elasticbeanstalk-2010-12-01.examples.json</tspan>
+<tspan x="10" y="1578"> 95.  2017-04-07 17:39:53 +0000    37988 bytes  apis/elasticbeanstalk-2010-12-01.min.json</tspan>
+<tspan x="10" y="1594"> 96.  2017-04-07 17:39:53 +0000      572 bytes  apis/elasticbeanstalk-2010-12-01.paginators.json</tspan>
+<tspan x="10" y="1610"> 97.  2017-04-07 17:39:53 +0000     6454 bytes  apis/elasticfilesystem-2015-02-01.examples.json</tspan>
+<tspan x="10" y="1626"> 98.  2017-04-07 17:39:53 +0000     8899 bytes  apis/elasticfilesystem-2015-02-01.min.json</tspan>
+<tspan x="10" y="1642"> 99.  2017-04-07 17:39:53 +0000    30446 bytes  apis/elasticloadbalancing-2012-06-01.examples.js\</tspan>
 <tspan x="10" y="1658">on</tspan>
-<tspan x="10" y="1674">100.  2017-04-07 17:38:05 +0000    22951 bytes  apis/elasticloadbalancing-2012-06-01.min.json</tspan>
-<tspan x="10" y="1690">101.  2017-04-07 17:38:05 +0000      432 bytes  apis/elasticloadbalancing-2012-06-01.paginators.\</tspan>
+<tspan x="10" y="1674">100.  2017-04-07 17:39:53 +0000    22951 bytes  apis/elasticloadbalancing-2012-06-01.min.json</tspan>
+<tspan x="10" y="1690">101.  2017-04-07 17:39:53 +0000      432 bytes  apis/elasticloadbalancing-2012-06-01.paginators.\</tspan>
 <tspan x="10" y="1706">json</tspan>
-<tspan x="10" y="1722">102.  2017-04-07 17:38:05 +0000     1362 bytes  apis/elasticloadbalancing-2012-06-01.waiters2.js\</tspan>
+<tspan x="10" y="1722">102.  2017-04-07 17:39:53 +0000     1362 bytes  apis/elasticloadbalancing-2012-06-01.waiters2.js\</tspan>
 <tspan x="10" y="1738">on</tspan>
-<tspan x="10" y="1754">103.  2017-04-07 17:38:05 +0000    44281 bytes  apis/elasticloadbalancingv2-2015-12-01.examples.\</tspan>
+<tspan x="10" y="1754">103.  2017-04-07 17:39:53 +0000    44281 bytes  apis/elasticloadbalancingv2-2015-12-01.examples.\</tspan>
 <tspan x="10" y="1770">json</tspan>
-<tspan x="10" y="1786">104.  2017-04-07 17:38:05 +0000    22312 bytes  apis/elasticloadbalancingv2-2015-12-01.min.json</tspan>
-<tspan x="10" y="1802">105.  2017-04-07 17:38:05 +0000      437 bytes  apis/elasticloadbalancingv2-2015-12-01.paginator\</tspan>
+<tspan x="10" y="1786">104.  2017-04-07 17:39:53 +0000    22312 bytes  apis/elasticloadbalancingv2-2015-12-01.min.json</tspan>
+<tspan x="10" y="1802">105.  2017-04-07 17:39:53 +0000      437 bytes  apis/elasticloadbalancingv2-2015-12-01.paginator\</tspan>
 <tspan x="10" y="1818">s.json</tspan>
-<tspan x="10" y="1834">106.  2017-04-07 17:38:05 +0000     1035 bytes  apis/elasticloadbalancingv2-2015-12-01.waiters2.\</tspan>
+<tspan x="10" y="1834">106.  2017-04-07 17:39:53 +0000     1035 bytes  apis/elasticloadbalancingv2-2015-12-01.waiters2.\</tspan>
 <tspan x="10" y="1850">json</tspan>
-<tspan x="10" y="1866">107.  2017-04-07 17:38:05 +0000    42026 bytes  apis/elasticmapreduce-2009-03-31.min.json</tspan>
-<tspan x="10" y="1882">108.  2017-04-07 17:38:05 +0000      862 bytes  apis/elasticmapreduce-2009-03-31.paginators.json</tspan>
-<tspan x="10" y="1898">109.  2017-04-07 17:38:05 +0000     2073 bytes  apis/elasticmapreduce-2009-03-31.waiters2.json</tspan>
-<tspan x="10" y="1914">110.  2017-04-07 17:38:05 +0000    22264 bytes  apis/elastictranscoder-2012-09-25.min.json</tspan>
-<tspan x="10" y="1930">111.  2017-04-07 17:38:05 +0000      559 bytes  apis/elastictranscoder-2012-09-25.paginators.jso\</tspan>
+<tspan x="10" y="1866">107.  2017-04-07 17:39:53 +0000    42026 bytes  apis/elasticmapreduce-2009-03-31.min.json</tspan>
+<tspan x="10" y="1882">108.  2017-04-07 17:39:53 +0000      862 bytes  apis/elasticmapreduce-2009-03-31.paginators.json</tspan>
+<tspan x="10" y="1898">109.  2017-04-07 17:39:53 +0000     2073 bytes  apis/elasticmapreduce-2009-03-31.waiters2.json</tspan>
+<tspan x="10" y="1914">110.  2017-04-07 17:39:53 +0000    22264 bytes  apis/elastictranscoder-2012-09-25.min.json</tspan>
+<tspan x="10" y="1930">111.  2017-04-07 17:39:53 +0000      559 bytes  apis/elastictranscoder-2012-09-25.paginators.jso\</tspan>
 <tspan x="10" y="1946">n</tspan>
-<tspan x="10" y="1962">112.  2017-04-07 17:38:05 +0000      613 bytes  apis/elastictranscoder-2012-09-25.waiters2.json</tspan>
-<tspan x="10" y="1978">113.  2017-04-07 17:38:05 +0000    26812 bytes  apis/email-2010-12-01.examples.json</tspan>
-<tspan x="10" y="1994">114.  2017-04-07 17:38:05 +0000    32712 bytes  apis/email-2010-12-01.min.json</tspan>
-<tspan x="10" y="2010">115.  2017-04-07 17:38:05 +0000      277 bytes  apis/email-2010-12-01.paginators.json</tspan>
-<tspan x="10" y="2026">116.  2017-04-07 17:38:05 +0000      380 bytes  apis/email-2010-12-01.waiters2.json</tspan>
-<tspan x="10" y="2042">117.  2017-04-07 17:38:05 +0000    14972 bytes  apis/es-2015-01-01.min.json</tspan>
-<tspan x="10" y="2058">118.  2017-04-07 17:38:05 +0000      316 bytes  apis/es-2015-01-01.paginators.json</tspan>
-<tspan x="10" y="2074">119.  2017-04-07 17:38:05 +0000     8290 bytes  apis/events-2015-10-07.min.json</tspan>
-<tspan x="10" y="2090">120.  2017-04-07 17:38:05 +0000       26 bytes  apis/events-2015-10-07.paginators.json</tspan>
-<tspan x="10" y="2106">121.  2017-04-07 17:38:05 +0000    18125 bytes  apis/firehose-2015-08-04.min.json</tspan>
-<tspan x="10" y="2122">122.  2017-04-07 17:38:05 +0000    31852 bytes  apis/gamelift-2015-10-01.min.json</tspan>
-<tspan x="10" y="2138">123.  2017-04-07 17:38:05 +0000       26 bytes  apis/gamelift-2015-10-01.paginators.json</tspan>
-<tspan x="10" y="2154">124.  2017-04-07 17:38:05 +0000    27536 bytes  apis/glacier-2012-06-01.examples.json</tspan>
-<tspan x="10" y="2170">125.  2017-04-07 17:38:05 +0000    30003 bytes  apis/glacier-2012-06-01.min.json</tspan>
-<tspan x="10" y="2186">126.  2017-04-07 17:38:05 +0000      627 bytes  apis/glacier-2012-06-01.paginators.json</tspan>
-<tspan x="10" y="2202">127.  2017-04-07 17:38:05 +0000      785 bytes  apis/glacier-2012-06-01.waiters2.json</tspan>
-<tspan x="10" y="2218">128.  2017-04-07 17:38:05 +0000     8454 bytes  apis/health-2016-08-04.min.json</tspan>
-<tspan x="10" y="2234">129.  2017-04-07 17:38:05 +0000      791 bytes  apis/health-2016-08-04.paginators.json</tspan>
-<tspan x="10" y="2250">130.  2017-04-07 17:38:05 +0000    36635 bytes  apis/iam-2010-05-08.examples.json</tspan>
-<tspan x="10" y="2266">131.  2017-04-07 17:38:05 +0000    66638 bytes  apis/iam-2010-05-08.min.json</tspan>
-<tspan x="10" y="2282">132.  2017-04-07 17:38:05 +0000     5501 bytes  apis/iam-2010-05-08.paginators.json</tspan>
-<tspan x="10" y="2298">133.  2017-04-07 17:38:05 +0000      754 bytes  apis/iam-2010-05-08.waiters2.json</tspan>
-<tspan x="10" y="2314">134.  2017-04-07 17:38:05 +0000     5396 bytes  apis/importexport-2010-06-01.min.json</tspan>
-<tspan x="10" y="2330">135.  2017-04-07 17:38:05 +0000      215 bytes  apis/importexport-2010-06-01.paginators.json</tspan>
-<tspan x="10" y="2346">136.  2017-04-07 17:38:05 +0000    36664 bytes  apis/inspector-2016-02-16.examples.json</tspan>
-<tspan x="10" y="2362">137.  2017-04-07 17:38:05 +0000    28411 bytes  apis/inspector-2016-02-16.min.json</tspan>
-<tspan x="10" y="2378">138.  2017-04-07 17:38:05 +0000    45323 bytes  apis/iot-2015-05-28.min.json</tspan>
-<tspan x="10" y="2394">139.  2017-04-07 17:38:05 +0000     2696 bytes  apis/iot-data-2015-05-28.min.json</tspan>
-<tspan x="10" y="2410">140.  2017-04-07 17:38:05 +0000    12530 bytes  apis/kinesis-2013-12-02.min.json</tspan>
-<tspan x="10" y="2426">141.  2017-04-07 17:38:05 +0000      516 bytes  apis/kinesis-2013-12-02.paginators.json</tspan>
-<tspan x="10" y="2442">142.  2017-04-07 17:38:05 +0000      343 bytes  apis/kinesis-2013-12-02.waiters2.json</tspan>
-<tspan x="10" y="2458">143.  2017-04-07 17:38:05 +0000    19348 bytes  apis/kinesisanalytics-2015-08-14.min.json</tspan>
-<tspan x="10" y="2474">144.  2017-04-07 17:38:05 +0000    38641 bytes  apis/kms-2014-11-01.examples.json</tspan>
-<tspan x="10" y="2490">145.  2017-04-07 17:38:05 +0000    16444 bytes  apis/kms-2014-11-01.min.json</tspan>
-<tspan x="10" y="2506">146.  2017-04-07 17:38:05 +0000      776 bytes  apis/kms-2014-11-01.paginators.json</tspan>
-<tspan x="10" y="2522">147.  2017-04-07 17:38:05 +0000     9584 bytes  apis/lambda-2014-11-11.min.json</tspan>
-<tspan x="10" y="2538">148.  2017-04-07 17:38:05 +0000      351 bytes  apis/lambda-2014-11-11.paginators.json</tspan>
-<tspan x="10" y="2554">149.  2017-04-07 17:38:05 +0000    17967 bytes  apis/lambda-2015-03-31.examples.json</tspan>
-<tspan x="10" y="2570">150.  2017-04-07 17:38:05 +0000    22460 bytes  apis/lambda-2015-03-31.min.json</tspan>
-<tspan x="10" y="2586">151.  2017-04-07 17:38:05 +0000      364 bytes  apis/lambda-2015-03-31.paginators.json</tspan>
-<tspan x="10" y="2602">152.  2017-04-07 17:38:05 +0000    27649 bytes  apis/lightsail-2016-11-28.min.json</tspan>
-<tspan x="10" y="2618">153.  2017-04-07 17:38:05 +0000    17372 bytes  apis/logs-2014-03-28.min.json</tspan>
-<tspan x="10" y="2634">154.  2017-04-07 17:38:05 +0000     1244 bytes  apis/logs-2014-03-28.paginators.json</tspan>
-<tspan x="10" y="2650">155.  2017-04-07 17:38:05 +0000    25359 bytes  apis/machinelearning-2014-12-12.min.json</tspan>
-<tspan x="10" y="2666">156.  2017-04-07 17:38:05 +0000      679 bytes  apis/machinelearning-2014-12-12.paginators.json</tspan>
-<tspan x="10" y="2682">157.  2017-04-07 17:38:05 +0000     1902 bytes  apis/machinelearning-2014-12-12.waiters2.json</tspan>
-<tspan x="10" y="2698">158.  2017-04-07 17:38:05 +0000     2008 bytes  apis/marketplacecommerceanalytics-2015-07-01.min\</tspan>
+<tspan x="10" y="1962">112.  2017-04-07 17:39:53 +0000      613 bytes  apis/elastictranscoder-2012-09-25.waiters2.json</tspan>
+<tspan x="10" y="1978">113.  2017-04-07 17:39:53 +0000    26812 bytes  apis/email-2010-12-01.examples.json</tspan>
+<tspan x="10" y="1994">114.  2017-04-07 17:39:53 +0000    32712 bytes  apis/email-2010-12-01.min.json</tspan>
+<tspan x="10" y="2010">115.  2017-04-07 17:39:53 +0000      277 bytes  apis/email-2010-12-01.paginators.json</tspan>
+<tspan x="10" y="2026">116.  2017-04-07 17:39:53 +0000      380 bytes  apis/email-2010-12-01.waiters2.json</tspan>
+<tspan x="10" y="2042">117.  2017-04-07 17:39:53 +0000    14972 bytes  apis/es-2015-01-01.min.json</tspan>
+<tspan x="10" y="2058">118.  2017-04-07 17:39:53 +0000      316 bytes  apis/es-2015-01-01.paginators.json</tspan>
+<tspan x="10" y="2074">119.  2017-04-07 17:39:53 +0000     8290 bytes  apis/events-2015-10-07.min.json</tspan>
+<tspan x="10" y="2090">120.  2017-04-07 17:39:53 +0000       26 bytes  apis/events-2015-10-07.paginators.json</tspan>
+<tspan x="10" y="2106">121.  2017-04-07 17:39:53 +0000    18125 bytes  apis/firehose-2015-08-04.min.json</tspan>
+<tspan x="10" y="2122">122.  2017-04-07 17:39:53 +0000    31852 bytes  apis/gamelift-2015-10-01.min.json</tspan>
+<tspan x="10" y="2138">123.  2017-04-07 17:39:53 +0000       26 bytes  apis/gamelift-2015-10-01.paginators.json</tspan>
+<tspan x="10" y="2154">124.  2017-04-07 17:39:53 +0000    27536 bytes  apis/glacier-2012-06-01.examples.json</tspan>
+<tspan x="10" y="2170">125.  2017-04-07 17:39:53 +0000    30003 bytes  apis/glacier-2012-06-01.min.json</tspan>
+<tspan x="10" y="2186">126.  2017-04-07 17:39:53 +0000      627 bytes  apis/glacier-2012-06-01.paginators.json</tspan>
+<tspan x="10" y="2202">127.  2017-04-07 17:39:53 +0000      785 bytes  apis/glacier-2012-06-01.waiters2.json</tspan>
+<tspan x="10" y="2218">128.  2017-04-07 17:39:53 +0000     8454 bytes  apis/health-2016-08-04.min.json</tspan>
+<tspan x="10" y="2234">129.  2017-04-07 17:39:53 +0000      791 bytes  apis/health-2016-08-04.paginators.json</tspan>
+<tspan x="10" y="2250">130.  2017-04-07 17:39:53 +0000    36635 bytes  apis/iam-2010-05-08.examples.json</tspan>
+<tspan x="10" y="2266">131.  2017-04-07 17:39:53 +0000    66638 bytes  apis/iam-2010-05-08.min.json</tspan>
+<tspan x="10" y="2282">132.  2017-04-07 17:39:53 +0000     5501 bytes  apis/iam-2010-05-08.paginators.json</tspan>
+<tspan x="10" y="2298">133.  2017-04-07 17:39:53 +0000      754 bytes  apis/iam-2010-05-08.waiters2.json</tspan>
+<tspan x="10" y="2314">134.  2017-04-07 17:39:53 +0000     5396 bytes  apis/importexport-2010-06-01.min.json</tspan>
+<tspan x="10" y="2330">135.  2017-04-07 17:39:53 +0000      215 bytes  apis/importexport-2010-06-01.paginators.json</tspan>
+<tspan x="10" y="2346">136.  2017-04-07 17:39:53 +0000    36664 bytes  apis/inspector-2016-02-16.examples.json</tspan>
+<tspan x="10" y="2362">137.  2017-04-07 17:39:53 +0000    28411 bytes  apis/inspector-2016-02-16.min.json</tspan>
+<tspan x="10" y="2378">138.  2017-04-07 17:39:53 +0000    45323 bytes  apis/iot-2015-05-28.min.json</tspan>
+<tspan x="10" y="2394">139.  2017-04-07 17:39:53 +0000     2696 bytes  apis/iot-data-2015-05-28.min.json</tspan>
+<tspan x="10" y="2410">140.  2017-04-07 17:39:53 +0000    12530 bytes  apis/kinesis-2013-12-02.min.json</tspan>
+<tspan x="10" y="2426">141.  2017-04-07 17:39:53 +0000      516 bytes  apis/kinesis-2013-12-02.paginators.json</tspan>
+<tspan x="10" y="2442">142.  2017-04-07 17:39:53 +0000      343 bytes  apis/kinesis-2013-12-02.waiters2.json</tspan>
+<tspan x="10" y="2458">143.  2017-04-07 17:39:53 +0000    19348 bytes  apis/kinesisanalytics-2015-08-14.min.json</tspan>
+<tspan x="10" y="2474">144.  2017-04-07 17:39:53 +0000    38641 bytes  apis/kms-2014-11-01.examples.json</tspan>
+<tspan x="10" y="2490">145.  2017-04-07 17:39:53 +0000    16444 bytes  apis/kms-2014-11-01.min.json</tspan>
+<tspan x="10" y="2506">146.  2017-04-07 17:39:53 +0000      776 bytes  apis/kms-2014-11-01.paginators.json</tspan>
+<tspan x="10" y="2522">147.  2017-04-07 17:39:53 +0000     9584 bytes  apis/lambda-2014-11-11.min.json</tspan>
+<tspan x="10" y="2538">148.  2017-04-07 17:39:53 +0000      351 bytes  apis/lambda-2014-11-11.paginators.json</tspan>
+<tspan x="10" y="2554">149.  2017-04-07 17:39:53 +0000    17967 bytes  apis/lambda-2015-03-31.examples.json</tspan>
+<tspan x="10" y="2570">150.  2017-04-07 17:39:53 +0000    22460 bytes  apis/lambda-2015-03-31.min.json</tspan>
+<tspan x="10" y="2586">151.  2017-04-07 17:39:53 +0000      364 bytes  apis/lambda-2015-03-31.paginators.json</tspan>
+<tspan x="10" y="2602">152.  2017-04-07 17:39:53 +0000    27649 bytes  apis/lightsail-2016-11-28.min.json</tspan>
+<tspan x="10" y="2618">153.  2017-04-07 17:39:53 +0000    17372 bytes  apis/logs-2014-03-28.min.json</tspan>
+<tspan x="10" y="2634">154.  2017-04-07 17:39:53 +0000     1244 bytes  apis/logs-2014-03-28.paginators.json</tspan>
+<tspan x="10" y="2650">155.  2017-04-07 17:39:53 +0000    25359 bytes  apis/machinelearning-2014-12-12.min.json</tspan>
+<tspan x="10" y="2666">156.  2017-04-07 17:39:53 +0000      679 bytes  apis/machinelearning-2014-12-12.paginators.json</tspan>
+<tspan x="10" y="2682">157.  2017-04-07 17:39:53 +0000     1902 bytes  apis/machinelearning-2014-12-12.waiters2.json</tspan>
+<tspan x="10" y="2698">158.  2017-04-07 17:39:53 +0000     2008 bytes  apis/marketplacecommerceanalytics-2015-07-01.min\</tspan>
 <tspan x="10" y="2714">.json</tspan>
-<tspan x="10" y="2730">159.  2017-04-07 17:38:05 +0000       26 bytes  apis/marketplacecommerceanalytics-2015-07-01.pag\</tspan>
+<tspan x="10" y="2730">159.  2017-04-07 17:39:53 +0000       26 bytes  apis/marketplacecommerceanalytics-2015-07-01.pag\</tspan>
 <tspan x="10" y="2746">inators.json</tspan>
-<tspan x="10" y="2762">160.  2017-04-07 17:38:05 +0000     7143 bytes  apis/metadata.json</tspan>
-<tspan x="10" y="2778">161.  2017-04-07 17:38:05 +0000     2688 bytes  apis/meteringmarketplace-2016-01-14.min.json</tspan>
-<tspan x="10" y="2794">162.  2017-04-07 17:38:05 +0000     1879 bytes  apis/mobileanalytics-2014-06-05.min.json</tspan>
-<tspan x="10" y="2810">163.  2017-04-07 17:38:05 +0000       44 bytes  apis/monitoring-2010-08-01.examples.json</tspan>
-<tspan x="10" y="2826">164.  2017-04-07 17:38:05 +0000    12201 bytes  apis/monitoring-2010-08-01.min.json</tspan>
-<tspan x="10" y="2842">165.  2017-04-07 17:38:05 +0000      573 bytes  apis/monitoring-2010-08-01.paginators.json</tspan>
-<tspan x="10" y="2858">166.  2017-04-07 17:38:05 +0000      335 bytes  apis/monitoring-2010-08-01.waiters2.json</tspan>
-<tspan x="10" y="2874">167.  2017-04-07 17:38:05 +0000    27517 bytes  apis/mturk-requester-2017-01-17.min.json</tspan>
-<tspan x="10" y="2890">168.  2017-04-07 17:38:05 +0000     1421 bytes  apis/mturk-requester-2017-01-17.paginators.json</tspan>
-<tspan x="10" y="2906">169.  2017-04-07 17:38:05 +0000    47931 bytes  apis/opsworks-2013-02-18.min.json</tspan>
-<tspan x="10" y="2922">170.  2017-04-07 17:38:05 +0000     1279 bytes  apis/opsworks-2013-02-18.paginators.json</tspan>
-<tspan x="10" y="2938">171.  2017-04-07 17:38:05 +0000     7735 bytes  apis/opsworks-2013-02-18.waiters2.json</tspan>
-<tspan x="10" y="2954">172.  2017-04-07 17:38:05 +0000    10283 bytes  apis/opsworkscm-2016-11-01.min.json</tspan>
-<tspan x="10" y="2970">173.  2017-04-07 17:38:05 +0000       26 bytes  apis/opsworkscm-2016-11-01.paginators.json</tspan>
-<tspan x="10" y="2986">174.  2017-04-07 17:38:05 +0000    49577 bytes  apis/organizations-2016-11-28.examples.json</tspan>
-<tspan x="10" y="3002">175.  2017-04-07 17:38:05 +0000    18851 bytes  apis/organizations-2016-11-28.min.json</tspan>
-<tspan x="10" y="3018">176.  2017-04-07 17:38:05 +0000       26 bytes  apis/organizations-2016-11-28.paginators.json</tspan>
-<tspan x="10" y="3034">177.  2017-04-07 17:38:05 +0000    43234 bytes  apis/pinpoint-2016-12-01.min.json</tspan>
-<tspan x="10" y="3050">178.  2017-04-07 17:38:05 +0000     5102 bytes  apis/polly-2016-06-10.examples.json</tspan>
-<tspan x="10" y="3066">179.  2017-04-07 17:38:05 +0000     5310 bytes  apis/polly-2016-06-10.min.json</tspan>
-<tspan x="10" y="3082">180.  2017-04-07 17:38:05 +0000    45303 bytes  apis/rds-2013-01-10.min.json</tspan>
-<tspan x="10" y="3098">181.  2017-04-07 17:38:05 +0000     2767 bytes  apis/rds-2013-01-10.paginators.json</tspan>
-<tspan x="10" y="3114">182.  2017-04-07 17:38:05 +0000    48806 bytes  apis/rds-2013-02-12.min.json</tspan>
-<tspan x="10" y="3130">183.  2017-04-07 17:38:05 +0000     3160 bytes  apis/rds-2013-02-12.paginators.json</tspan>
-<tspan x="10" y="3146">184.  2017-04-07 17:38:05 +0000    51722 bytes  apis/rds-2013-09-09.min.json</tspan>
-<tspan x="10" y="3162">185.  2017-04-07 17:38:05 +0000     3160 bytes  apis/rds-2013-09-09.paginators.json</tspan>
-<tspan x="10" y="3178">186.  2017-04-07 17:38:05 +0000     2645 bytes  apis/rds-2013-09-09.waiters2.json</tspan>
-<tspan x="10" y="3194">187.  2017-04-07 17:38:05 +0000    87547 bytes  apis/rds-2014-10-31.min.json</tspan>
-<tspan x="10" y="3210">188.  2017-04-07 17:38:05 +0000     3160 bytes  apis/rds-2014-10-31.paginators.json</tspan>
-<tspan x="10" y="3226">189.  2017-04-07 17:38:05 +0000     2398 bytes  apis/rds-2014-10-31.waiters2.json</tspan>
-<tspan x="10" y="3242">190.  2017-04-07 17:38:05 +0000    54539 bytes  apis/redshift-2012-12-01.min.json</tspan>
-<tspan x="10" y="3258">191.  2017-04-07 17:38:05 +0000     2726 bytes  apis/redshift-2012-12-01.paginators.json</tspan>
-<tspan x="10" y="3274">192.  2017-04-07 17:38:05 +0000     2344 bytes  apis/redshift-2012-12-01.waiters2.json</tspan>
-<tspan x="10" y="3290">193.  2017-04-07 17:38:05 +0000    20342 bytes  apis/rekognition-2016-06-27.examples.json</tspan>
-<tspan x="10" y="3306">194.  2017-04-07 17:38:05 +0000    12027 bytes  apis/rekognition-2016-06-27.min.json</tspan>
-<tspan x="10" y="3322">195.  2017-04-07 17:38:05 +0000      350 bytes  apis/rekognition-2016-06-27.paginators.json</tspan>
-<tspan x="10" y="3338">196.  2017-04-07 17:38:05 +0000     3991 bytes  apis/resourcegroupstaggingapi-2017-01-26.min.jso\</tspan>
+<tspan x="10" y="2762">160.  2017-04-07 17:39:53 +0000     7143 bytes  apis/metadata.json</tspan>
+<tspan x="10" y="2778">161.  2017-04-07 17:39:53 +0000     2688 bytes  apis/meteringmarketplace-2016-01-14.min.json</tspan>
+<tspan x="10" y="2794">162.  2017-04-07 17:39:53 +0000     1879 bytes  apis/mobileanalytics-2014-06-05.min.json</tspan>
+<tspan x="10" y="2810">163.  2017-04-07 17:39:53 +0000       44 bytes  apis/monitoring-2010-08-01.examples.json</tspan>
+<tspan x="10" y="2826">164.  2017-04-07 17:39:53 +0000    12201 bytes  apis/monitoring-2010-08-01.min.json</tspan>
+<tspan x="10" y="2842">165.  2017-04-07 17:39:53 +0000      573 bytes  apis/monitoring-2010-08-01.paginators.json</tspan>
+<tspan x="10" y="2858">166.  2017-04-07 17:39:53 +0000      335 bytes  apis/monitoring-2010-08-01.waiters2.json</tspan>
+<tspan x="10" y="2874">167.  2017-04-07 17:39:53 +0000    27517 bytes  apis/mturk-requester-2017-01-17.min.json</tspan>
+<tspan x="10" y="2890">168.  2017-04-07 17:39:53 +0000     1421 bytes  apis/mturk-requester-2017-01-17.paginators.json</tspan>
+<tspan x="10" y="2906">169.  2017-04-07 17:39:53 +0000    47931 bytes  apis/opsworks-2013-02-18.min.json</tspan>
+<tspan x="10" y="2922">170.  2017-04-07 17:39:53 +0000     1279 bytes  apis/opsworks-2013-02-18.paginators.json</tspan>
+<tspan x="10" y="2938">171.  2017-04-07 17:39:53 +0000     7735 bytes  apis/opsworks-2013-02-18.waiters2.json</tspan>
+<tspan x="10" y="2954">172.  2017-04-07 17:39:53 +0000    10283 bytes  apis/opsworkscm-2016-11-01.min.json</tspan>
+<tspan x="10" y="2970">173.  2017-04-07 17:39:53 +0000       26 bytes  apis/opsworkscm-2016-11-01.paginators.json</tspan>
+<tspan x="10" y="2986">174.  2017-04-07 17:39:53 +0000    49577 bytes  apis/organizations-2016-11-28.examples.json</tspan>
+<tspan x="10" y="3002">175.  2017-04-07 17:39:53 +0000    18851 bytes  apis/organizations-2016-11-28.min.json</tspan>
+<tspan x="10" y="3018">176.  2017-04-07 17:39:53 +0000       26 bytes  apis/organizations-2016-11-28.paginators.json</tspan>
+<tspan x="10" y="3034">177.  2017-04-07 17:39:53 +0000    43234 bytes  apis/pinpoint-2016-12-01.min.json</tspan>
+<tspan x="10" y="3050">178.  2017-04-07 17:39:53 +0000     5102 bytes  apis/polly-2016-06-10.examples.json</tspan>
+<tspan x="10" y="3066">179.  2017-04-07 17:39:53 +0000     5310 bytes  apis/polly-2016-06-10.min.json</tspan>
+<tspan x="10" y="3082">180.  2017-04-07 17:39:53 +0000    45303 bytes  apis/rds-2013-01-10.min.json</tspan>
+<tspan x="10" y="3098">181.  2017-04-07 17:39:53 +0000     2767 bytes  apis/rds-2013-01-10.paginators.json</tspan>
+<tspan x="10" y="3114">182.  2017-04-07 17:39:53 +0000    48806 bytes  apis/rds-2013-02-12.min.json</tspan>
+<tspan x="10" y="3130">183.  2017-04-07 17:39:53 +0000     3160 bytes  apis/rds-2013-02-12.paginators.json</tspan>
+<tspan x="10" y="3146">184.  2017-04-07 17:39:53 +0000    51722 bytes  apis/rds-2013-09-09.min.json</tspan>
+<tspan x="10" y="3162">185.  2017-04-07 17:39:53 +0000     3160 bytes  apis/rds-2013-09-09.paginators.json</tspan>
+<tspan x="10" y="3178">186.  2017-04-07 17:39:53 +0000     2645 bytes  apis/rds-2013-09-09.waiters2.json</tspan>
+<tspan x="10" y="3194">187.  2017-04-07 17:39:53 +0000    87547 bytes  apis/rds-2014-10-31.min.json</tspan>
+<tspan x="10" y="3210">188.  2017-04-07 17:39:53 +0000     3160 bytes  apis/rds-2014-10-31.paginators.json</tspan>
+<tspan x="10" y="3226">189.  2017-04-07 17:39:53 +0000     2398 bytes  apis/rds-2014-10-31.waiters2.json</tspan>
+<tspan x="10" y="3242">190.  2017-04-07 17:39:53 +0000    54539 bytes  apis/redshift-2012-12-01.min.json</tspan>
+<tspan x="10" y="3258">191.  2017-04-07 17:39:53 +0000     2726 bytes  apis/redshift-2012-12-01.paginators.json</tspan>
+<tspan x="10" y="3274">192.  2017-04-07 17:39:53 +0000     2344 bytes  apis/redshift-2012-12-01.waiters2.json</tspan>
+<tspan x="10" y="3290">193.  2017-04-07 17:39:53 +0000    20342 bytes  apis/rekognition-2016-06-27.examples.json</tspan>
+<tspan x="10" y="3306">194.  2017-04-07 17:39:53 +0000    12027 bytes  apis/rekognition-2016-06-27.min.json</tspan>
+<tspan x="10" y="3322">195.  2017-04-07 17:39:53 +0000      350 bytes  apis/rekognition-2016-06-27.paginators.json</tspan>
+<tspan x="10" y="3338">196.  2017-04-07 17:39:53 +0000     3991 bytes  apis/resourcegroupstaggingapi-2017-01-26.min.jso\</tspan>
 <tspan x="10" y="3354">n</tspan>
-<tspan x="10" y="3370">197.  2017-04-07 17:38:05 +0000       26 bytes  apis/resourcegroupstaggingapi-2017-01-26.paginat\</tspan>
+<tspan x="10" y="3370">197.  2017-04-07 17:39:53 +0000       26 bytes  apis/resourcegroupstaggingapi-2017-01-26.paginat\</tspan>
 <tspan x="10" y="3386">ors.json</tspan>
-<tspan x="10" y="3402">198.  2017-04-07 17:38:05 +0000    29631 bytes  apis/route53-2013-04-01.examples.json</tspan>
-<tspan x="10" y="3418">199.  2017-04-07 17:38:05 +0000    52748 bytes  apis/route53-2013-04-01.min.json</tspan>
-<tspan x="10" y="3434">200.  2017-04-07 17:38:05 +0000      810 bytes  apis/route53-2013-04-01.paginators.json</tspan>
-<tspan x="10" y="3450">201.  2017-04-07 17:38:05 +0000      338 bytes  apis/route53-2013-04-01.waiters2.json</tspan>
-<tspan x="10" y="3466">202.  2017-04-07 17:38:05 +0000    15761 bytes  apis/route53domains-2014-05-15.min.json</tspan>
-<tspan x="10" y="3482">203.  2017-04-07 17:38:05 +0000      371 bytes  apis/route53domains-2014-05-15.paginators.json</tspan>
-<tspan x="10" y="3498">204.  2017-04-07 17:38:05 +0000       44 bytes  apis/runtime.lex-2016-11-28.examples.json</tspan>
-<tspan x="10" y="3514">205.  2017-04-07 17:38:05 +0000     5037 bytes  apis/runtime.lex-2016-11-28.min.json</tspan>
-<tspan x="10" y="3530">206.  2017-04-07 17:38:05 +0000       26 bytes  apis/runtime.lex-2016-11-28.paginators.json</tspan>
-<tspan x="10" y="3546">207.  2017-04-07 17:38:05 +0000   114341 bytes  apis/s3-2006-03-01.min.json</tspan>
-<tspan x="10" y="3562">208.  2017-04-07 17:38:05 +0000     1488 bytes  apis/s3-2006-03-01.paginators.json</tspan>
-<tspan x="10" y="3578">209.  2017-04-07 17:38:05 +0000     1436 bytes  apis/s3-2006-03-01.waiters2.json</tspan>
-<tspan x="10" y="3594">210.  2017-04-07 17:38:05 +0000     7182 bytes  apis/sdb-2009-04-15.min.json</tspan>
-<tspan x="10" y="3610">211.  2017-04-07 17:38:05 +0000      317 bytes  apis/sdb-2009-04-15.paginators.json</tspan>
-<tspan x="10" y="3626">212.  2017-04-07 17:38:05 +0000    29694 bytes  apis/servicecatalog-2015-12-10.min.json</tspan>
-<tspan x="10" y="3642">213.  2017-04-07 17:38:05 +0000     6647 bytes  apis/shield-2016-06-02.min.json</tspan>
-<tspan x="10" y="3658">214.  2017-04-07 17:38:05 +0000     7482 bytes  apis/sms-2016-10-24.min.json</tspan>
-<tspan x="10" y="3674">215.  2017-04-07 17:38:05 +0000      842 bytes  apis/sms-2016-10-24.paginators.json</tspan>
-<tspan x="10" y="3690">216.  2017-04-07 17:38:05 +0000    18204 bytes  apis/snowball-2016-06-30.examples.json</tspan>
-<tspan x="10" y="3706">217.  2017-04-07 17:38:05 +0000    11964 bytes  apis/snowball-2016-06-30.min.json</tspan>
-<tspan x="10" y="3722">218.  2017-04-07 17:38:05 +0000      356 bytes  apis/snowball-2016-06-30.paginators.json</tspan>
-<tspan x="10" y="3738">219.  2017-04-07 17:38:05 +0000    13313 bytes  apis/sns-2010-03-31.min.json</tspan>
-<tspan x="10" y="3754">220.  2017-04-07 17:38:05 +0000      740 bytes  apis/sns-2010-03-31.paginators.json</tspan>
-<tspan x="10" y="3770">221.  2017-04-07 17:38:05 +0000    19439 bytes  apis/sqs-2012-11-05.examples.json</tspan>
-<tspan x="10" y="3786">222.  2017-04-07 17:38:05 +0000    13727 bytes  apis/sqs-2012-11-05.min.json</tspan>
-<tspan x="10" y="3802">223.  2017-04-07 17:38:05 +0000       84 bytes  apis/sqs-2012-11-05.paginators.json</tspan>
-<tspan x="10" y="3818">224.  2017-04-07 17:38:05 +0000    71534 bytes  apis/ssm-2014-11-06.min.json</tspan>
-<tspan x="10" y="3834">225.  2017-04-07 17:38:05 +0000     1079 bytes  apis/ssm-2014-11-06.paginators.json</tspan>
-<tspan x="10" y="3850">226.  2017-04-07 17:38:05 +0000    15054 bytes  apis/states-2016-11-23.min.json</tspan>
-<tspan x="10" y="3866">227.  2017-04-07 17:38:05 +0000      696 bytes  apis/states-2016-11-23.paginators.json</tspan>
-<tspan x="10" y="3882">228.  2017-04-07 17:38:05 +0000    49947 bytes  apis/storagegateway-2013-06-30.examples.json</tspan>
-<tspan x="10" y="3898">229.  2017-04-07 17:38:05 +0000    36534 bytes  apis/storagegateway-2013-06-30.min.json</tspan>
-<tspan x="10" y="3914">230.  2017-04-07 17:38:05 +0000     1293 bytes  apis/storagegateway-2013-06-30.paginators.json</tspan>
-<tspan x="10" y="3930">231.  2017-04-07 17:38:05 +0000     7693 bytes  apis/streams.dynamodb-2012-08-10.examples.json</tspan>
-<tspan x="10" y="3946">232.  2017-04-07 17:38:05 +0000     5833 bytes  apis/streams.dynamodb-2012-08-10.min.json</tspan>
-<tspan x="10" y="3962">233.  2017-04-07 17:38:05 +0000       26 bytes  apis/streams.dynamodb-2012-08-10.paginators.json</tspan>
-<tspan x="10" y="3978">234.  2017-04-07 17:38:05 +0000     8797 bytes  apis/sts-2011-06-15.examples.json</tspan>
-<tspan x="10" y="3994">235.  2017-04-07 17:38:05 +0000     5544 bytes  apis/sts-2011-06-15.min.json</tspan>
-<tspan x="10" y="4010">236.  2017-04-07 17:38:05 +0000    12636 bytes  apis/support-2013-04-15.min.json</tspan>
-<tspan x="10" y="4026">237.  2017-04-07 17:38:05 +0000      602 bytes  apis/support-2013-04-15.paginators.json</tspan>
-<tspan x="10" y="4042">238.  2017-04-07 17:38:05 +0000    55725 bytes  apis/swf-2012-01-25.min.json</tspan>
-<tspan x="10" y="4058">239.  2017-04-07 17:38:05 +0000     1324 bytes  apis/swf-2012-01-25.paginators.json</tspan>
-<tspan x="10" y="4074">240.  2017-04-07 17:38:05 +0000    29749 bytes  apis/waf-2015-08-24.examples.json</tspan>
-<tspan x="10" y="4090">241.  2017-04-07 17:38:05 +0000    26307 bytes  apis/waf-2015-08-24.min.json</tspan>
-<tspan x="10" y="4106">242.  2017-04-07 17:38:05 +0000       26 bytes  apis/waf-2015-08-24.paginators.json</tspan>
-<tspan x="10" y="4122">243.  2017-04-07 17:38:05 +0000    29749 bytes  apis/waf-regional-2016-11-28.examples.json</tspan>
-<tspan x="10" y="4138">244.  2017-04-07 17:38:05 +0000    27688 bytes  apis/waf-regional-2016-11-28.min.json</tspan>
-<tspan x="10" y="4154">245.  2017-04-07 17:38:05 +0000       26 bytes  apis/waf-regional-2016-11-28.paginators.json</tspan>
-<tspan x="10" y="4170">246.  2017-04-07 17:38:05 +0000    25451 bytes  apis/workdocs-2016-05-01.min.json</tspan>
-<tspan x="10" y="4186">247.  2017-04-07 17:38:05 +0000      543 bytes  apis/workdocs-2016-05-01.paginators.json</tspan>
-<tspan x="10" y="4202">248.  2017-04-07 17:38:05 +0000    12003 bytes  apis/workspaces-2015-04-08.min.json</tspan>
-<tspan x="10" y="4218">249.  2017-04-07 17:38:05 +0000      478 bytes  apis/workspaces-2015-04-08.paginators.json</tspan>
-<tspan x="10" y="4234">250.  2017-04-07 17:38:05 +0000    12308 bytes  apis/xray-2016-04-12.min.json</tspan>
-<tspan x="10" y="4250">251.  2017-04-07 17:38:05 +0000      270 bytes  bower.json</tspan>
-<tspan x="10" y="4266">252.  2017-04-07 17:38:05 +0000      225 bytes  browser.js</tspan>
-<tspan x="10" y="4282">253.  2017-04-07 17:38:05 +0000    32093 bytes  clients/acm.d.ts</tspan>
-<tspan x="10" y="4298">254.  2017-04-07 17:38:05 +0000      570 bytes  clients/acm.js</tspan>
-<tspan x="10" y="4314">255.  2017-04-07 17:38:05 +0000     4862 bytes  clients/all.d.ts</tspan>
-<tspan x="10" y="4330">256.  2017-04-07 17:38:05 +0000     3700 bytes  clients/all.js</tspan>
-<tspan x="10" y="4346">257.  2017-04-07 17:38:05 +0000   151357 bytes  clients/apigateway.d.ts</tspan>
-<tspan x="10" y="4362">258.  2017-04-07 17:38:05 +0000      658 bytes  clients/apigateway.js</tspan>
-<tspan x="10" y="4378">259.  2017-04-07 17:38:05 +0000    39017 bytes  clients/applicationautoscaling.d.ts</tspan>
-<tspan x="10" y="4394">260.  2017-04-07 17:38:05 +0000      705 bytes  clients/applicationautoscaling.js</tspan>
-<tspan x="10" y="4410">261.  2017-04-07 17:38:05 +0000    30049 bytes  clients/appstream.d.ts</tspan>
-<tspan x="10" y="4426">262.  2017-04-07 17:38:05 +0000      604 bytes  clients/appstream.js</tspan>
-<tspan x="10" y="4442">263.  2017-04-07 17:38:05 +0000   120400 bytes  clients/autoscaling.d.ts</tspan>
-<tspan x="10" y="4458">264.  2017-04-07 17:38:05 +0000      626 bytes  clients/autoscaling.js</tspan>
-<tspan x="10" y="4474">265.  2017-04-07 17:38:05 +0000    51938 bytes  clients/batch.d.ts</tspan>
-<tspan x="10" y="4490">266.  2017-04-07 17:38:05 +0000      497 bytes  clients/batch.js</tspan>
-<tspan x="10" y="4506">267.  2017-04-07 17:38:05 +0000     3140 bytes  clients/browser_default.d.ts</tspan>
-<tspan x="10" y="4522">268.  2017-04-07 17:38:05 +0000     2420 bytes  clients/browser_default.js</tspan>
-<tspan x="10" y="4538">269.  2017-04-07 17:38:05 +0000    12532 bytes  clients/budgets.d.ts</tspan>
-<tspan x="10" y="4554">270.  2017-04-07 17:38:05 +0000      598 bytes  clients/budgets.js</tspan>
-<tspan x="10" y="4570">271.  2017-04-07 17:38:05 +0000    81036 bytes  clients/clouddirectory.d.ts</tspan>
-<tspan x="10" y="4586">272.  2017-04-07 17:38:05 +0000      647 bytes  clients/clouddirectory.js</tspan>
-<tspan x="10" y="4602">273.  2017-04-07 17:38:05 +0000   100426 bytes  clients/cloudformation.d.ts</tspan>
-<tspan x="10" y="4618">274.  2017-04-07 17:38:05 +0000      735 bytes  clients/cloudformation.js</tspan>
-<tspan x="10" y="4634">275.  2017-04-07 17:38:05 +0000   112962 bytes  clients/cloudfront.d.ts</tspan>
-<tspan x="10" y="4650">276.  2017-04-07 17:38:05 +0000     1388 bytes  clients/cloudfront.js</tspan>
-<tspan x="10" y="4666">277.  2017-04-07 17:38:05 +0000    28822 bytes  clients/cloudhsm.d.ts</tspan>
-<tspan x="10" y="4682">278.  2017-04-07 17:38:05 +0000      515 bytes  clients/cloudhsm.js</tspan>
-<tspan x="10" y="4698">279.  2017-04-07 17:38:05 +0000    52889 bytes  clients/cloudsearch.d.ts</tspan>
-<tspan x="10" y="4714">280.  2017-04-07 17:38:05 +0000      966 bytes  clients/cloudsearch.js</tspan>
-<tspan x="10" y="4730">281.  2017-04-07 17:38:05 +0000    33620 bytes  clients/cloudsearchdomain.d.ts</tspan>
-<tspan x="10" y="4746">282.  2017-04-07 17:38:05 +0000      615 bytes  clients/cloudsearchdomain.js</tspan>
-<tspan x="10" y="4762">283.  2017-04-07 17:38:05 +0000    48150 bytes  clients/cloudtrail.d.ts</tspan>
-<tspan x="10" y="4778">284.  2017-04-07 17:38:05 +0000      619 bytes  clients/cloudtrail.js</tspan>
-<tspan x="10" y="4794">285.  2017-04-07 17:38:05 +0000    41709 bytes  clients/cloudwatch.d.ts</tspan>
-<tspan x="10" y="4810">286.  2017-04-07 17:38:05 +0000      703 bytes  clients/cloudwatch.js</tspan>
-<tspan x="10" y="4826">287.  2017-04-07 17:38:05 +0000    29900 bytes  clients/cloudwatchevents.d.ts</tspan>
-<tspan x="10" y="4842">288.  2017-04-07 17:38:05 +0000      656 bytes  clients/cloudwatchevents.js</tspan>
-<tspan x="10" y="4858">289.  2017-04-07 17:38:05 +0000    53156 bytes  clients/cloudwatchlogs.d.ts</tspan>
-<tspan x="10" y="4874">290.  2017-04-07 17:38:05 +0000      627 bytes  clients/cloudwatchlogs.js</tspan>
-<tspan x="10" y="4890">291.  2017-04-07 17:38:05 +0000    35407 bytes  clients/codebuild.d.ts</tspan>
-<tspan x="10" y="4906">292.  2017-04-07 17:38:05 +0000      612 bytes  clients/codebuild.js</tspan>
-<tspan x="10" y="4922">293.  2017-04-07 17:38:05 +0000    31495 bytes  clients/codecommit.d.ts</tspan>
-<tspan x="10" y="4938">294.  2017-04-07 17:38:05 +0000      619 bytes  clients/codecommit.js</tspan>
-<tspan x="10" y="4954">295.  2017-04-07 17:38:05 +0000    81486 bytes  clients/codedeploy.d.ts</tspan>
-<tspan x="10" y="4970">296.  2017-04-07 17:38:05 +0000      703 bytes  clients/codedeploy.js</tspan>
-<tspan x="10" y="4986">297.  2017-04-07 17:38:05 +0000    60896 bytes  clients/codepipeline.d.ts</tspan>
-<tspan x="10" y="5002">298.  2017-04-07 17:38:05 +0000      539 bytes  clients/codepipeline.js</tspan>
-<tspan x="10" y="5018">299.  2017-04-07 17:38:05 +0000    39510 bytes  clients/cognitoidentity.d.ts</tspan>
-<tspan x="10" y="5034">300.  2017-04-07 17:38:05 +0000      700 bytes  clients/cognitoidentity.js</tspan>
-<tspan x="10" y="5050">301.  2017-04-07 17:38:05 +0000   111532 bytes  clients/cognitoidentityserviceprovider.d.ts</tspan>
-<tspan x="10" y="5066">302.  2017-04-07 17:38:05 +0000      628 bytes  clients/cognitoidentityserviceprovider.js</tspan>
-<tspan x="10" y="5082">303.  2017-04-07 17:38:05 +0000    39439 bytes  clients/cognitosync.d.ts</tspan>
-<tspan x="10" y="5098">304.  2017-04-07 17:38:05 +0000      534 bytes  clients/cognitosync.js</tspan>
-<tspan x="10" y="5114">305.  2017-04-07 17:38:05 +0000    83006 bytes  clients/configservice.d.ts</tspan>
-<tspan x="10" y="5130">306.  2017-04-07 17:38:05 +0000      626 bytes  clients/configservice.js</tspan>
-<tspan x="10" y="5146">307.  2017-04-07 17:38:05 +0000     4536 bytes  clients/cur.d.ts</tspan>
-<tspan x="10" y="5162">308.  2017-04-07 17:38:05 +0000      570 bytes  clients/cur.js</tspan>
-<tspan x="10" y="5178">309.  2017-04-07 17:38:05 +0000    43547 bytes  clients/datapipeline.d.ts</tspan>
-<tspan x="10" y="5194">310.  2017-04-07 17:38:05 +0000      633 bytes  clients/datapipeline.js</tspan>
-<tspan x="10" y="5210">311.  2017-04-07 17:38:05 +0000    95394 bytes  clients/devicefarm.d.ts</tspan>
-<tspan x="10" y="5226">312.  2017-04-07 17:38:05 +0000      619 bytes  clients/devicefarm.js</tspan>
-<tspan x="10" y="5242">313.  2017-04-07 17:38:05 +0000    68267 bytes  clients/directconnect.d.ts</tspan>
-<tspan x="10" y="5258">314.  2017-04-07 17:38:05 +0000      640 bytes  clients/directconnect.js</tspan>
-<tspan x="10" y="5274">315.  2017-04-07 17:38:05 +0000    77766 bytes  clients/directoryservice.d.ts</tspan>
-<tspan x="10" y="5290">316.  2017-04-07 17:38:05 +0000      549 bytes  clients/directoryservice.js</tspan>
-<tspan x="10" y="5306">317.  2017-04-07 17:38:05 +0000    37642 bytes  clients/discovery.d.ts</tspan>
-<tspan x="10" y="5322">318.  2017-04-07 17:38:05 +0000      612 bytes  clients/discovery.js</tspan>
-<tspan x="10" y="5338">319.  2017-04-07 17:38:05 +0000    70767 bytes  clients/dms.d.ts</tspan>
-<tspan x="10" y="5354">320.  2017-04-07 17:38:05 +0000      485 bytes  clients/dms.js</tspan>
-<tspan x="10" y="5370">321.  2017-04-07 17:38:05 +0000   178005 bytes  clients/dynamodb.d.ts</tspan>
-<tspan x="10" y="5386">322.  2017-04-07 17:38:05 +0000     1137 bytes  clients/dynamodb.js</tspan>
-<tspan x="10" y="5402">323.  2017-04-07 17:38:05 +0000    20111 bytes  clients/dynamodbstreams.d.ts</tspan>
-<tspan x="10" y="5418">324.  2017-04-07 17:38:05 +0000      656 bytes  clients/dynamodbstreams.js</tspan>
-<tspan x="10" y="5434">325.  2017-04-07 17:38:05 +0000   746682 bytes  clients/ec2.d.ts</tspan>
-<tspan x="10" y="5450">326.  2017-04-07 17:38:05 +0000      859 bytes  clients/ec2.js</tspan>
-<tspan x="10" y="5466">327.  2017-04-07 17:38:05 +0000    41096 bytes  clients/ecr.d.ts</tspan>
-<tspan x="10" y="5482">328.  2017-04-07 17:38:05 +0000      570 bytes  clients/ecr.js</tspan>
-<tspan x="10" y="5498">329.  2017-04-07 17:38:05 +0000   143679 bytes  clients/ecs.d.ts</tspan>
-<tspan x="10" y="5514">330.  2017-04-07 17:38:05 +0000      647 bytes  clients/ecs.js</tspan>
-<tspan x="10" y="5530">331.  2017-04-07 17:38:05 +0000    41923 bytes  clients/efs.d.ts</tspan>
-<tspan x="10" y="5546">332.  2017-04-07 17:38:05 +0000      499 bytes  clients/efs.js</tspan>
-<tspan x="10" y="5562">333.  2017-04-07 17:38:05 +0000   156537 bytes  clients/elasticache.d.ts</tspan>
-<tspan x="10" y="5578">334.  2017-04-07 17:38:05 +0000      771 bytes  clients/elasticache.js</tspan>
-<tspan x="10" y="5594">335.  2017-04-07 17:38:05 +0000   116268 bytes  clients/elasticbeanstalk.d.ts</tspan>
-<tspan x="10" y="5610">336.  2017-04-07 17:38:05 +0000      661 bytes  clients/elasticbeanstalk.js</tspan>
-<tspan x="10" y="5626">337.  2017-04-07 17:38:05 +0000   147713 bytes  clients/elastictranscoder.d.ts</tspan>
-<tspan x="10" y="5642">338.  2017-04-07 17:38:05 +0000      759 bytes  clients/elastictranscoder.js</tspan>
-<tspan x="10" y="5658">339.  2017-04-07 17:38:05 +0000    69205 bytes  clients/elb.d.ts</tspan>
-<tspan x="10" y="5674">340.  2017-04-07 17:38:05 +0000      698 bytes  clients/elb.js</tspan>
-<tspan x="10" y="5690">341.  2017-04-07 17:38:05 +0000    63160 bytes  clients/elbv2.d.ts</tspan>
-<tspan x="10" y="5706">342.  2017-04-07 17:38:05 +0000      714 bytes  clients/elbv2.js</tspan>
-<tspan x="10" y="5722">343.  2017-04-07 17:38:05 +0000   118329 bytes  clients/emr.d.ts</tspan>
-<tspan x="10" y="5738">344.  2017-04-07 17:38:05 +0000      686 bytes  clients/emr.js</tspan>
-<tspan x="10" y="5754">345.  2017-04-07 17:38:05 +0000    30377 bytes  clients/es.d.ts</tspan>
-<tspan x="10" y="5770">346.  2017-04-07 17:38:05 +0000      563 bytes  clients/es.js</tspan>
-<tspan x="10" y="5786">347.  2017-04-07 17:38:05 +0000    58518 bytes  clients/firehose.d.ts</tspan>
-<tspan x="10" y="5802">348.  2017-04-07 17:38:05 +0000      515 bytes  clients/firehose.js</tspan>
-<tspan x="10" y="5818">349.  2017-04-07 17:38:05 +0000   157903 bytes  clients/gamelift.d.ts</tspan>
-<tspan x="10" y="5834">350.  2017-04-07 17:38:05 +0000      605 bytes  clients/gamelift.js</tspan>
-<tspan x="10" y="5850">351.  2017-04-07 17:38:05 +0000   141086 bytes  clients/glacier.d.ts</tspan>
-<tspan x="10" y="5866">352.  2017-04-07 17:38:05 +0000      715 bytes  clients/glacier.js</tspan>
-<tspan x="10" y="5882">353.  2017-04-07 17:38:05 +0000    24335 bytes  clients/health.d.ts</tspan>
-<tspan x="10" y="5898">354.  2017-04-07 17:38:05 +0000      591 bytes  clients/health.js</tspan>
-<tspan x="10" y="5914">355.  2017-04-07 17:38:05 +0000   325923 bytes  clients/iam.d.ts</tspan>
-<tspan x="10" y="5930">356.  2017-04-07 17:38:05 +0000      647 bytes  clients/iam.js</tspan>
-<tspan x="10" y="5946">357.  2017-04-07 17:38:05 +0000    10428 bytes  clients/importexport.d.ts</tspan>
-<tspan x="10" y="5962">358.  2017-04-07 17:38:05 +0000      633 bytes  clients/importexport.js</tspan>
-<tspan x="10" y="5978">359.  2017-04-07 17:38:05 +0000    67814 bytes  clients/inspector.d.ts</tspan>
-<tspan x="10" y="5994">360.  2017-04-07 17:38:05 +0000      536 bytes  clients/inspector.js</tspan>
-<tspan x="10" y="6010">361.  2017-04-07 17:38:05 +0000    85700 bytes  clients/iot.d.ts</tspan>
-<tspan x="10" y="6026">362.  2017-04-07 17:38:05 +0000      485 bytes  clients/iot.js</tspan>
-<tspan x="10" y="6042">363.  2017-04-07 17:38:05 +0000     5085 bytes  clients/iotdata.d.ts</tspan>
-<tspan x="10" y="6058">364.  2017-04-07 17:38:05 +0000      546 bytes  clients/iotdata.js</tspan>
-<tspan x="10" y="6074">365.  2017-04-07 17:38:05 +0000    77069 bytes  clients/kinesis.d.ts</tspan>
-<tspan x="10" y="6090">366.  2017-04-07 17:38:05 +0000      679 bytes  clients/kinesis.js</tspan>
-<tspan x="10" y="6106">367.  2017-04-07 17:38:05 +0000    56954 bytes  clients/kinesisanalytics.d.ts</tspan>
-<tspan x="10" y="6122">368.  2017-04-07 17:38:05 +0000      563 bytes  clients/kinesisanalytics.js</tspan>
-<tspan x="10" y="6138">369.  2017-04-07 17:38:05 +0000    87110 bytes  clients/kms.d.ts</tspan>
-<tspan x="10" y="6154">370.  2017-04-07 17:38:05 +0000      570 bytes  clients/kms.js</tspan>
-<tspan x="10" y="6170">371.  2017-04-07 17:38:05 +0000    78405 bytes  clients/lambda.d.ts</tspan>
-<tspan x="10" y="6186">372.  2017-04-07 17:38:05 +0000      916 bytes  clients/lambda.js</tspan>
-<tspan x="10" y="6202">373.  2017-04-07 17:38:05 +0000    28763 bytes  clients/lexruntime.d.ts</tspan>
-<tspan x="10" y="6218">374.  2017-04-07 17:38:05 +0000      621 bytes  clients/lexruntime.js</tspan>
-<tspan x="10" y="6234">375.  2017-04-07 17:38:05 +0000    70975 bytes  clients/lightsail.d.ts</tspan>
-<tspan x="10" y="6250">376.  2017-04-07 17:38:05 +0000      521 bytes  clients/lightsail.js</tspan>
-<tspan x="10" y="6266">377.  2017-04-07 17:38:05 +0000   123916 bytes  clients/machinelearning.d.ts</tspan>
-<tspan x="10" y="6282">378.  2017-04-07 17:38:05 +0000      787 bytes  clients/machinelearning.js</tspan>
-<tspan x="10" y="6298">379.  2017-04-07 17:38:05 +0000    14184 bytes  clients/marketplacecommerceanalytics.d.ts</tspan>
-<tspan x="10" y="6314">380.  2017-04-07 17:38:05 +0000      745 bytes  clients/marketplacecommerceanalytics.js</tspan>
-<tspan x="10" y="6330">381.  2017-04-07 17:38:05 +0000     9743 bytes  clients/marketplacemetering.d.ts</tspan>
-<tspan x="10" y="6346">382.  2017-04-07 17:38:05 +0000      581 bytes  clients/marketplacemetering.js</tspan>
-<tspan x="10" y="6362">383.  2017-04-07 17:38:05 +0000     4411 bytes  clients/mobileanalytics.d.ts</tspan>
-<tspan x="10" y="6378">384.  2017-04-07 17:38:05 +0000      557 bytes  clients/mobileanalytics.js</tspan>
-<tspan x="10" y="6394">385.  2017-04-07 17:38:05 +0000   111577 bytes  clients/mturk.d.ts</tspan>
-<tspan x="10" y="6410">386.  2017-04-07 17:38:05 +0000      604 bytes  clients/mturk.js</tspan>
-<tspan x="10" y="6426">387.  2017-04-07 17:38:05 +0000   192115 bytes  clients/opsworks.d.ts</tspan>
-<tspan x="10" y="6442">388.  2017-04-07 17:38:05 +0000      687 bytes  clients/opsworks.js</tspan>
-<tspan x="10" y="6458">389.  2017-04-07 17:38:05 +0000    49869 bytes  clients/opsworkscm.d.ts</tspan>
-<tspan x="10" y="6474">390.  2017-04-07 17:38:05 +0000      619 bytes  clients/opsworkscm.js</tspan>
-<tspan x="10" y="6490">391.  2017-04-07 17:38:05 +0000   109820 bytes  clients/organizations.d.ts</tspan>
-<tspan x="10" y="6506">392.  2017-04-07 17:38:05 +0000      640 bytes  clients/organizations.js</tspan>
-<tspan x="10" y="6522">393.  2017-04-07 17:38:05 +0000    59024 bytes  clients/pinpoint.d.ts</tspan>
-<tspan x="10" y="6538">394.  2017-04-07 17:38:05 +0000      515 bytes  clients/pinpoint.js</tspan>
-<tspan x="10" y="6554">395.  2017-04-07 17:38:05 +0000    15485 bytes  clients/polly.d.ts</tspan>
-<tspan x="10" y="6570">396.  2017-04-07 17:38:05 +0000      531 bytes  clients/polly.js</tspan>
-<tspan x="10" y="6586">397.  2017-04-07 17:38:05 +0000   354370 bytes  clients/rds.d.ts</tspan>
-<tspan x="10" y="6602">398.  2017-04-07 17:38:05 +0000     1719 bytes  clients/rds.js</tspan>
-<tspan x="10" y="6618">399.  2017-04-07 17:38:05 +0000   215288 bytes  clients/redshift.d.ts</tspan>
-<tspan x="10" y="6634">400.  2017-04-07 17:38:05 +0000      687 bytes  clients/redshift.js</tspan>
-<tspan x="10" y="6650">401.  2017-04-07 17:38:05 +0000    44145 bytes  clients/rekognition.d.ts</tspan>
-<tspan x="10" y="6666">402.  2017-04-07 17:38:05 +0000      626 bytes  clients/rekognition.js</tspan>
-<tspan x="10" y="6682">403.  2017-04-07 17:38:05 +0000    16236 bytes  clients/resourcegroupstaggingapi.d.ts</tspan>
-<tspan x="10" y="6698">404.  2017-04-07 17:38:05 +0000      717 bytes  clients/resourcegroupstaggingapi.js</tspan>
-<tspan x="10" y="6714">405.  2017-04-07 17:38:05 +0000   227234 bytes  clients/route53.d.ts</tspan>
-<tspan x="10" y="6730">406.  2017-04-07 17:38:05 +0000      715 bytes  clients/route53.js</tspan>
-<tspan x="10" y="6746">407.  2017-04-07 17:38:05 +0000    70936 bytes  clients/route53domains.d.ts</tspan>
-<tspan x="10" y="6762">408.  2017-04-07 17:38:05 +0000      647 bytes  clients/route53domains.js</tspan>
-<tspan x="10" y="6778">409.  2017-04-07 17:38:05 +0000   147523 bytes  clients/s3.d.ts</tspan>
-<tspan x="10" y="6794">410.  2017-04-07 17:38:05 +0000      670 bytes  clients/s3.js</tspan>
-<tspan x="10" y="6810">411.  2017-04-07 17:38:05 +0000    91106 bytes  clients/servicecatalog.d.ts</tspan>
-<tspan x="10" y="6826">412.  2017-04-07 17:38:05 +0000      551 bytes  clients/servicecatalog.js</tspan>
-<tspan x="10" y="6842">413.  2017-04-07 17:38:05 +0000   121910 bytes  clients/ses.d.ts</tspan>
-<tspan x="10" y="6858">414.  2017-04-07 17:38:05 +0000      653 bytes  clients/ses.js</tspan>
-<tspan x="10" y="6874">415.  2017-04-07 17:38:05 +0000    15011 bytes  clients/shield.d.ts</tspan>
-<tspan x="10" y="6890">416.  2017-04-07 17:38:05 +0000      503 bytes  clients/shield.js</tspan>
-<tspan x="10" y="6906">417.  2017-04-07 17:38:05 +0000    30194 bytes  clients/simpledb.d.ts</tspan>
-<tspan x="10" y="6922">418.  2017-04-07 17:38:05 +0000      595 bytes  clients/simpledb.js</tspan>
-<tspan x="10" y="6938">419.  2017-04-07 17:38:05 +0000    16147 bytes  clients/sms.d.ts</tspan>
-<tspan x="10" y="6954">420.  2017-04-07 17:38:05 +0000      570 bytes  clients/sms.js</tspan>
-<tspan x="10" y="6970">421.  2017-04-07 17:38:05 +0000    47407 bytes  clients/snowball.d.ts</tspan>
-<tspan x="10" y="6986">422.  2017-04-07 17:38:05 +0000      605 bytes  clients/snowball.js</tspan>
-<tspan x="10" y="7002">423.  2017-04-07 17:38:05 +0000    60221 bytes  clients/sns.d.ts</tspan>
-<tspan x="10" y="7018">424.  2017-04-07 17:38:05 +0000      570 bytes  clients/sns.js</tspan>
-<tspan x="10" y="7034">425.  2017-04-07 17:38:05 +0000    75232 bytes  clients/sqs.d.ts</tspan>
-<tspan x="10" y="7050">426.  2017-04-07 17:38:05 +0000      602 bytes  clients/sqs.js</tspan>
-<tspan x="10" y="7066">427.  2017-04-07 17:38:05 +0000   200071 bytes  clients/ssm.d.ts</tspan>
-<tspan x="10" y="7082">428.  2017-04-07 17:38:05 +0000      570 bytes  clients/ssm.js</tspan>
-<tspan x="10" y="7098">429.  2017-04-07 17:38:05 +0000    35164 bytes  clients/stepfunctions.d.ts</tspan>
-<tspan x="10" y="7114">430.  2017-04-07 17:38:05 +0000      626 bytes  clients/stepfunctions.js</tspan>
-<tspan x="10" y="7130">431.  2017-04-07 17:38:05 +0000   138780 bytes  clients/storagegateway.d.ts</tspan>
-<tspan x="10" y="7146">432.  2017-04-07 17:38:05 +0000      647 bytes  clients/storagegateway.js</tspan>
-<tspan x="10" y="7162">433.  2017-04-07 17:38:05 +0000    74320 bytes  clients/sts.d.ts</tspan>
-<tspan x="10" y="7178">434.  2017-04-07 17:38:05 +0000      517 bytes  clients/sts.js</tspan>
-<tspan x="10" y="7194">435.  2017-04-07 17:38:05 +0000    45952 bytes  clients/support.d.ts</tspan>
-<tspan x="10" y="7210">436.  2017-04-07 17:38:05 +0000      598 bytes  clients/support.js</tspan>
-<tspan x="10" y="7226">437.  2017-04-07 17:38:05 +0000   240567 bytes  clients/swf.d.ts</tspan>
-<tspan x="10" y="7242">438.  2017-04-07 17:38:05 +0000      602 bytes  clients/swf.js</tspan>
-<tspan x="10" y="7258">439.  2017-04-07 17:38:05 +0000   141348 bytes  clients/waf.d.ts</tspan>
-<tspan x="10" y="7274">440.  2017-04-07 17:38:05 +0000      570 bytes  clients/waf.js</tspan>
-<tspan x="10" y="7290">441.  2017-04-07 17:38:05 +0000   146671 bytes  clients/wafregional.d.ts</tspan>
-<tspan x="10" y="7306">442.  2017-04-07 17:38:05 +0000      628 bytes  clients/wafregional.js</tspan>
-<tspan x="10" y="7322">443.  2017-04-07 17:38:05 +0000    43474 bytes  clients/workdocs.d.ts</tspan>
-<tspan x="10" y="7338">444.  2017-04-07 17:38:05 +0000      605 bytes  clients/workdocs.js</tspan>
-<tspan x="10" y="7354">445.  2017-04-07 17:38:05 +0000    33993 bytes  clients/workspaces.d.ts</tspan>
-<tspan x="10" y="7370">446.  2017-04-07 17:38:05 +0000      619 bytes  clients/workspaces.js</tspan>
-<tspan x="10" y="7386">447.  2017-04-07 17:38:05 +0000    21903 bytes  clients/xray.d.ts</tspan>
-<tspan x="10" y="7402">448.  2017-04-07 17:38:05 +0000      491 bytes  clients/xray.js</tspan>
-<tspan x="10" y="7418">449.  2017-04-07 17:38:05 +0000      110 bytes  codecov.yml</tspan>
-<tspan x="10" y="7434">450.  2017-04-07 17:38:05 +0000     2209 bytes  dist-tools/browser-builder.js</tspan>
-<tspan x="10" y="7450">451.  2017-04-07 17:38:05 +0000     7869 bytes  dist-tools/client-creator.js</tspan>
-<tspan x="10" y="7466">452.  2017-04-07 17:38:05 +0000      150 bytes  dist-tools/create-all-services.js</tspan>
-<tspan x="10" y="7482">453.  2017-04-07 17:38:05 +0000     5137 bytes  dist-tools/service-collector.js</tspan>
-<tspan x="10" y="7498">454.  2017-04-07 17:38:05 +0000     1146 bytes  dist-tools/transform.js</tspan>
-<tspan x="10" y="7514">455.  2017-04-07 17:38:05 +0000     4707 bytes  dist/BUNDLE_LICENSE.txt</tspan>
-<tspan x="10" y="7530">456.  2017-04-07 17:38:05 +0000  2839119 bytes  dist/aws-sdk.js</tspan>
-<tspan x="10" y="7546">457.  2017-04-07 17:38:05 +0000  1371615 bytes  dist/aws-sdk.min.js</tspan>
-<tspan x="10" y="7562">458.  2017-04-07 17:38:05 +0000      120 bytes  global.d.ts</tspan>
-<tspan x="10" y="7578">459.  2017-04-07 17:38:05 +0000       69 bytes  global.js</tspan>
-<tspan x="10" y="7594">460.  2017-04-07 17:38:05 +0000      176 bytes  index.d.ts</tspan>
-<tspan x="10" y="7610">461.  2017-04-07 17:38:05 +0000      110 bytes  index.js</tspan>
-<tspan x="10" y="7626">462.  2017-04-07 17:38:05 +0000      505 bytes  karma.conf.js</tspan>
-<tspan x="10" y="7642">463.  2017-04-07 17:38:05 +0000      450 bytes  lib/api_loader.js</tspan>
-<tspan x="10" y="7658">464.  2017-04-07 17:38:05 +0000      134 bytes  lib/aws.js</tspan>
-<tspan x="10" y="7674">465.  2017-04-07 17:38:05 +0000      385 bytes  lib/browser.js</tspan>
-<tspan x="10" y="7690">466.  2017-04-07 17:38:05 +0000      523 bytes  lib/browser_loader.js</tspan>
-<tspan x="10" y="7706">467.  2017-04-07 17:38:05 +0000     2904 bytes  lib/cloudfront/signer.d.ts</tspan>
-<tspan x="10" y="7722">468.  2017-04-07 17:38:05 +0000     7217 bytes  lib/cloudfront/signer.js</tspan>
-<tspan x="10" y="7738">469.  2017-04-07 17:38:05 +0000     9933 bytes  lib/config.d.ts</tspan>
-<tspan x="10" y="7754">470.  2017-04-07 17:38:05 +0000    22424 bytes  lib/config.js</tspan>
-<tspan x="10" y="7770">471.  2017-04-07 17:38:05 +0000     9971 bytes  lib/config_service_placeholders.d.ts</tspan>
-<tspan x="10" y="7786">472.  2017-04-07 17:38:05 +0000      532 bytes  lib/config_use_dualstack.d.ts</tspan>
-<tspan x="10" y="7802">473.  2017-04-07 17:38:05 +0000     1211 bytes  lib/core.d.ts</tspan>
-<tspan x="10" y="7818">474.  2017-04-07 17:38:05 +0000     2535 bytes  lib/core.js</tspan>
-<tspan x="10" y="7834">475.  2017-04-07 17:38:05 +0000     2511 bytes  lib/credentials.d.ts</tspan>
-<tspan x="10" y="7850">476.  2017-04-07 17:38:05 +0000     9029 bytes  lib/credentials.js</tspan>
-<tspan x="10" y="7866">477.  2017-04-07 17:38:05 +0000     2097 bytes  lib/credentials/cognito_identity_credentials.d.t\</tspan>
+<tspan x="10" y="3402">198.  2017-04-07 17:39:53 +0000    29631 bytes  apis/route53-2013-04-01.examples.json</tspan>
+<tspan x="10" y="3418">199.  2017-04-07 17:39:53 +0000    52748 bytes  apis/route53-2013-04-01.min.json</tspan>
+<tspan x="10" y="3434">200.  2017-04-07 17:39:53 +0000      810 bytes  apis/route53-2013-04-01.paginators.json</tspan>
+<tspan x="10" y="3450">201.  2017-04-07 17:39:53 +0000      338 bytes  apis/route53-2013-04-01.waiters2.json</tspan>
+<tspan x="10" y="3466">202.  2017-04-07 17:39:53 +0000    15761 bytes  apis/route53domains-2014-05-15.min.json</tspan>
+<tspan x="10" y="3482">203.  2017-04-07 17:39:53 +0000      371 bytes  apis/route53domains-2014-05-15.paginators.json</tspan>
+<tspan x="10" y="3498">204.  2017-04-07 17:39:53 +0000       44 bytes  apis/runtime.lex-2016-11-28.examples.json</tspan>
+<tspan x="10" y="3514">205.  2017-04-07 17:39:53 +0000     5037 bytes  apis/runtime.lex-2016-11-28.min.json</tspan>
+<tspan x="10" y="3530">206.  2017-04-07 17:39:53 +0000       26 bytes  apis/runtime.lex-2016-11-28.paginators.json</tspan>
+<tspan x="10" y="3546">207.  2017-04-07 17:39:53 +0000   114341 bytes  apis/s3-2006-03-01.min.json</tspan>
+<tspan x="10" y="3562">208.  2017-04-07 17:39:53 +0000     1488 bytes  apis/s3-2006-03-01.paginators.json</tspan>
+<tspan x="10" y="3578">209.  2017-04-07 17:39:53 +0000     1436 bytes  apis/s3-2006-03-01.waiters2.json</tspan>
+<tspan x="10" y="3594">210.  2017-04-07 17:39:53 +0000     7182 bytes  apis/sdb-2009-04-15.min.json</tspan>
+<tspan x="10" y="3610">211.  2017-04-07 17:39:53 +0000      317 bytes  apis/sdb-2009-04-15.paginators.json</tspan>
+<tspan x="10" y="3626">212.  2017-04-07 17:39:53 +0000    29694 bytes  apis/servicecatalog-2015-12-10.min.json</tspan>
+<tspan x="10" y="3642">213.  2017-04-07 17:39:53 +0000     6647 bytes  apis/shield-2016-06-02.min.json</tspan>
+<tspan x="10" y="3658">214.  2017-04-07 17:39:53 +0000     7482 bytes  apis/sms-2016-10-24.min.json</tspan>
+<tspan x="10" y="3674">215.  2017-04-07 17:39:53 +0000      842 bytes  apis/sms-2016-10-24.paginators.json</tspan>
+<tspan x="10" y="3690">216.  2017-04-07 17:39:53 +0000    18204 bytes  apis/snowball-2016-06-30.examples.json</tspan>
+<tspan x="10" y="3706">217.  2017-04-07 17:39:53 +0000    11964 bytes  apis/snowball-2016-06-30.min.json</tspan>
+<tspan x="10" y="3722">218.  2017-04-07 17:39:53 +0000      356 bytes  apis/snowball-2016-06-30.paginators.json</tspan>
+<tspan x="10" y="3738">219.  2017-04-07 17:39:53 +0000    13313 bytes  apis/sns-2010-03-31.min.json</tspan>
+<tspan x="10" y="3754">220.  2017-04-07 17:39:53 +0000      740 bytes  apis/sns-2010-03-31.paginators.json</tspan>
+<tspan x="10" y="3770">221.  2017-04-07 17:39:53 +0000    19439 bytes  apis/sqs-2012-11-05.examples.json</tspan>
+<tspan x="10" y="3786">222.  2017-04-07 17:39:53 +0000    13727 bytes  apis/sqs-2012-11-05.min.json</tspan>
+<tspan x="10" y="3802">223.  2017-04-07 17:39:53 +0000       84 bytes  apis/sqs-2012-11-05.paginators.json</tspan>
+<tspan x="10" y="3818">224.  2017-04-07 17:39:53 +0000    71534 bytes  apis/ssm-2014-11-06.min.json</tspan>
+<tspan x="10" y="3834">225.  2017-04-07 17:39:53 +0000     1079 bytes  apis/ssm-2014-11-06.paginators.json</tspan>
+<tspan x="10" y="3850">226.  2017-04-07 17:39:53 +0000    15054 bytes  apis/states-2016-11-23.min.json</tspan>
+<tspan x="10" y="3866">227.  2017-04-07 17:39:53 +0000      696 bytes  apis/states-2016-11-23.paginators.json</tspan>
+<tspan x="10" y="3882">228.  2017-04-07 17:39:53 +0000    49947 bytes  apis/storagegateway-2013-06-30.examples.json</tspan>
+<tspan x="10" y="3898">229.  2017-04-07 17:39:53 +0000    36534 bytes  apis/storagegateway-2013-06-30.min.json</tspan>
+<tspan x="10" y="3914">230.  2017-04-07 17:39:53 +0000     1293 bytes  apis/storagegateway-2013-06-30.paginators.json</tspan>
+<tspan x="10" y="3930">231.  2017-04-07 17:39:53 +0000     7693 bytes  apis/streams.dynamodb-2012-08-10.examples.json</tspan>
+<tspan x="10" y="3946">232.  2017-04-07 17:39:53 +0000     5833 bytes  apis/streams.dynamodb-2012-08-10.min.json</tspan>
+<tspan x="10" y="3962">233.  2017-04-07 17:39:53 +0000       26 bytes  apis/streams.dynamodb-2012-08-10.paginators.json</tspan>
+<tspan x="10" y="3978">234.  2017-04-07 17:39:53 +0000     8797 bytes  apis/sts-2011-06-15.examples.json</tspan>
+<tspan x="10" y="3994">235.  2017-04-07 17:39:53 +0000     5544 bytes  apis/sts-2011-06-15.min.json</tspan>
+<tspan x="10" y="4010">236.  2017-04-07 17:39:53 +0000    12636 bytes  apis/support-2013-04-15.min.json</tspan>
+<tspan x="10" y="4026">237.  2017-04-07 17:39:53 +0000      602 bytes  apis/support-2013-04-15.paginators.json</tspan>
+<tspan x="10" y="4042">238.  2017-04-07 17:39:53 +0000    55725 bytes  apis/swf-2012-01-25.min.json</tspan>
+<tspan x="10" y="4058">239.  2017-04-07 17:39:53 +0000     1324 bytes  apis/swf-2012-01-25.paginators.json</tspan>
+<tspan x="10" y="4074">240.  2017-04-07 17:39:53 +0000    29749 bytes  apis/waf-2015-08-24.examples.json</tspan>
+<tspan x="10" y="4090">241.  2017-04-07 17:39:53 +0000    26307 bytes  apis/waf-2015-08-24.min.json</tspan>
+<tspan x="10" y="4106">242.  2017-04-07 17:39:53 +0000       26 bytes  apis/waf-2015-08-24.paginators.json</tspan>
+<tspan x="10" y="4122">243.  2017-04-07 17:39:53 +0000    29749 bytes  apis/waf-regional-2016-11-28.examples.json</tspan>
+<tspan x="10" y="4138">244.  2017-04-07 17:39:53 +0000    27688 bytes  apis/waf-regional-2016-11-28.min.json</tspan>
+<tspan x="10" y="4154">245.  2017-04-07 17:39:53 +0000       26 bytes  apis/waf-regional-2016-11-28.paginators.json</tspan>
+<tspan x="10" y="4170">246.  2017-04-07 17:39:53 +0000    25451 bytes  apis/workdocs-2016-05-01.min.json</tspan>
+<tspan x="10" y="4186">247.  2017-04-07 17:39:53 +0000      543 bytes  apis/workdocs-2016-05-01.paginators.json</tspan>
+<tspan x="10" y="4202">248.  2017-04-07 17:39:53 +0000    12003 bytes  apis/workspaces-2015-04-08.min.json</tspan>
+<tspan x="10" y="4218">249.  2017-04-07 17:39:53 +0000      478 bytes  apis/workspaces-2015-04-08.paginators.json</tspan>
+<tspan x="10" y="4234">250.  2017-04-07 17:39:53 +0000    12308 bytes  apis/xray-2016-04-12.min.json</tspan>
+<tspan x="10" y="4250">251.  2017-04-07 17:39:53 +0000      270 bytes  bower.json</tspan>
+<tspan x="10" y="4266">252.  2017-04-07 17:39:53 +0000      225 bytes  browser.js</tspan>
+<tspan x="10" y="4282">253.  2017-04-07 17:39:53 +0000    32093 bytes  clients/acm.d.ts</tspan>
+<tspan x="10" y="4298">254.  2017-04-07 17:39:53 +0000      570 bytes  clients/acm.js</tspan>
+<tspan x="10" y="4314">255.  2017-04-07 17:39:53 +0000     4862 bytes  clients/all.d.ts</tspan>
+<tspan x="10" y="4330">256.  2017-04-07 17:39:53 +0000     3700 bytes  clients/all.js</tspan>
+<tspan x="10" y="4346">257.  2017-04-07 17:39:53 +0000   151357 bytes  clients/apigateway.d.ts</tspan>
+<tspan x="10" y="4362">258.  2017-04-07 17:39:53 +0000      658 bytes  clients/apigateway.js</tspan>
+<tspan x="10" y="4378">259.  2017-04-07 17:39:53 +0000    39017 bytes  clients/applicationautoscaling.d.ts</tspan>
+<tspan x="10" y="4394">260.  2017-04-07 17:39:53 +0000      705 bytes  clients/applicationautoscaling.js</tspan>
+<tspan x="10" y="4410">261.  2017-04-07 17:39:53 +0000    30049 bytes  clients/appstream.d.ts</tspan>
+<tspan x="10" y="4426">262.  2017-04-07 17:39:53 +0000      604 bytes  clients/appstream.js</tspan>
+<tspan x="10" y="4442">263.  2017-04-07 17:39:53 +0000   120400 bytes  clients/autoscaling.d.ts</tspan>
+<tspan x="10" y="4458">264.  2017-04-07 17:39:53 +0000      626 bytes  clients/autoscaling.js</tspan>
+<tspan x="10" y="4474">265.  2017-04-07 17:39:53 +0000    51938 bytes  clients/batch.d.ts</tspan>
+<tspan x="10" y="4490">266.  2017-04-07 17:39:53 +0000      497 bytes  clients/batch.js</tspan>
+<tspan x="10" y="4506">267.  2017-04-07 17:39:53 +0000     3140 bytes  clients/browser_default.d.ts</tspan>
+<tspan x="10" y="4522">268.  2017-04-07 17:39:53 +0000     2420 bytes  clients/browser_default.js</tspan>
+<tspan x="10" y="4538">269.  2017-04-07 17:39:53 +0000    12532 bytes  clients/budgets.d.ts</tspan>
+<tspan x="10" y="4554">270.  2017-04-07 17:39:53 +0000      598 bytes  clients/budgets.js</tspan>
+<tspan x="10" y="4570">271.  2017-04-07 17:39:53 +0000    81036 bytes  clients/clouddirectory.d.ts</tspan>
+<tspan x="10" y="4586">272.  2017-04-07 17:39:53 +0000      647 bytes  clients/clouddirectory.js</tspan>
+<tspan x="10" y="4602">273.  2017-04-07 17:39:53 +0000   100426 bytes  clients/cloudformation.d.ts</tspan>
+<tspan x="10" y="4618">274.  2017-04-07 17:39:53 +0000      735 bytes  clients/cloudformation.js</tspan>
+<tspan x="10" y="4634">275.  2017-04-07 17:39:53 +0000   112962 bytes  clients/cloudfront.d.ts</tspan>
+<tspan x="10" y="4650">276.  2017-04-07 17:39:53 +0000     1388 bytes  clients/cloudfront.js</tspan>
+<tspan x="10" y="4666">277.  2017-04-07 17:39:53 +0000    28822 bytes  clients/cloudhsm.d.ts</tspan>
+<tspan x="10" y="4682">278.  2017-04-07 17:39:53 +0000      515 bytes  clients/cloudhsm.js</tspan>
+<tspan x="10" y="4698">279.  2017-04-07 17:39:53 +0000    52889 bytes  clients/cloudsearch.d.ts</tspan>
+<tspan x="10" y="4714">280.  2017-04-07 17:39:53 +0000      966 bytes  clients/cloudsearch.js</tspan>
+<tspan x="10" y="4730">281.  2017-04-07 17:39:53 +0000    33620 bytes  clients/cloudsearchdomain.d.ts</tspan>
+<tspan x="10" y="4746">282.  2017-04-07 17:39:53 +0000      615 bytes  clients/cloudsearchdomain.js</tspan>
+<tspan x="10" y="4762">283.  2017-04-07 17:39:53 +0000    48150 bytes  clients/cloudtrail.d.ts</tspan>
+<tspan x="10" y="4778">284.  2017-04-07 17:39:53 +0000      619 bytes  clients/cloudtrail.js</tspan>
+<tspan x="10" y="4794">285.  2017-04-07 17:39:53 +0000    41709 bytes  clients/cloudwatch.d.ts</tspan>
+<tspan x="10" y="4810">286.  2017-04-07 17:39:53 +0000      703 bytes  clients/cloudwatch.js</tspan>
+<tspan x="10" y="4826">287.  2017-04-07 17:39:53 +0000    29900 bytes  clients/cloudwatchevents.d.ts</tspan>
+<tspan x="10" y="4842">288.  2017-04-07 17:39:53 +0000      656 bytes  clients/cloudwatchevents.js</tspan>
+<tspan x="10" y="4858">289.  2017-04-07 17:39:53 +0000    53156 bytes  clients/cloudwatchlogs.d.ts</tspan>
+<tspan x="10" y="4874">290.  2017-04-07 17:39:53 +0000      627 bytes  clients/cloudwatchlogs.js</tspan>
+<tspan x="10" y="4890">291.  2017-04-07 17:39:53 +0000    35407 bytes  clients/codebuild.d.ts</tspan>
+<tspan x="10" y="4906">292.  2017-04-07 17:39:53 +0000      612 bytes  clients/codebuild.js</tspan>
+<tspan x="10" y="4922">293.  2017-04-07 17:39:53 +0000    31495 bytes  clients/codecommit.d.ts</tspan>
+<tspan x="10" y="4938">294.  2017-04-07 17:39:53 +0000      619 bytes  clients/codecommit.js</tspan>
+<tspan x="10" y="4954">295.  2017-04-07 17:39:53 +0000    81486 bytes  clients/codedeploy.d.ts</tspan>
+<tspan x="10" y="4970">296.  2017-04-07 17:39:53 +0000      703 bytes  clients/codedeploy.js</tspan>
+<tspan x="10" y="4986">297.  2017-04-07 17:39:53 +0000    60896 bytes  clients/codepipeline.d.ts</tspan>
+<tspan x="10" y="5002">298.  2017-04-07 17:39:53 +0000      539 bytes  clients/codepipeline.js</tspan>
+<tspan x="10" y="5018">299.  2017-04-07 17:39:53 +0000    39510 bytes  clients/cognitoidentity.d.ts</tspan>
+<tspan x="10" y="5034">300.  2017-04-07 17:39:53 +0000      700 bytes  clients/cognitoidentity.js</tspan>
+<tspan x="10" y="5050">301.  2017-04-07 17:39:53 +0000   111532 bytes  clients/cognitoidentityserviceprovider.d.ts</tspan>
+<tspan x="10" y="5066">302.  2017-04-07 17:39:53 +0000      628 bytes  clients/cognitoidentityserviceprovider.js</tspan>
+<tspan x="10" y="5082">303.  2017-04-07 17:39:53 +0000    39439 bytes  clients/cognitosync.d.ts</tspan>
+<tspan x="10" y="5098">304.  2017-04-07 17:39:53 +0000      534 bytes  clients/cognitosync.js</tspan>
+<tspan x="10" y="5114">305.  2017-04-07 17:39:53 +0000    83006 bytes  clients/configservice.d.ts</tspan>
+<tspan x="10" y="5130">306.  2017-04-07 17:39:53 +0000      626 bytes  clients/configservice.js</tspan>
+<tspan x="10" y="5146">307.  2017-04-07 17:39:53 +0000     4536 bytes  clients/cur.d.ts</tspan>
+<tspan x="10" y="5162">308.  2017-04-07 17:39:53 +0000      570 bytes  clients/cur.js</tspan>
+<tspan x="10" y="5178">309.  2017-04-07 17:39:53 +0000    43547 bytes  clients/datapipeline.d.ts</tspan>
+<tspan x="10" y="5194">310.  2017-04-07 17:39:53 +0000      633 bytes  clients/datapipeline.js</tspan>
+<tspan x="10" y="5210">311.  2017-04-07 17:39:53 +0000    95394 bytes  clients/devicefarm.d.ts</tspan>
+<tspan x="10" y="5226">312.  2017-04-07 17:39:53 +0000      619 bytes  clients/devicefarm.js</tspan>
+<tspan x="10" y="5242">313.  2017-04-07 17:39:53 +0000    68267 bytes  clients/directconnect.d.ts</tspan>
+<tspan x="10" y="5258">314.  2017-04-07 17:39:53 +0000      640 bytes  clients/directconnect.js</tspan>
+<tspan x="10" y="5274">315.  2017-04-07 17:39:53 +0000    77766 bytes  clients/directoryservice.d.ts</tspan>
+<tspan x="10" y="5290">316.  2017-04-07 17:39:53 +0000      549 bytes  clients/directoryservice.js</tspan>
+<tspan x="10" y="5306">317.  2017-04-07 17:39:53 +0000    37642 bytes  clients/discovery.d.ts</tspan>
+<tspan x="10" y="5322">318.  2017-04-07 17:39:53 +0000      612 bytes  clients/discovery.js</tspan>
+<tspan x="10" y="5338">319.  2017-04-07 17:39:53 +0000    70767 bytes  clients/dms.d.ts</tspan>
+<tspan x="10" y="5354">320.  2017-04-07 17:39:53 +0000      485 bytes  clients/dms.js</tspan>
+<tspan x="10" y="5370">321.  2017-04-07 17:39:53 +0000   178005 bytes  clients/dynamodb.d.ts</tspan>
+<tspan x="10" y="5386">322.  2017-04-07 17:39:53 +0000     1137 bytes  clients/dynamodb.js</tspan>
+<tspan x="10" y="5402">323.  2017-04-07 17:39:53 +0000    20111 bytes  clients/dynamodbstreams.d.ts</tspan>
+<tspan x="10" y="5418">324.  2017-04-07 17:39:53 +0000      656 bytes  clients/dynamodbstreams.js</tspan>
+<tspan x="10" y="5434">325.  2017-04-07 17:39:53 +0000   746682 bytes  clients/ec2.d.ts</tspan>
+<tspan x="10" y="5450">326.  2017-04-07 17:39:53 +0000      859 bytes  clients/ec2.js</tspan>
+<tspan x="10" y="5466">327.  2017-04-07 17:39:53 +0000    41096 bytes  clients/ecr.d.ts</tspan>
+<tspan x="10" y="5482">328.  2017-04-07 17:39:53 +0000      570 bytes  clients/ecr.js</tspan>
+<tspan x="10" y="5498">329.  2017-04-07 17:39:53 +0000   143679 bytes  clients/ecs.d.ts</tspan>
+<tspan x="10" y="5514">330.  2017-04-07 17:39:53 +0000      647 bytes  clients/ecs.js</tspan>
+<tspan x="10" y="5530">331.  2017-04-07 17:39:53 +0000    41923 bytes  clients/efs.d.ts</tspan>
+<tspan x="10" y="5546">332.  2017-04-07 17:39:53 +0000      499 bytes  clients/efs.js</tspan>
+<tspan x="10" y="5562">333.  2017-04-07 17:39:53 +0000   156537 bytes  clients/elasticache.d.ts</tspan>
+<tspan x="10" y="5578">334.  2017-04-07 17:39:53 +0000      771 bytes  clients/elasticache.js</tspan>
+<tspan x="10" y="5594">335.  2017-04-07 17:39:53 +0000   116268 bytes  clients/elasticbeanstalk.d.ts</tspan>
+<tspan x="10" y="5610">336.  2017-04-07 17:39:53 +0000      661 bytes  clients/elasticbeanstalk.js</tspan>
+<tspan x="10" y="5626">337.  2017-04-07 17:39:53 +0000   147713 bytes  clients/elastictranscoder.d.ts</tspan>
+<tspan x="10" y="5642">338.  2017-04-07 17:39:53 +0000      759 bytes  clients/elastictranscoder.js</tspan>
+<tspan x="10" y="5658">339.  2017-04-07 17:39:53 +0000    69205 bytes  clients/elb.d.ts</tspan>
+<tspan x="10" y="5674">340.  2017-04-07 17:39:53 +0000      698 bytes  clients/elb.js</tspan>
+<tspan x="10" y="5690">341.  2017-04-07 17:39:53 +0000    63160 bytes  clients/elbv2.d.ts</tspan>
+<tspan x="10" y="5706">342.  2017-04-07 17:39:53 +0000      714 bytes  clients/elbv2.js</tspan>
+<tspan x="10" y="5722">343.  2017-04-07 17:39:53 +0000   118329 bytes  clients/emr.d.ts</tspan>
+<tspan x="10" y="5738">344.  2017-04-07 17:39:53 +0000      686 bytes  clients/emr.js</tspan>
+<tspan x="10" y="5754">345.  2017-04-07 17:39:53 +0000    30377 bytes  clients/es.d.ts</tspan>
+<tspan x="10" y="5770">346.  2017-04-07 17:39:53 +0000      563 bytes  clients/es.js</tspan>
+<tspan x="10" y="5786">347.  2017-04-07 17:39:53 +0000    58518 bytes  clients/firehose.d.ts</tspan>
+<tspan x="10" y="5802">348.  2017-04-07 17:39:53 +0000      515 bytes  clients/firehose.js</tspan>
+<tspan x="10" y="5818">349.  2017-04-07 17:39:53 +0000   157903 bytes  clients/gamelift.d.ts</tspan>
+<tspan x="10" y="5834">350.  2017-04-07 17:39:53 +0000      605 bytes  clients/gamelift.js</tspan>
+<tspan x="10" y="5850">351.  2017-04-07 17:39:53 +0000   141086 bytes  clients/glacier.d.ts</tspan>
+<tspan x="10" y="5866">352.  2017-04-07 17:39:53 +0000      715 bytes  clients/glacier.js</tspan>
+<tspan x="10" y="5882">353.  2017-04-07 17:39:53 +0000    24335 bytes  clients/health.d.ts</tspan>
+<tspan x="10" y="5898">354.  2017-04-07 17:39:53 +0000      591 bytes  clients/health.js</tspan>
+<tspan x="10" y="5914">355.  2017-04-07 17:39:53 +0000   325923 bytes  clients/iam.d.ts</tspan>
+<tspan x="10" y="5930">356.  2017-04-07 17:39:53 +0000      647 bytes  clients/iam.js</tspan>
+<tspan x="10" y="5946">357.  2017-04-07 17:39:53 +0000    10428 bytes  clients/importexport.d.ts</tspan>
+<tspan x="10" y="5962">358.  2017-04-07 17:39:53 +0000      633 bytes  clients/importexport.js</tspan>
+<tspan x="10" y="5978">359.  2017-04-07 17:39:53 +0000    67814 bytes  clients/inspector.d.ts</tspan>
+<tspan x="10" y="5994">360.  2017-04-07 17:39:53 +0000      536 bytes  clients/inspector.js</tspan>
+<tspan x="10" y="6010">361.  2017-04-07 17:39:53 +0000    85700 bytes  clients/iot.d.ts</tspan>
+<tspan x="10" y="6026">362.  2017-04-07 17:39:53 +0000      485 bytes  clients/iot.js</tspan>
+<tspan x="10" y="6042">363.  2017-04-07 17:39:53 +0000     5085 bytes  clients/iotdata.d.ts</tspan>
+<tspan x="10" y="6058">364.  2017-04-07 17:39:53 +0000      546 bytes  clients/iotdata.js</tspan>
+<tspan x="10" y="6074">365.  2017-04-07 17:39:53 +0000    77069 bytes  clients/kinesis.d.ts</tspan>
+<tspan x="10" y="6090">366.  2017-04-07 17:39:53 +0000      679 bytes  clients/kinesis.js</tspan>
+<tspan x="10" y="6106">367.  2017-04-07 17:39:53 +0000    56954 bytes  clients/kinesisanalytics.d.ts</tspan>
+<tspan x="10" y="6122">368.  2017-04-07 17:39:53 +0000      563 bytes  clients/kinesisanalytics.js</tspan>
+<tspan x="10" y="6138">369.  2017-04-07 17:39:53 +0000    87110 bytes  clients/kms.d.ts</tspan>
+<tspan x="10" y="6154">370.  2017-04-07 17:39:53 +0000      570 bytes  clients/kms.js</tspan>
+<tspan x="10" y="6170">371.  2017-04-07 17:39:53 +0000    78405 bytes  clients/lambda.d.ts</tspan>
+<tspan x="10" y="6186">372.  2017-04-07 17:39:53 +0000      916 bytes  clients/lambda.js</tspan>
+<tspan x="10" y="6202">373.  2017-04-07 17:39:53 +0000    28763 bytes  clients/lexruntime.d.ts</tspan>
+<tspan x="10" y="6218">374.  2017-04-07 17:39:53 +0000      621 bytes  clients/lexruntime.js</tspan>
+<tspan x="10" y="6234">375.  2017-04-07 17:39:53 +0000    70975 bytes  clients/lightsail.d.ts</tspan>
+<tspan x="10" y="6250">376.  2017-04-07 17:39:53 +0000      521 bytes  clients/lightsail.js</tspan>
+<tspan x="10" y="6266">377.  2017-04-07 17:39:53 +0000   123916 bytes  clients/machinelearning.d.ts</tspan>
+<tspan x="10" y="6282">378.  2017-04-07 17:39:53 +0000      787 bytes  clients/machinelearning.js</tspan>
+<tspan x="10" y="6298">379.  2017-04-07 17:39:53 +0000    14184 bytes  clients/marketplacecommerceanalytics.d.ts</tspan>
+<tspan x="10" y="6314">380.  2017-04-07 17:39:53 +0000      745 bytes  clients/marketplacecommerceanalytics.js</tspan>
+<tspan x="10" y="6330">381.  2017-04-07 17:39:53 +0000     9743 bytes  clients/marketplacemetering.d.ts</tspan>
+<tspan x="10" y="6346">382.  2017-04-07 17:39:53 +0000      581 bytes  clients/marketplacemetering.js</tspan>
+<tspan x="10" y="6362">383.  2017-04-07 17:39:53 +0000     4411 bytes  clients/mobileanalytics.d.ts</tspan>
+<tspan x="10" y="6378">384.  2017-04-07 17:39:53 +0000      557 bytes  clients/mobileanalytics.js</tspan>
+<tspan x="10" y="6394">385.  2017-04-07 17:39:53 +0000   111577 bytes  clients/mturk.d.ts</tspan>
+<tspan x="10" y="6410">386.  2017-04-07 17:39:53 +0000      604 bytes  clients/mturk.js</tspan>
+<tspan x="10" y="6426">387.  2017-04-07 17:39:53 +0000   192115 bytes  clients/opsworks.d.ts</tspan>
+<tspan x="10" y="6442">388.  2017-04-07 17:39:53 +0000      687 bytes  clients/opsworks.js</tspan>
+<tspan x="10" y="6458">389.  2017-04-07 17:39:53 +0000    49869 bytes  clients/opsworkscm.d.ts</tspan>
+<tspan x="10" y="6474">390.  2017-04-07 17:39:53 +0000      619 bytes  clients/opsworkscm.js</tspan>
+<tspan x="10" y="6490">391.  2017-04-07 17:39:53 +0000   109820 bytes  clients/organizations.d.ts</tspan>
+<tspan x="10" y="6506">392.  2017-04-07 17:39:53 +0000      640 bytes  clients/organizations.js</tspan>
+<tspan x="10" y="6522">393.  2017-04-07 17:39:53 +0000    59024 bytes  clients/pinpoint.d.ts</tspan>
+<tspan x="10" y="6538">394.  2017-04-07 17:39:53 +0000      515 bytes  clients/pinpoint.js</tspan>
+<tspan x="10" y="6554">395.  2017-04-07 17:39:53 +0000    15485 bytes  clients/polly.d.ts</tspan>
+<tspan x="10" y="6570">396.  2017-04-07 17:39:53 +0000      531 bytes  clients/polly.js</tspan>
+<tspan x="10" y="6586">397.  2017-04-07 17:39:53 +0000   354370 bytes  clients/rds.d.ts</tspan>
+<tspan x="10" y="6602">398.  2017-04-07 17:39:53 +0000     1719 bytes  clients/rds.js</tspan>
+<tspan x="10" y="6618">399.  2017-04-07 17:39:53 +0000   215288 bytes  clients/redshift.d.ts</tspan>
+<tspan x="10" y="6634">400.  2017-04-07 17:39:53 +0000      687 bytes  clients/redshift.js</tspan>
+<tspan x="10" y="6650">401.  2017-04-07 17:39:53 +0000    44145 bytes  clients/rekognition.d.ts</tspan>
+<tspan x="10" y="6666">402.  2017-04-07 17:39:53 +0000      626 bytes  clients/rekognition.js</tspan>
+<tspan x="10" y="6682">403.  2017-04-07 17:39:53 +0000    16236 bytes  clients/resourcegroupstaggingapi.d.ts</tspan>
+<tspan x="10" y="6698">404.  2017-04-07 17:39:53 +0000      717 bytes  clients/resourcegroupstaggingapi.js</tspan>
+<tspan x="10" y="6714">405.  2017-04-07 17:39:53 +0000   227234 bytes  clients/route53.d.ts</tspan>
+<tspan x="10" y="6730">406.  2017-04-07 17:39:53 +0000      715 bytes  clients/route53.js</tspan>
+<tspan x="10" y="6746">407.  2017-04-07 17:39:53 +0000    70936 bytes  clients/route53domains.d.ts</tspan>
+<tspan x="10" y="6762">408.  2017-04-07 17:39:53 +0000      647 bytes  clients/route53domains.js</tspan>
+<tspan x="10" y="6778">409.  2017-04-07 17:39:53 +0000   147523 bytes  clients/s3.d.ts</tspan>
+<tspan x="10" y="6794">410.  2017-04-07 17:39:53 +0000      670 bytes  clients/s3.js</tspan>
+<tspan x="10" y="6810">411.  2017-04-07 17:39:53 +0000    91106 bytes  clients/servicecatalog.d.ts</tspan>
+<tspan x="10" y="6826">412.  2017-04-07 17:39:53 +0000      551 bytes  clients/servicecatalog.js</tspan>
+<tspan x="10" y="6842">413.  2017-04-07 17:39:53 +0000   121910 bytes  clients/ses.d.ts</tspan>
+<tspan x="10" y="6858">414.  2017-04-07 17:39:53 +0000      653 bytes  clients/ses.js</tspan>
+<tspan x="10" y="6874">415.  2017-04-07 17:39:53 +0000    15011 bytes  clients/shield.d.ts</tspan>
+<tspan x="10" y="6890">416.  2017-04-07 17:39:53 +0000      503 bytes  clients/shield.js</tspan>
+<tspan x="10" y="6906">417.  2017-04-07 17:39:53 +0000    30194 bytes  clients/simpledb.d.ts</tspan>
+<tspan x="10" y="6922">418.  2017-04-07 17:39:53 +0000      595 bytes  clients/simpledb.js</tspan>
+<tspan x="10" y="6938">419.  2017-04-07 17:39:53 +0000    16147 bytes  clients/sms.d.ts</tspan>
+<tspan x="10" y="6954">420.  2017-04-07 17:39:53 +0000      570 bytes  clients/sms.js</tspan>
+<tspan x="10" y="6970">421.  2017-04-07 17:39:53 +0000    47407 bytes  clients/snowball.d.ts</tspan>
+<tspan x="10" y="6986">422.  2017-04-07 17:39:53 +0000      605 bytes  clients/snowball.js</tspan>
+<tspan x="10" y="7002">423.  2017-04-07 17:39:53 +0000    60221 bytes  clients/sns.d.ts</tspan>
+<tspan x="10" y="7018">424.  2017-04-07 17:39:53 +0000      570 bytes  clients/sns.js</tspan>
+<tspan x="10" y="7034">425.  2017-04-07 17:39:53 +0000    75232 bytes  clients/sqs.d.ts</tspan>
+<tspan x="10" y="7050">426.  2017-04-07 17:39:53 +0000      602 bytes  clients/sqs.js</tspan>
+<tspan x="10" y="7066">427.  2017-04-07 17:39:53 +0000   200071 bytes  clients/ssm.d.ts</tspan>
+<tspan x="10" y="7082">428.  2017-04-07 17:39:53 +0000      570 bytes  clients/ssm.js</tspan>
+<tspan x="10" y="7098">429.  2017-04-07 17:39:53 +0000    35164 bytes  clients/stepfunctions.d.ts</tspan>
+<tspan x="10" y="7114">430.  2017-04-07 17:39:53 +0000      626 bytes  clients/stepfunctions.js</tspan>
+<tspan x="10" y="7130">431.  2017-04-07 17:39:53 +0000   138780 bytes  clients/storagegateway.d.ts</tspan>
+<tspan x="10" y="7146">432.  2017-04-07 17:39:53 +0000      647 bytes  clients/storagegateway.js</tspan>
+<tspan x="10" y="7162">433.  2017-04-07 17:39:53 +0000    74320 bytes  clients/sts.d.ts</tspan>
+<tspan x="10" y="7178">434.  2017-04-07 17:39:53 +0000      517 bytes  clients/sts.js</tspan>
+<tspan x="10" y="7194">435.  2017-04-07 17:39:53 +0000    45952 bytes  clients/support.d.ts</tspan>
+<tspan x="10" y="7210">436.  2017-04-07 17:39:53 +0000      598 bytes  clients/support.js</tspan>
+<tspan x="10" y="7226">437.  2017-04-07 17:39:53 +0000   240567 bytes  clients/swf.d.ts</tspan>
+<tspan x="10" y="7242">438.  2017-04-07 17:39:53 +0000      602 bytes  clients/swf.js</tspan>
+<tspan x="10" y="7258">439.  2017-04-07 17:39:53 +0000   141348 bytes  clients/waf.d.ts</tspan>
+<tspan x="10" y="7274">440.  2017-04-07 17:39:53 +0000      570 bytes  clients/waf.js</tspan>
+<tspan x="10" y="7290">441.  2017-04-07 17:39:53 +0000   146671 bytes  clients/wafregional.d.ts</tspan>
+<tspan x="10" y="7306">442.  2017-04-07 17:39:53 +0000      628 bytes  clients/wafregional.js</tspan>
+<tspan x="10" y="7322">443.  2017-04-07 17:39:53 +0000    43474 bytes  clients/workdocs.d.ts</tspan>
+<tspan x="10" y="7338">444.  2017-04-07 17:39:53 +0000      605 bytes  clients/workdocs.js</tspan>
+<tspan x="10" y="7354">445.  2017-04-07 17:39:53 +0000    33993 bytes  clients/workspaces.d.ts</tspan>
+<tspan x="10" y="7370">446.  2017-04-07 17:39:53 +0000      619 bytes  clients/workspaces.js</tspan>
+<tspan x="10" y="7386">447.  2017-04-07 17:39:53 +0000    21903 bytes  clients/xray.d.ts</tspan>
+<tspan x="10" y="7402">448.  2017-04-07 17:39:53 +0000      491 bytes  clients/xray.js</tspan>
+<tspan x="10" y="7418">449.  2017-04-07 17:39:53 +0000      110 bytes  codecov.yml</tspan>
+<tspan x="10" y="7434">450.  2017-04-07 17:39:53 +0000     2209 bytes  dist-tools/browser-builder.js</tspan>
+<tspan x="10" y="7450">451.  2017-04-07 17:39:53 +0000     7869 bytes  dist-tools/client-creator.js</tspan>
+<tspan x="10" y="7466">452.  2017-04-07 17:39:53 +0000      150 bytes  dist-tools/create-all-services.js</tspan>
+<tspan x="10" y="7482">453.  2017-04-07 17:39:53 +0000     5137 bytes  dist-tools/service-collector.js</tspan>
+<tspan x="10" y="7498">454.  2017-04-07 17:39:53 +0000     1146 bytes  dist-tools/transform.js</tspan>
+<tspan x="10" y="7514">455.  2017-04-07 17:39:53 +0000     4707 bytes  dist/BUNDLE_LICENSE.txt</tspan>
+<tspan x="10" y="7530">456.  2017-04-07 17:39:53 +0000  2839119 bytes  dist/aws-sdk.js</tspan>
+<tspan x="10" y="7546">457.  2017-04-07 17:39:53 +0000  1371615 bytes  dist/aws-sdk.min.js</tspan>
+<tspan x="10" y="7562">458.  2017-04-07 17:39:53 +0000      120 bytes  global.d.ts</tspan>
+<tspan x="10" y="7578">459.  2017-04-07 17:39:53 +0000       69 bytes  global.js</tspan>
+<tspan x="10" y="7594">460.  2017-04-07 17:39:53 +0000      176 bytes  index.d.ts</tspan>
+<tspan x="10" y="7610">461.  2017-04-07 17:39:53 +0000      110 bytes  index.js</tspan>
+<tspan x="10" y="7626">462.  2017-04-07 17:39:53 +0000      505 bytes  karma.conf.js</tspan>
+<tspan x="10" y="7642">463.  2017-04-07 17:39:53 +0000      450 bytes  lib/api_loader.js</tspan>
+<tspan x="10" y="7658">464.  2017-04-07 17:39:53 +0000      134 bytes  lib/aws.js</tspan>
+<tspan x="10" y="7674">465.  2017-04-07 17:39:53 +0000      385 bytes  lib/browser.js</tspan>
+<tspan x="10" y="7690">466.  2017-04-07 17:39:53 +0000      523 bytes  lib/browser_loader.js</tspan>
+<tspan x="10" y="7706">467.  2017-04-07 17:39:53 +0000     2904 bytes  lib/cloudfront/signer.d.ts</tspan>
+<tspan x="10" y="7722">468.  2017-04-07 17:39:53 +0000     7217 bytes  lib/cloudfront/signer.js</tspan>
+<tspan x="10" y="7738">469.  2017-04-07 17:39:53 +0000     9933 bytes  lib/config.d.ts</tspan>
+<tspan x="10" y="7754">470.  2017-04-07 17:39:53 +0000    22424 bytes  lib/config.js</tspan>
+<tspan x="10" y="7770">471.  2017-04-07 17:39:53 +0000     9971 bytes  lib/config_service_placeholders.d.ts</tspan>
+<tspan x="10" y="7786">472.  2017-04-07 17:39:53 +0000      532 bytes  lib/config_use_dualstack.d.ts</tspan>
+<tspan x="10" y="7802">473.  2017-04-07 17:39:53 +0000     1211 bytes  lib/core.d.ts</tspan>
+<tspan x="10" y="7818">474.  2017-04-07 17:39:53 +0000     2535 bytes  lib/core.js</tspan>
+<tspan x="10" y="7834">475.  2017-04-07 17:39:53 +0000     2511 bytes  lib/credentials.d.ts</tspan>
+<tspan x="10" y="7850">476.  2017-04-07 17:39:53 +0000     9029 bytes  lib/credentials.js</tspan>
+<tspan x="10" y="7866">477.  2017-04-07 17:39:53 +0000     2097 bytes  lib/credentials/cognito_identity_credentials.d.t\</tspan>
 <tspan x="10" y="7882">s</tspan>
-<tspan x="10" y="7898">478.  2017-04-07 17:38:05 +0000    13185 bytes  lib/credentials/cognito_identity_credentials.js</tspan>
-<tspan x="10" y="7914">479.  2017-04-07 17:38:05 +0000      927 bytes  lib/credentials/credential_provider_chain.d.ts</tspan>
-<tspan x="10" y="7930">480.  2017-04-07 17:38:05 +0000     5767 bytes  lib/credentials/credential_provider_chain.js</tspan>
-<tspan x="10" y="7946">481.  2017-04-07 17:38:05 +0000      531 bytes  lib/credentials/ec2_metadata_credentials.d.ts</tspan>
-<tspan x="10" y="7962">482.  2017-04-07 17:38:05 +0000     2610 bytes  lib/credentials/ec2_metadata_credentials.js</tspan>
-<tspan x="10" y="7978">483.  2017-04-07 17:38:05 +0000      523 bytes  lib/credentials/ecs_credentials.d.ts</tspan>
-<tspan x="10" y="7994">484.  2017-04-07 17:38:05 +0000     4843 bytes  lib/credentials/ecs_credentials.js</tspan>
-<tspan x="10" y="8010">485.  2017-04-07 17:38:05 +0000      363 bytes  lib/credentials/environment_credentials.d.ts</tspan>
-<tspan x="10" y="8026">486.  2017-04-07 17:38:05 +0000     2944 bytes  lib/credentials/environment_credentials.js</tspan>
-<tspan x="10" y="8042">487.  2017-04-07 17:38:05 +0000      403 bytes  lib/credentials/file_system_credentials.d.ts</tspan>
-<tspan x="10" y="8058">488.  2017-04-07 17:38:05 +0000     2134 bytes  lib/credentials/file_system_credentials.js</tspan>
-<tspan x="10" y="8074">489.  2017-04-07 17:38:05 +0000     1129 bytes  lib/credentials/saml_credentials.d.ts</tspan>
-<tspan x="10" y="8090">490.  2017-04-07 17:38:05 +0000     3431 bytes  lib/credentials/saml_credentials.js</tspan>
-<tspan x="10" y="8106">491.  2017-04-07 17:38:05 +0000      357 bytes  lib/credentials/shared_ini_file_credentials.d.ts</tspan>
-<tspan x="10" y="8122">492.  2017-04-07 17:38:05 +0000     6696 bytes  lib/credentials/shared_ini_file_credentials.js</tspan>
-<tspan x="10" y="8138">493.  2017-04-07 17:38:05 +0000     1654 bytes  lib/credentials/temporary_credentials.d.ts</tspan>
-<tspan x="10" y="8154">494.  2017-04-07 17:38:05 +0000     4633 bytes  lib/credentials/temporary_credentials.js</tspan>
-<tspan x="10" y="8170">495.  2017-04-07 17:38:05 +0000     1594 bytes  lib/credentials/web_identity_credentials.d.ts</tspan>
-<tspan x="10" y="8186">496.  2017-04-07 17:38:05 +0000     4300 bytes  lib/credentials/web_identity_credentials.js</tspan>
-<tspan x="10" y="8202">497.  2017-04-07 17:38:05 +0000      338 bytes  lib/dynamodb/converter.d.ts</tspan>
-<tspan x="10" y="8218">498.  2017-04-07 17:38:05 +0000     4696 bytes  lib/dynamodb/converter.js</tspan>
-<tspan x="10" y="8234">499.  2017-04-07 17:38:05 +0000   131785 bytes  lib/dynamodb/document_client.d.ts</tspan>
-<tspan x="10" y="8250">500.  2017-04-07 17:38:05 +0000    16109 bytes  lib/dynamodb/document_client.js</tspan>
-<tspan x="10" y="8266">501.  2017-04-07 17:38:05 +0000     1314 bytes  lib/dynamodb/set.js</tspan>
-<tspan x="10" y="8282">502.  2017-04-07 17:38:05 +0000     2225 bytes  lib/dynamodb/translator.js</tspan>
-<tspan x="10" y="8298">503.  2017-04-07 17:38:05 +0000     1262 bytes  lib/dynamodb/types.js</tspan>
-<tspan x="10" y="8314">504.  2017-04-07 17:38:05 +0000      575 bytes  lib/endpoint.d.ts</tspan>
-<tspan x="10" y="8330">505.  2017-04-07 17:38:05 +0000     1295 bytes  lib/error.d.ts</tspan>
-<tspan x="10" y="8346">506.  2017-04-07 17:38:05 +0000     1585 bytes  lib/event_listeners.d.ts</tspan>
-<tspan x="10" y="8362">507.  2017-04-07 17:38:05 +0000    18313 bytes  lib/event_listeners.js</tspan>
-<tspan x="10" y="8378">508.  2017-04-07 17:38:05 +0000     6732 bytes  lib/http.js</tspan>
-<tspan x="10" y="8394">509.  2017-04-07 17:38:05 +0000     6096 bytes  lib/http/node.js</tspan>
-<tspan x="10" y="8410">510.  2017-04-07 17:38:05 +0000     3868 bytes  lib/http/xhr.js</tspan>
-<tspan x="10" y="8426">511.  2017-04-07 17:38:05 +0000      804 bytes  lib/http_request.d.ts</tspan>
-<tspan x="10" y="8442">512.  2017-04-07 17:38:05 +0000      920 bytes  lib/http_response.d.ts</tspan>
-<tspan x="10" y="8458">513.  2017-04-07 17:38:05 +0000     1519 bytes  lib/json/builder.js</tspan>
-<tspan x="10" y="8474">514.  2017-04-07 17:38:05 +0000     1694 bytes  lib/json/parser.js</tspan>
-<tspan x="10" y="8490">515.  2017-04-07 17:38:05 +0000     1531 bytes  lib/metadata_service.d.ts</tspan>
-<tspan x="10" y="8506">516.  2017-04-07 17:38:05 +0000     4066 bytes  lib/metadata_service.js</tspan>
-<tspan x="10" y="8522">517.  2017-04-07 17:38:05 +0000     2371 bytes  lib/model/api.js</tspan>
-<tspan x="10" y="8538">518.  2017-04-07 17:38:05 +0000      485 bytes  lib/model/collection.js</tspan>
-<tspan x="10" y="8554">519.  2017-04-07 17:38:05 +0000     2026 bytes  lib/model/operation.js</tspan>
-<tspan x="10" y="8570">520.  2017-04-07 17:38:05 +0000      387 bytes  lib/model/paginator.js</tspan>
-<tspan x="10" y="8586">521.  2017-04-07 17:38:05 +0000      600 bytes  lib/model/resource_waiter.js</tspan>
-<tspan x="10" y="8602">522.  2017-04-07 17:38:05 +0000     9365 bytes  lib/model/shape.js</tspan>
-<tspan x="10" y="8618">523.  2017-04-07 17:38:05 +0000     2138 bytes  lib/node_loader.js</tspan>
-<tspan x="10" y="8634">524.  2017-04-07 17:38:05 +0000     9586 bytes  lib/param_validator.js</tspan>
-<tspan x="10" y="8650">525.  2017-04-07 17:38:05 +0000     1294 bytes  lib/polly/presigner.d.ts</tspan>
-<tspan x="10" y="8666">526.  2017-04-07 17:38:05 +0000     4791 bytes  lib/polly/presigner.js</tspan>
-<tspan x="10" y="8682">527.  2017-04-07 17:38:05 +0000     2108 bytes  lib/protocol/json.js</tspan>
-<tspan x="10" y="8698">528.  2017-04-07 17:38:05 +0000     2986 bytes  lib/protocol/query.js</tspan>
-<tspan x="10" y="8714">529.  2017-04-07 17:38:05 +0000     4386 bytes  lib/protocol/rest.js</tspan>
-<tspan x="10" y="8730">530.  2017-04-07 17:38:05 +0000     1847 bytes  lib/protocol/rest_json.js</tspan>
-<tspan x="10" y="8746">531.  2017-04-07 17:38:05 +0000     2519 bytes  lib/protocol/rest_xml.js</tspan>
-<tspan x="10" y="8762">532.  2017-04-07 17:38:05 +0000     2359 bytes  lib/query/query_param_serializer.js</tspan>
-<tspan x="10" y="8778">533.  2017-04-07 17:38:05 +0000     1877 bytes  lib/region_config.js</tspan>
-<tspan x="10" y="8794">534.  2017-04-07 17:38:05 +0000     1611 bytes  lib/region_config_data.json</tspan>
-<tspan x="10" y="8810">535.  2017-04-07 17:38:05 +0000     9008 bytes  lib/request.d.ts</tspan>
-<tspan x="10" y="8826">536.  2017-04-07 17:38:05 +0000    26833 bytes  lib/request.js</tspan>
-<tspan x="10" y="8842">537.  2017-04-07 17:38:05 +0000     5490 bytes  lib/resource_waiter.js</tspan>
-<tspan x="10" y="8858">538.  2017-04-07 17:38:05 +0000     1193 bytes  lib/response.d.ts</tspan>
-<tspan x="10" y="8874">539.  2017-04-07 17:38:05 +0000     6474 bytes  lib/response.js</tspan>
-<tspan x="10" y="8890">540.  2017-04-07 17:38:05 +0000     3160 bytes  lib/s3/managed_upload.d.ts</tspan>
-<tspan x="10" y="8906">541.  2017-04-07 17:38:05 +0000    21001 bytes  lib/s3/managed_upload.js</tspan>
-<tspan x="10" y="8922">542.  2017-04-07 17:38:05 +0000     1777 bytes  lib/s3/presigned_post.d.ts</tspan>
-<tspan x="10" y="8938">543.  2017-04-07 17:38:05 +0000     7145 bytes  lib/sequential_executor.js</tspan>
-<tspan x="10" y="8954">544.  2017-04-07 17:38:05 +0000     3219 bytes  lib/service.d.ts</tspan>
-<tspan x="10" y="8970">545.  2017-04-07 17:38:05 +0000    16978 bytes  lib/service.js</tspan>
-<tspan x="10" y="8986">546.  2017-04-07 17:38:05 +0000      869 bytes  lib/services/apigateway.js</tspan>
-<tspan x="10" y="9002">547.  2017-04-07 17:38:05 +0000      172 bytes  lib/services/cloudfront.d.ts</tspan>
-<tspan x="10" y="9018">548.  2017-04-07 17:38:05 +0000      284 bytes  lib/services/cloudfront.js</tspan>
-<tspan x="10" y="9034">549.  2017-04-07 17:38:05 +0000     3602 bytes  lib/services/cloudsearchdomain.js</tspan>
-<tspan x="10" y="9050">550.  2017-04-07 17:38:05 +0000      532 bytes  lib/services/cognitoidentity.js</tspan>
-<tspan x="10" y="9066">551.  2017-04-07 17:38:05 +0000      529 bytes  lib/services/dynamodb.d.ts</tspan>
-<tspan x="10" y="9082">552.  2017-04-07 17:38:05 +0000     1625 bytes  lib/services/dynamodb.js</tspan>
-<tspan x="10" y="9098">553.  2017-04-07 17:38:05 +0000     1797 bytes  lib/services/ec2.js</tspan>
-<tspan x="10" y="9114">554.  2017-04-07 17:38:05 +0000      530 bytes  lib/services/glacier.d.ts</tspan>
-<tspan x="10" y="9130">555.  2017-04-07 17:38:05 +0000     3558 bytes  lib/services/glacier.js</tspan>
-<tspan x="10" y="9146">556.  2017-04-07 17:38:05 +0000     2601 bytes  lib/services/iotdata.js</tspan>
-<tspan x="10" y="9162">557.  2017-04-07 17:38:05 +0000      556 bytes  lib/services/machinelearning.js</tspan>
-<tspan x="10" y="9178">558.  2017-04-07 17:38:05 +0000      174 bytes  lib/services/polly.d.ts</tspan>
-<tspan x="10" y="9194">559.  2017-04-07 17:38:05 +0000       30 bytes  lib/services/polly.js</tspan>
-<tspan x="10" y="9210">560.  2017-04-07 17:38:05 +0000     2209 bytes  lib/services/rds.js</tspan>
-<tspan x="10" y="9226">561.  2017-04-07 17:38:05 +0000      774 bytes  lib/services/route53.js</tspan>
-<tspan x="10" y="9242">562.  2017-04-07 17:38:05 +0000     1905 bytes  lib/services/s3.d.ts</tspan>
-<tspan x="10" y="9258">563.  2017-04-07 17:38:05 +0000    36155 bytes  lib/services/s3.js</tspan>
-<tspan x="10" y="9274">564.  2017-04-07 17:38:05 +0000     3835 bytes  lib/services/sqs.js</tspan>
-<tspan x="10" y="9290">565.  2017-04-07 17:38:05 +0000     2173 bytes  lib/services/sts.js</tspan>
-<tspan x="10" y="9306">566.  2017-04-07 17:38:05 +0000      216 bytes  lib/services/swf.js</tspan>
-<tspan x="10" y="9322">567.  2017-04-07 17:38:05 +0000     3485 bytes  lib/signers/presign.js</tspan>
-<tspan x="10" y="9338">568.  2017-04-07 17:38:05 +0000      866 bytes  lib/signers/request_signer.js</tspan>
-<tspan x="10" y="9354">569.  2017-04-07 17:38:05 +0000     4498 bytes  lib/signers/s3.js</tspan>
-<tspan x="10" y="9370">570.  2017-04-07 17:38:05 +0000     1292 bytes  lib/signers/v2.js</tspan>
-<tspan x="10" y="9386">571.  2017-04-07 17:38:05 +0000     2077 bytes  lib/signers/v3.js</tspan>
-<tspan x="10" y="9402">572.  2017-04-07 17:38:05 +0000      517 bytes  lib/signers/v3https.js</tspan>
-<tspan x="10" y="9418">573.  2017-04-07 17:38:05 +0000     6341 bytes  lib/signers/v4.js</tspan>
-<tspan x="10" y="9434">574.  2017-04-07 17:38:05 +0000     2081 bytes  lib/signers/v4_credentials.js</tspan>
-<tspan x="10" y="9450">575.  2017-04-07 17:38:05 +0000     1381 bytes  lib/state_machine.js</tspan>
-<tspan x="10" y="9466">576.  2017-04-07 17:38:05 +0000    27883 bytes  lib/util.js</tspan>
-<tspan x="10" y="9482">577.  2017-04-07 17:38:05 +0000     5376 bytes  lib/xml/browser_parser.js</tspan>
-<tspan x="10" y="9498">578.  2017-04-07 17:38:05 +0000     2573 bytes  lib/xml/builder.js</tspan>
-<tspan x="10" y="9514">579.  2017-04-07 17:38:05 +0000     4387 bytes  lib/xml/node_parser.js</tspan>
-<tspan x="10" y="9530">580.  2017-04-07 17:38:05 +0000     4893 bytes  package.json</tspan>
-<tspan x="10" y="9546">581.  2017-04-07 17:38:05 +0000     4719 bytes  scripts/changelog/README.md</tspan>
-<tspan x="10" y="9562">582.  2017-04-07 17:38:05 +0000     8170 bytes  scripts/changelog/add-change.js</tspan>
-<tspan x="10" y="9578">583.  2017-04-07 17:38:05 +0000     6035 bytes  scripts/changelog/change-creator.js</tspan>
-<tspan x="10" y="9594">584.  2017-04-07 17:38:05 +0000      199 bytes  scripts/changelog/create-changelog</tspan>
-<tspan x="10" y="9610">585.  2017-04-07 17:38:05 +0000      705 bytes  scripts/changelog/release</tspan>
-<tspan x="10" y="9626">586.  2017-04-07 17:38:05 +0000     5829 bytes  scripts/changelog/util.js</tspan>
-<tspan x="10" y="9642">587.  2017-04-07 17:38:05 +0000     3648 bytes  scripts/console</tspan>
-<tspan x="10" y="9658">588.  2017-04-07 17:38:05 +0000     4721 bytes  scripts/lib/translator.js</tspan>
-<tspan x="10" y="9674">589.  2017-04-07 17:38:05 +0000     1071 bytes  scripts/lib/ts-customizations.json</tspan>
-<tspan x="10" y="9690">590.  2017-04-07 17:38:05 +0000    23836 bytes  scripts/lib/ts-generator.js</tspan>
-<tspan x="10" y="9706">591.  2017-04-07 17:38:05 +0000     1394 bytes  scripts/services-table-generator.js</tspan>
-<tspan x="10" y="9722">592.  2017-04-07 17:38:05 +0000     1414 bytes  scripts/services-table-generator.ts</tspan>
-<tspan x="10" y="9738">593.  2017-04-07 17:38:05 +0000      647 bytes  scripts/translate-api</tspan>
-<tspan x="10" y="9754">594.  2017-04-07 17:38:05 +0000      397 bytes  scripts/typings-generator.js</tspan>
-<tspan x="10" y="9770">595.  2017-04-07 17:38:05 +0000       46 bytes  testem.json</tspan>
+<tspan x="10" y="7898">478.  2017-04-07 17:39:53 +0000    13185 bytes  lib/credentials/cognito_identity_credentials.js</tspan>
+<tspan x="10" y="7914">479.  2017-04-07 17:39:53 +0000      927 bytes  lib/credentials/credential_provider_chain.d.ts</tspan>
+<tspan x="10" y="7930">480.  2017-04-07 17:39:53 +0000     5767 bytes  lib/credentials/credential_provider_chain.js</tspan>
+<tspan x="10" y="7946">481.  2017-04-07 17:39:53 +0000      531 bytes  lib/credentials/ec2_metadata_credentials.d.ts</tspan>
+<tspan x="10" y="7962">482.  2017-04-07 17:39:53 +0000     2610 bytes  lib/credentials/ec2_metadata_credentials.js</tspan>
+<tspan x="10" y="7978">483.  2017-04-07 17:39:53 +0000      523 bytes  lib/credentials/ecs_credentials.d.ts</tspan>
+<tspan x="10" y="7994">484.  2017-04-07 17:39:53 +0000     4843 bytes  lib/credentials/ecs_credentials.js</tspan>
+<tspan x="10" y="8010">485.  2017-04-07 17:39:53 +0000      363 bytes  lib/credentials/environment_credentials.d.ts</tspan>
+<tspan x="10" y="8026">486.  2017-04-07 17:39:53 +0000     2944 bytes  lib/credentials/environment_credentials.js</tspan>
+<tspan x="10" y="8042">487.  2017-04-07 17:39:53 +0000      403 bytes  lib/credentials/file_system_credentials.d.ts</tspan>
+<tspan x="10" y="8058">488.  2017-04-07 17:39:53 +0000     2134 bytes  lib/credentials/file_system_credentials.js</tspan>
+<tspan x="10" y="8074">489.  2017-04-07 17:39:53 +0000     1129 bytes  lib/credentials/saml_credentials.d.ts</tspan>
+<tspan x="10" y="8090">490.  2017-04-07 17:39:53 +0000     3431 bytes  lib/credentials/saml_credentials.js</tspan>
+<tspan x="10" y="8106">491.  2017-04-07 17:39:53 +0000      357 bytes  lib/credentials/shared_ini_file_credentials.d.ts</tspan>
+<tspan x="10" y="8122">492.  2017-04-07 17:39:53 +0000     6696 bytes  lib/credentials/shared_ini_file_credentials.js</tspan>
+<tspan x="10" y="8138">493.  2017-04-07 17:39:53 +0000     1654 bytes  lib/credentials/temporary_credentials.d.ts</tspan>
+<tspan x="10" y="8154">494.  2017-04-07 17:39:53 +0000     4633 bytes  lib/credentials/temporary_credentials.js</tspan>
+<tspan x="10" y="8170">495.  2017-04-07 17:39:53 +0000     1594 bytes  lib/credentials/web_identity_credentials.d.ts</tspan>
+<tspan x="10" y="8186">496.  2017-04-07 17:39:53 +0000     4300 bytes  lib/credentials/web_identity_credentials.js</tspan>
+<tspan x="10" y="8202">497.  2017-04-07 17:39:53 +0000      338 bytes  lib/dynamodb/converter.d.ts</tspan>
+<tspan x="10" y="8218">498.  2017-04-07 17:39:53 +0000     4696 bytes  lib/dynamodb/converter.js</tspan>
+<tspan x="10" y="8234">499.  2017-04-07 17:39:53 +0000   131785 bytes  lib/dynamodb/document_client.d.ts</tspan>
+<tspan x="10" y="8250">500.  2017-04-07 17:39:53 +0000    16109 bytes  lib/dynamodb/document_client.js</tspan>
+<tspan x="10" y="8266">501.  2017-04-07 17:39:53 +0000     1314 bytes  lib/dynamodb/set.js</tspan>
+<tspan x="10" y="8282">502.  2017-04-07 17:39:53 +0000     2225 bytes  lib/dynamodb/translator.js</tspan>
+<tspan x="10" y="8298">503.  2017-04-07 17:39:53 +0000     1262 bytes  lib/dynamodb/types.js</tspan>
+<tspan x="10" y="8314">504.  2017-04-07 17:39:53 +0000      575 bytes  lib/endpoint.d.ts</tspan>
+<tspan x="10" y="8330">505.  2017-04-07 17:39:53 +0000     1295 bytes  lib/error.d.ts</tspan>
+<tspan x="10" y="8346">506.  2017-04-07 17:39:53 +0000     1585 bytes  lib/event_listeners.d.ts</tspan>
+<tspan x="10" y="8362">507.  2017-04-07 17:39:53 +0000    18313 bytes  lib/event_listeners.js</tspan>
+<tspan x="10" y="8378">508.  2017-04-07 17:39:53 +0000     6732 bytes  lib/http.js</tspan>
+<tspan x="10" y="8394">509.  2017-04-07 17:39:53 +0000     6096 bytes  lib/http/node.js</tspan>
+<tspan x="10" y="8410">510.  2017-04-07 17:39:53 +0000     3868 bytes  lib/http/xhr.js</tspan>
+<tspan x="10" y="8426">511.  2017-04-07 17:39:53 +0000      804 bytes  lib/http_request.d.ts</tspan>
+<tspan x="10" y="8442">512.  2017-04-07 17:39:53 +0000      920 bytes  lib/http_response.d.ts</tspan>
+<tspan x="10" y="8458">513.  2017-04-07 17:39:53 +0000     1519 bytes  lib/json/builder.js</tspan>
+<tspan x="10" y="8474">514.  2017-04-07 17:39:53 +0000     1694 bytes  lib/json/parser.js</tspan>
+<tspan x="10" y="8490">515.  2017-04-07 17:39:53 +0000     1531 bytes  lib/metadata_service.d.ts</tspan>
+<tspan x="10" y="8506">516.  2017-04-07 17:39:53 +0000     4066 bytes  lib/metadata_service.js</tspan>
+<tspan x="10" y="8522">517.  2017-04-07 17:39:53 +0000     2371 bytes  lib/model/api.js</tspan>
+<tspan x="10" y="8538">518.  2017-04-07 17:39:53 +0000      485 bytes  lib/model/collection.js</tspan>
+<tspan x="10" y="8554">519.  2017-04-07 17:39:53 +0000     2026 bytes  lib/model/operation.js</tspan>
+<tspan x="10" y="8570">520.  2017-04-07 17:39:53 +0000      387 bytes  lib/model/paginator.js</tspan>
+<tspan x="10" y="8586">521.  2017-04-07 17:39:53 +0000      600 bytes  lib/model/resource_waiter.js</tspan>
+<tspan x="10" y="8602">522.  2017-04-07 17:39:53 +0000     9365 bytes  lib/model/shape.js</tspan>
+<tspan x="10" y="8618">523.  2017-04-07 17:39:53 +0000     2138 bytes  lib/node_loader.js</tspan>
+<tspan x="10" y="8634">524.  2017-04-07 17:39:53 +0000     9586 bytes  lib/param_validator.js</tspan>
+<tspan x="10" y="8650">525.  2017-04-07 17:39:53 +0000     1294 bytes  lib/polly/presigner.d.ts</tspan>
+<tspan x="10" y="8666">526.  2017-04-07 17:39:53 +0000     4791 bytes  lib/polly/presigner.js</tspan>
+<tspan x="10" y="8682">527.  2017-04-07 17:39:53 +0000     2108 bytes  lib/protocol/json.js</tspan>
+<tspan x="10" y="8698">528.  2017-04-07 17:39:53 +0000     2986 bytes  lib/protocol/query.js</tspan>
+<tspan x="10" y="8714">529.  2017-04-07 17:39:53 +0000     4386 bytes  lib/protocol/rest.js</tspan>
+<tspan x="10" y="8730">530.  2017-04-07 17:39:53 +0000     1847 bytes  lib/protocol/rest_json.js</tspan>
+<tspan x="10" y="8746">531.  2017-04-07 17:39:53 +0000     2519 bytes  lib/protocol/rest_xml.js</tspan>
+<tspan x="10" y="8762">532.  2017-04-07 17:39:53 +0000     2359 bytes  lib/query/query_param_serializer.js</tspan>
+<tspan x="10" y="8778">533.  2017-04-07 17:39:53 +0000     1877 bytes  lib/region_config.js</tspan>
+<tspan x="10" y="8794">534.  2017-04-07 17:39:53 +0000     1611 bytes  lib/region_config_data.json</tspan>
+<tspan x="10" y="8810">535.  2017-04-07 17:39:53 +0000     9008 bytes  lib/request.d.ts</tspan>
+<tspan x="10" y="8826">536.  2017-04-07 17:39:53 +0000    26833 bytes  lib/request.js</tspan>
+<tspan x="10" y="8842">537.  2017-04-07 17:39:53 +0000     5490 bytes  lib/resource_waiter.js</tspan>
+<tspan x="10" y="8858">538.  2017-04-07 17:39:53 +0000     1193 bytes  lib/response.d.ts</tspan>
+<tspan x="10" y="8874">539.  2017-04-07 17:39:53 +0000     6474 bytes  lib/response.js</tspan>
+<tspan x="10" y="8890">540.  2017-04-07 17:39:53 +0000     3160 bytes  lib/s3/managed_upload.d.ts</tspan>
+<tspan x="10" y="8906">541.  2017-04-07 17:39:53 +0000    21001 bytes  lib/s3/managed_upload.js</tspan>
+<tspan x="10" y="8922">542.  2017-04-07 17:39:53 +0000     1777 bytes  lib/s3/presigned_post.d.ts</tspan>
+<tspan x="10" y="8938">543.  2017-04-07 17:39:53 +0000     7145 bytes  lib/sequential_executor.js</tspan>
+<tspan x="10" y="8954">544.  2017-04-07 17:39:53 +0000     3219 bytes  lib/service.d.ts</tspan>
+<tspan x="10" y="8970">545.  2017-04-07 17:39:53 +0000    16978 bytes  lib/service.js</tspan>
+<tspan x="10" y="8986">546.  2017-04-07 17:39:53 +0000      869 bytes  lib/services/apigateway.js</tspan>
+<tspan x="10" y="9002">547.  2017-04-07 17:39:53 +0000      172 bytes  lib/services/cloudfront.d.ts</tspan>
+<tspan x="10" y="9018">548.  2017-04-07 17:39:53 +0000      284 bytes  lib/services/cloudfront.js</tspan>
+<tspan x="10" y="9034">549.  2017-04-07 17:39:53 +0000     3602 bytes  lib/services/cloudsearchdomain.js</tspan>
+<tspan x="10" y="9050">550.  2017-04-07 17:39:53 +0000      532 bytes  lib/services/cognitoidentity.js</tspan>
+<tspan x="10" y="9066">551.  2017-04-07 17:39:53 +0000      529 bytes  lib/services/dynamodb.d.ts</tspan>
+<tspan x="10" y="9082">552.  2017-04-07 17:39:53 +0000     1625 bytes  lib/services/dynamodb.js</tspan>
+<tspan x="10" y="9098">553.  2017-04-07 17:39:53 +0000     1797 bytes  lib/services/ec2.js</tspan>
+<tspan x="10" y="9114">554.  2017-04-07 17:39:53 +0000      530 bytes  lib/services/glacier.d.ts</tspan>
+<tspan x="10" y="9130">555.  2017-04-07 17:39:53 +0000     3558 bytes  lib/services/glacier.js</tspan>
+<tspan x="10" y="9146">556.  2017-04-07 17:39:53 +0000     2601 bytes  lib/services/iotdata.js</tspan>
+<tspan x="10" y="9162">557.  2017-04-07 17:39:53 +0000      556 bytes  lib/services/machinelearning.js</tspan>
+<tspan x="10" y="9178">558.  2017-04-07 17:39:53 +0000      174 bytes  lib/services/polly.d.ts</tspan>
+<tspan x="10" y="9194">559.  2017-04-07 17:39:53 +0000       30 bytes  lib/services/polly.js</tspan>
+<tspan x="10" y="9210">560.  2017-04-07 17:39:53 +0000     2209 bytes  lib/services/rds.js</tspan>
+<tspan x="10" y="9226">561.  2017-04-07 17:39:53 +0000      774 bytes  lib/services/route53.js</tspan>
+<tspan x="10" y="9242">562.  2017-04-07 17:39:53 +0000     1905 bytes  lib/services/s3.d.ts</tspan>
+<tspan x="10" y="9258">563.  2017-04-07 17:39:53 +0000    36155 bytes  lib/services/s3.js</tspan>
+<tspan x="10" y="9274">564.  2017-04-07 17:39:53 +0000     3835 bytes  lib/services/sqs.js</tspan>
+<tspan x="10" y="9290">565.  2017-04-07 17:39:53 +0000     2173 bytes  lib/services/sts.js</tspan>
+<tspan x="10" y="9306">566.  2017-04-07 17:39:53 +0000      216 bytes  lib/services/swf.js</tspan>
+<tspan x="10" y="9322">567.  2017-04-07 17:39:53 +0000     3485 bytes  lib/signers/presign.js</tspan>
+<tspan x="10" y="9338">568.  2017-04-07 17:39:53 +0000      866 bytes  lib/signers/request_signer.js</tspan>
+<tspan x="10" y="9354">569.  2017-04-07 17:39:53 +0000     4498 bytes  lib/signers/s3.js</tspan>
+<tspan x="10" y="9370">570.  2017-04-07 17:39:53 +0000     1292 bytes  lib/signers/v2.js</tspan>
+<tspan x="10" y="9386">571.  2017-04-07 17:39:53 +0000     2077 bytes  lib/signers/v3.js</tspan>
+<tspan x="10" y="9402">572.  2017-04-07 17:39:53 +0000      517 bytes  lib/signers/v3https.js</tspan>
+<tspan x="10" y="9418">573.  2017-04-07 17:39:53 +0000     6341 bytes  lib/signers/v4.js</tspan>
+<tspan x="10" y="9434">574.  2017-04-07 17:39:53 +0000     2081 bytes  lib/signers/v4_credentials.js</tspan>
+<tspan x="10" y="9450">575.  2017-04-07 17:39:53 +0000     1381 bytes  lib/state_machine.js</tspan>
+<tspan x="10" y="9466">576.  2017-04-07 17:39:53 +0000    27883 bytes  lib/util.js</tspan>
+<tspan x="10" y="9482">577.  2017-04-07 17:39:53 +0000     5376 bytes  lib/xml/browser_parser.js</tspan>
+<tspan x="10" y="9498">578.  2017-04-07 17:39:53 +0000     2573 bytes  lib/xml/builder.js</tspan>
+<tspan x="10" y="9514">579.  2017-04-07 17:39:53 +0000     4387 bytes  lib/xml/node_parser.js</tspan>
+<tspan x="10" y="9530">580.  2017-04-07 17:39:53 +0000     4893 bytes  package.json</tspan>
+<tspan x="10" y="9546">581.  2017-04-07 17:39:53 +0000     4719 bytes  scripts/changelog/README.md</tspan>
+<tspan x="10" y="9562">582.  2017-04-07 17:39:53 +0000     8170 bytes  scripts/changelog/add-change.js</tspan>
+<tspan x="10" y="9578">583.  2017-04-07 17:39:53 +0000     6035 bytes  scripts/changelog/change-creator.js</tspan>
+<tspan x="10" y="9594">584.  2017-04-07 17:39:53 +0000      199 bytes  scripts/changelog/create-changelog</tspan>
+<tspan x="10" y="9610">585.  2017-04-07 17:39:53 +0000      705 bytes  scripts/changelog/release</tspan>
+<tspan x="10" y="9626">586.  2017-04-07 17:39:53 +0000     5829 bytes  scripts/changelog/util.js</tspan>
+<tspan x="10" y="9642">587.  2017-04-07 17:39:53 +0000     3648 bytes  scripts/console</tspan>
+<tspan x="10" y="9658">588.  2017-04-07 17:39:53 +0000     4721 bytes  scripts/lib/translator.js</tspan>
+<tspan x="10" y="9674">589.  2017-04-07 17:39:53 +0000     1071 bytes  scripts/lib/ts-customizations.json</tspan>
+<tspan x="10" y="9690">590.  2017-04-07 17:39:53 +0000    23836 bytes  scripts/lib/ts-generator.js</tspan>
+<tspan x="10" y="9706">591.  2017-04-07 17:39:53 +0000     1394 bytes  scripts/services-table-generator.js</tspan>
+<tspan x="10" y="9722">592.  2017-04-07 17:39:53 +0000     1414 bytes  scripts/services-table-generator.ts</tspan>
+<tspan x="10" y="9738">593.  2017-04-07 17:39:53 +0000      647 bytes  scripts/translate-api</tspan>
+<tspan x="10" y="9754">594.  2017-04-07 17:39:53 +0000      397 bytes  scripts/typings-generator.js</tspan>
+<tspan x="10" y="9770">595.  2017-04-07 17:39:53 +0000       46 bytes  testem.json</tspan>
 </text>
 </svg>
