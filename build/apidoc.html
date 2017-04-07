@@ -51,7 +51,7 @@
 
         href="https://github.com/aws/aws-sdk-js"
 
-    >aws-sdk (v2.32.0)</a>
+    >aws-sdk (v2.39.0)</a>
 </h1>
 <h4>AWS SDK for JavaScript</h4>
 <div class="apidocSectionDiv"><a
@@ -918,6 +918,15 @@
 
         <li>
 
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.ResourceGroupsTaggingAPI">
+            function <span class="apidocSignatureSpan">aws-sdk.</span>ResourceGroupsTaggingAPI
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
             <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.ResourceWaiter">
             function <span class="apidocSignatureSpan">aws-sdk.</span>ResourceWaiter
             <span class="apidocSignatureSpan">(service, state)</span>
@@ -1145,7 +1154,7 @@
 
             <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.Signers.V4">
             function <span class="apidocSignatureSpan">aws-sdk.</span>Signers.V4
-            <span class="apidocSignatureSpan">(request, serviceName, signatureCache)</span>
+            <span class="apidocSignatureSpan">(request, serviceName, options)</span>
             </a>
 
         </li>
@@ -1914,6 +1923,12 @@
 
         <li>
 
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">aws-sdk.</span>ResourceGroupsTaggingAPI.prototype</span>
+
+        </li>
+
+        <li>
+
             <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">aws-sdk.</span>ResourceWaiter.prototype</span>
 
         </li>
@@ -2173,6 +2188,18 @@
         <li>
 
             <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">aws-sdk.</span>XRay.prototype</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">aws-sdk.</span>all</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">aws-sdk.</span>browser_default</span>
 
         </li>
 
@@ -8656,6 +8683,59 @@
 
     </ol></li>
 
+    <li class="apidocModuleLi"><a href="#apidoc.module.aws-sdk.ResourceGroupsTaggingAPI">module aws-sdk.ResourceGroupsTaggingAPI</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.ResourceGroupsTaggingAPI.ResourceGroupsTaggingAPI">
+            function <span class="apidocSignatureSpan">aws-sdk.</span>ResourceGroupsTaggingAPI
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.ResourceGroupsTaggingAPI.__super__">
+            function <span class="apidocSignatureSpan">aws-sdk.ResourceGroupsTaggingAPI.</span>__super__
+            <span class="apidocSignatureSpan">(config)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">aws-sdk.ResourceGroupsTaggingAPI.</span>apiVersions</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">aws-sdk.ResourceGroupsTaggingAPI.</span>services</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">aws-sdk.ResourceGroupsTaggingAPI.</span>serviceIdentifier</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.aws-sdk.ResourceGroupsTaggingAPI.prototype">module aws-sdk.ResourceGroupsTaggingAPI.prototype</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.ResourceGroupsTaggingAPI.prototype.constructor">
+            function <span class="apidocSignatureSpan">aws-sdk.ResourceGroupsTaggingAPI.prototype.</span>constructor
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
     <li class="apidocModuleLi"><a href="#apidoc.module.aws-sdk.ResourceWaiter">module aws-sdk.ResourceWaiter</a><ol>
 
         <li>
@@ -10672,7 +10752,7 @@
 
             <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.Service.prototype.getSignerClass">
             function <span class="apidocSignatureSpan">aws-sdk.Service.prototype.</span>getSignerClass
-            <span class="apidocSignatureSpan">()</span>
+            <span class="apidocSignatureSpan">(request)</span>
             </a>
 
         </li>
@@ -11063,7 +11143,7 @@
 
             <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.Signers.V4">
             function <span class="apidocSignatureSpan">aws-sdk.Signers.</span>V4
-            <span class="apidocSignatureSpan">(request, serviceName, signatureCache)</span>
+            <span class="apidocSignatureSpan">(request, serviceName, options)</span>
             </a>
 
         </li>
@@ -11487,7 +11567,7 @@
 
             <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.Signers.V4.V4">
             function <span class="apidocSignatureSpan">aws-sdk.Signers.</span>V4
-            <span class="apidocSignatureSpan">(request, serviceName, signatureCache)</span>
+            <span class="apidocSignatureSpan">(request, serviceName, options)</span>
             </a>
 
         </li>
@@ -11563,7 +11643,7 @@
 
             <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.Signers.V4.prototype.constructor">
             function <span class="apidocSignatureSpan">aws-sdk.Signers.V4.prototype.</span>constructor
-            <span class="apidocSignatureSpan">(request, serviceName, signatureCache)</span>
+            <span class="apidocSignatureSpan">(request, serviceName, options)</span>
             </a>
 
         </li>
@@ -12375,6 +12455,1436 @@
 
             <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.XRay.prototype.constructor">
             function <span class="apidocSignatureSpan">aws-sdk.XRay.prototype.</span>constructor
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.aws-sdk.all">module aws-sdk.all</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.ACM">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>ACM
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.APIGateway">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>APIGateway
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.AppStream">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>AppStream
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.ApplicationAutoScaling">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>ApplicationAutoScaling
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.AutoScaling">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>AutoScaling
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.Batch">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>Batch
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.Budgets">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>Budgets
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.CUR">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>CUR
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.CloudDirectory">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>CloudDirectory
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.CloudFormation">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>CloudFormation
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.CloudFront">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>CloudFront
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.CloudHSM">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>CloudHSM
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.CloudSearch">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>CloudSearch
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.CloudSearchDomain">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>CloudSearchDomain
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.CloudTrail">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>CloudTrail
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.CloudWatch">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>CloudWatch
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.CloudWatchEvents">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>CloudWatchEvents
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.CloudWatchLogs">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>CloudWatchLogs
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.CodeBuild">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>CodeBuild
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.CodeCommit">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>CodeCommit
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.CodeDeploy">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>CodeDeploy
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.CodePipeline">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>CodePipeline
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.CognitoIdentity">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>CognitoIdentity
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.CognitoIdentityServiceProvider">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>CognitoIdentityServiceProvider
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.CognitoSync">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>CognitoSync
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.ConfigService">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>ConfigService
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.DMS">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>DMS
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.DataPipeline">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>DataPipeline
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.DeviceFarm">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>DeviceFarm
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.DirectConnect">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>DirectConnect
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.DirectoryService">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>DirectoryService
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.Discovery">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>Discovery
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.DynamoDB">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>DynamoDB
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.DynamoDBStreams">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>DynamoDBStreams
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.EC2">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>EC2
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.ECR">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>ECR
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.ECS">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>ECS
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.EFS">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>EFS
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.ELB">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>ELB
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.ELBv2">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>ELBv2
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.EMR">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>EMR
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.ES">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>ES
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.ElastiCache">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>ElastiCache
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.ElasticBeanstalk">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>ElasticBeanstalk
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.ElasticTranscoder">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>ElasticTranscoder
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.Firehose">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>Firehose
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.GameLift">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>GameLift
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.Glacier">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>Glacier
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.Health">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>Health
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.IAM">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>IAM
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.ImportExport">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>ImportExport
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.Inspector">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>Inspector
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.Iot">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>Iot
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.IotData">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>IotData
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.KMS">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>KMS
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.Kinesis">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>Kinesis
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.KinesisAnalytics">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>KinesisAnalytics
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.Lambda">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>Lambda
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.LexRuntime">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>LexRuntime
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.Lightsail">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>Lightsail
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.MTurk">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>MTurk
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.MachineLearning">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>MachineLearning
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.MarketplaceCommerceAnalytics">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>MarketplaceCommerceAnalytics
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.MarketplaceMetering">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>MarketplaceMetering
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.MobileAnalytics">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>MobileAnalytics
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.OpsWorks">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>OpsWorks
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.OpsWorksCM">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>OpsWorksCM
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.Organizations">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>Organizations
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.Pinpoint">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>Pinpoint
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.Polly">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>Polly
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.RDS">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>RDS
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.Redshift">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>Redshift
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.Rekognition">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>Rekognition
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.ResourceGroupsTaggingAPI">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>ResourceGroupsTaggingAPI
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.Route53">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>Route53
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.Route53Domains">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>Route53Domains
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.S3">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>S3
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.SES">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>SES
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.SMS">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>SMS
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.SNS">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>SNS
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.SQS">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>SQS
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.SSM">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>SSM
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.STS">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>STS
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.SWF">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>SWF
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.ServiceCatalog">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>ServiceCatalog
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.Shield">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>Shield
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.SimpleDB">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>SimpleDB
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.Snowball">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>Snowball
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.StepFunctions">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>StepFunctions
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.StorageGateway">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>StorageGateway
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.Support">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>Support
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.WAF">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>WAF
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.WAFRegional">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>WAFRegional
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.WorkDocs">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>WorkDocs
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.WorkSpaces">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>WorkSpaces
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.all.XRay">
+            function <span class="apidocSignatureSpan">aws-sdk.all.</span>XRay
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.aws-sdk.browser_default">module aws-sdk.browser_default</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.browser_default.ACM">
+            function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>ACM
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.browser_default.APIGateway">
+            function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>APIGateway
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.browser_default.ApplicationAutoScaling">
+            function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>ApplicationAutoScaling
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.browser_default.AutoScaling">
+            function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>AutoScaling
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.browser_default.CUR">
+            function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>CUR
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.browser_default.CloudFormation">
+            function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>CloudFormation
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.browser_default.CloudFront">
+            function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>CloudFront
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.browser_default.CloudHSM">
+            function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>CloudHSM
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.browser_default.CloudTrail">
+            function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>CloudTrail
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.browser_default.CloudWatch">
+            function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>CloudWatch
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.browser_default.CloudWatchEvents">
+            function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>CloudWatchEvents
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.browser_default.CloudWatchLogs">
+            function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>CloudWatchLogs
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.browser_default.CodeCommit">
+            function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>CodeCommit
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.browser_default.CodeDeploy">
+            function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>CodeDeploy
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.browser_default.CodePipeline">
+            function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>CodePipeline
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.browser_default.CognitoIdentity">
+            function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>CognitoIdentity
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.browser_default.CognitoIdentityServiceProvider">
+            function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>CognitoIdentityServiceProvider
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.browser_default.CognitoSync">
+            function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>CognitoSync
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.browser_default.ConfigService">
+            function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>ConfigService
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.browser_default.DeviceFarm">
+            function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>DeviceFarm
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.browser_default.DirectConnect">
+            function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>DirectConnect
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.browser_default.DynamoDB">
+            function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>DynamoDB
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.browser_default.DynamoDBStreams">
+            function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>DynamoDBStreams
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.browser_default.EC2">
+            function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>EC2
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.browser_default.ECR">
+            function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>ECR
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.browser_default.ECS">
+            function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>ECS
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.browser_default.ELB">
+            function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>ELB
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.browser_default.ELBv2">
+            function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>ELBv2
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.browser_default.EMR">
+            function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>EMR
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.browser_default.ElastiCache">
+            function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>ElastiCache
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.browser_default.ElasticBeanstalk">
+            function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>ElasticBeanstalk
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.browser_default.ElasticTranscoder">
+            function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>ElasticTranscoder
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.browser_default.Firehose">
+            function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>Firehose
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.browser_default.GameLift">
+            function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>GameLift
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.browser_default.Inspector">
+            function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>Inspector
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.browser_default.Iot">
+            function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>Iot
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.browser_default.IotData">
+            function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>IotData
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.browser_default.KMS">
+            function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>KMS
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.browser_default.Kinesis">
+            function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>Kinesis
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.browser_default.Lambda">
+            function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>Lambda
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.browser_default.LexRuntime">
+            function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>LexRuntime
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.browser_default.MTurk">
+            function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>MTurk
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.browser_default.MachineLearning">
+            function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>MachineLearning
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.browser_default.MarketplaceCommerceAnalytics">
+            function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>MarketplaceCommerceAnalytics
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.browser_default.MobileAnalytics">
+            function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>MobileAnalytics
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.browser_default.OpsWorks">
+            function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>OpsWorks
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.browser_default.Polly">
+            function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>Polly
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.browser_default.RDS">
+            function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>RDS
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.browser_default.Redshift">
+            function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>Redshift
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.browser_default.Rekognition">
+            function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>Rekognition
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.browser_default.Route53">
+            function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>Route53
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.browser_default.Route53Domains">
+            function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>Route53Domains
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.browser_default.S3">
+            function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>S3
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.browser_default.SES">
+            function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>SES
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.browser_default.SNS">
+            function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>SNS
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.browser_default.SQS">
+            function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>SQS
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.browser_default.SSM">
+            function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>SSM
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.browser_default.STS">
+            function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>STS
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.browser_default.ServiceCatalog">
+            function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>ServiceCatalog
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.browser_default.StorageGateway">
+            function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>StorageGateway
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.browser_default.WAF">
+            function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>WAF
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.aws-sdk.browser_default.WorkDocs">
+            function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>WorkDocs
             <span class="apidocSignatureSpan">()</span>
             </a>
 
@@ -15534,9 +17044,9 @@ add(&#x27;VALIDATE_PARAMETERS&#x27;, &#x27;validate&#x27;, function VALIDATE_PAR
 
 addAsync(&#x27;COMPUTE_SHA256&#x27;, &#x27;afterBuild&#x27;, function COMPUTE_SHA256(req, done) {
   req.haltHandlersOnError();
-  if (!req.service.api.signatureVersion) return done(); // none
-  if (req.service.getSignerClass(req) === AWS.Signers.V4) {
-    var body = req.httpRequest.body || &#x27;&#x27;;
+  var operation = req.service.api.operations[req.operation];
+  var authtype = operation ? operation.authtype : &#x27;&#x27;;
+  if (!req.service.api.signatureVersion &#x26;&#x26; !authtype) return done(); // none
 ...</pre></li>
     </ul>
 
@@ -15682,6 +17192,23 @@ addAsync(&#x27;COMPUTE_SHA256&#x27;, &#x27;afterBuild&#x27;, function COMPUTE_SH
 
 
     <h2>
+        <a href="#apidoc.element.aws-sdk.ResourceGroupsTaggingAPI" id="apidoc.element.aws-sdk.ResourceGroupsTaggingAPI">
+        function <span class="apidocSignatureSpan">aws-sdk.</span>ResourceGroupsTaggingAPI
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">ResourceGroupsTaggingAPI = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
         <a href="#apidoc.element.aws-sdk.ResourceWaiter" id="apidoc.element.aws-sdk.ResourceWaiter">
         function <span class="apidocSignatureSpan">aws-sdk.</span>ResourceWaiter
         <span class="apidocSignatureSpan">(service, state)</span>
@@ -15798,7 +17325,23 @@ constructor: function constructor(service, state) {
     return klass.apply(this, arguments);
   }
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+* `&#x27;https://ec2.ap-southeast-1.amazonaws.com&#x27;`. If
+* you need to override an endpoint for a service, you can
+* set the endpoint on a service by passing the endpoint
+* object with the `endpoint` option key:
+*
+* ```javascript
+* var ep = new AWS.Endpoint(&#x27;awsproxy.example.com&#x27;);
+* var s3 = new AWS.<span class="apidocCodeKeywordSpan">S3</span>({endpoint: ep});
+* s3.service.endpoint.hostname == &#x27;awsproxy.example.com&#x27;
+* ```
+*
+* Note that if you do not specify a protocol, the protocol will
+* be selected based on your current {AWS.config} configuration.
+*
+* @!attribute protocol
+...</pre></li>
     </ul>
 
 
@@ -16217,14 +17760,16 @@ isPresigned: function isPresigned() {
     <h2>
         <a href="#apidoc.element.aws-sdk.Signers.V4" id="apidoc.element.aws-sdk.Signers.V4">
         function <span class="apidocSignatureSpan">aws-sdk.</span>Signers.V4
-        <span class="apidocSignatureSpan">(request, serviceName, signatureCache)</span>
+        <span class="apidocSignatureSpan">(request, serviceName, options)</span>
         </a>
     </h2>
     <ul>
-    <li>description and source-code<pre class="apidocCodePre">function V4(request, serviceName, signatureCache) {
+    <li>description and source-code<pre class="apidocCodePre">function V4(request, serviceName, options) {
   AWS.Signers.RequestSigner.call(this, request);
   this.serviceName = serviceName;
-  this.signatureCache = signatureCache;
+  options = options || {};
+  this.signatureCache = typeof options.signatureCache === &#x27;boolean&#x27; ? options.signatureCache : true;
+  this.operation = options.operation;
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -16558,6 +18103,12 @@ add(&#x27;HTTP_HEADERS&#x27;, &#x27;httpHeaders&#x27;,
         &#x26;&#x26; AWS.util.isClockSkewed(serverTime)) {
 ...</pre></li>
     </ul>
+
+
+
+
+
+
 
 
 
@@ -19873,7 +21424,23 @@ add(&#x27;HTTP_HEADERS&#x27;, &#x27;httpHeaders&#x27;,
     }
   });
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+ *   been loaded into the object (as the `accessKeyId`, `secretAccessKey`,
+ *   and `sessionToken` properties).
+ *   @param err [Error] if an error occurred, this value will be filled
+ */
+get: function get(callback) {
+  var self = this;
+  if (this.needsRefresh()) {
+    this.<span class="apidocCodeKeywordSpan">refresh</span>(function(err) {
+      if (!err) self.expired = false; // reset expired flag
+      if (callback) callback(err);
+    });
+  } else if (callback) {
+    callback();
+  }
+},
+...</pre></li>
     </ul>
 
 
@@ -20409,20 +21976,21 @@ constructor: function Config(options) {
   }
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
- *   to the signature version &#x27;v4&#x27;. Defaults to `true`.
- */
-constructor: function Config(options) {
-  if (options === undefined) options = {};
-  options = this.extractCredentials(options);
 
-  AWS.util.each.call(this, this.keys, function (key, value) {
-    this.<span class="apidocCodeKeywordSpan">set</span>(key, options[key], value);
-  });
-},
 
-/**
- * @!group Managing Credentials
- */
+
+// Karma configuration
+// Generated on Wed Feb 08 2017 17:56:27 GMT-0800 (PST)
+
+module.exports = function(config) {
+config.<span class="apidocCodeKeywordSpan">set</span>({
+  frameworks: [&#x27;jasmine&#x27;],
+  files: [
+    &#x27;test/browser/build/aws-sdk-all.js&#x27;,
+    &#x27;test/browser/build/tests.js&#x27;
+  ],
+  reporters: [&#x27;progress&#x27;],
+  port: 19876,
 ...</pre></li>
     </ul>
 
@@ -21177,7 +22745,23 @@ function getAsyncCredentials() {
     });
   });
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+ *     credentials information has been loaded into the object (as the
+ *     `accessKeyId`, `secretAccessKey`, and `sessionToken` properties).
+ *   @callback rejectedCallback function(err)
+ *     Called if the promise is rejected.
+ *     @param err [Error] if an error occurred, this value will be filled
+ *   @return [Promise] A promise that represents the state of the `get` call.
+ *   @example Calling the `getPromise` method.
+ *     var promise = credProvider.<span class="apidocCodeKeywordSpan">getPromise</span>();
+ *     promise.then(function() { ... }, function(err) { ... });
+ */
+
+/**
+ * @!method  refreshPromise()
+ *   Returns a &#x27;thenable&#x27; promise.
+ *   Refreshes the credentials. Users should call {get} before attempting
+...</pre></li>
     </ul>
 
 
@@ -21199,7 +22783,23 @@ function getAsyncCredentials() {
     return this.expired || !this.accessKeyId || !this.secretAccessKey;
   }
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+ *   do not need to be refreshed or refreshed credentials information has
+ *   been loaded into the object (as the `accessKeyId`, `secretAccessKey`,
+ *   and `sessionToken` properties).
+ *   @param err [Error] if an error occurred, this value will be filled
+ */
+get: function get(callback) {
+  var self = this;
+  if (this.<span class="apidocCodeKeywordSpan">needsRefresh</span>()) {
+    this.refresh(function(err) {
+      if (!err) self.expired = false; // reset expired flag
+      if (callback) callback(err);
+    });
+  } else if (callback) {
+    callback();
+  }
+...</pre></li>
     </ul>
 
 
@@ -21215,7 +22815,23 @@ function getAsyncCredentials() {
   this.expired = false;
   callback();
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+ *   been loaded into the object (as the `accessKeyId`, `secretAccessKey`,
+ *   and `sessionToken` properties).
+ *   @param err [Error] if an error occurred, this value will be filled
+ */
+get: function get(callback) {
+  var self = this;
+  if (this.needsRefresh()) {
+    this.<span class="apidocCodeKeywordSpan">refresh</span>(function(err) {
+      if (!err) self.expired = false; // reset expired flag
+      if (callback) callback(err);
+    });
+  } else if (callback) {
+    callback();
+  }
+},
+...</pre></li>
     </ul>
 
 
@@ -21239,7 +22855,23 @@ function getAsyncCredentials() {
     });
   });
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+ *     means refreshed credentials information has been loaded into the object
+ *     (as the `accessKeyId`, `secretAccessKey`, and `sessionToken` properties).
+ *   @callback rejectedCallback function(err)
+ *     Called if the promise is rejected.
+ *     @param err [Error] if an error occurred, this value will be filled
+ *   @return [Promise] A promise that represents the state of the `refresh` call.
+ *   @example Calling the `refreshPromise` method.
+ *     var promise = credProvider.<span class="apidocCodeKeywordSpan">refreshPromise</span>();
+ *     promise.then(function() { ... }, function(err) { ... });
+ */
+
+/**
+ * Refreshes the credentials. Users should call {get} before attempting
+ * to forcibly refresh credentials.
+ *
+...</pre></li>
     </ul>
 
 
@@ -22999,7 +24631,23 @@ credentials: function () {
     callback(err);
   });
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+ *   been loaded into the object (as the `accessKeyId`, `secretAccessKey`,
+ *   and `sessionToken` properties).
+ *   @param err [Error] if an error occurred, this value will be filled
+ */
+get: function get(callback) {
+  var self = this;
+  if (this.needsRefresh()) {
+    this.<span class="apidocCodeKeywordSpan">refresh</span>(function(err) {
+      if (!err) self.expired = false; // reset expired flag
+      if (callback) callback(err);
+    });
+  } else if (callback) {
+    callback();
+  }
+},
+...</pre></li>
     </ul>
 
 
@@ -23427,7 +25075,23 @@ AWS.CredentialProviderChain.defaultProviders = [
     callbacks(err, creds);
   });
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+ *   been loaded into the object (as the `accessKeyId`, `secretAccessKey`,
+ *   and `sessionToken` properties).
+ *   @param err [Error] if an error occurred, this value will be filled
+ */
+get: function get(callback) {
+  var self = this;
+  if (this.needsRefresh()) {
+    this.<span class="apidocCodeKeywordSpan">refresh</span>(function(err) {
+      if (!err) self.expired = false; // reset expired flag
+      if (callback) callback(err);
+    });
+  } else if (callback) {
+    callback();
+  }
+},
+...</pre></li>
     </ul>
 
 
@@ -24507,7 +26171,23 @@ function () {
   AWS.Credentials.apply(this, values);
   callback();
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+ *   been loaded into the object (as the `accessKeyId`, `secretAccessKey`,
+ *   and `sessionToken` properties).
+ *   @param err [Error] if an error occurred, this value will be filled
+ */
+get: function get(callback) {
+  var self = this;
+  if (this.needsRefresh()) {
+    this.<span class="apidocCodeKeywordSpan">refresh</span>(function(err) {
+      if (!err) self.expired = false; // reset expired flag
+      if (callback) callback(err);
+    });
+  } else if (callback) {
+    callback();
+  }
+},
+...</pre></li>
     </ul>
 
 
@@ -24640,7 +26320,23 @@ chain.resolve(function (err, creds) {
     callback(err);
   }
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+ *   been loaded into the object (as the `accessKeyId`, `secretAccessKey`,
+ *   and `sessionToken` properties).
+ *   @param err [Error] if an error occurred, this value will be filled
+ */
+get: function get(callback) {
+  var self = this;
+  if (this.needsRefresh()) {
+    this.<span class="apidocCodeKeywordSpan">refresh</span>(function(err) {
+      if (!err) self.expired = false; // reset expired flag
+      if (callback) callback(err);
+    });
+  } else if (callback) {
+    callback();
+  }
+},
+...</pre></li>
     </ul>
 
 
@@ -25334,6 +27030,28 @@ function executeSend() {
   });
   httpRequest.stream = stream; // attach stream to httpRequest
 
+  // connection timeout support
+  if (httpOptions.connectTimeout) {
+    stream.on(&#x27;socket&#x27;, function(socket) {
+      if (socket.connecting) {
+        var timeoutId = setTimeout(function connectTimeout() {
+          if (cbAlreadyCalled) return; cbAlreadyCalled = true;
+
+          stream.abort();
+          errCallback(AWS.util.error(
+            new Error(&#x27;Socket timed out without establishing a connection&#x27;),
+            {code: &#x27;TimeoutError&#x27;}
+          ));
+        }, httpOptions.connectTimeout);
+        socket.on(&#x27;connect&#x27;, (function(tId) {
+          return function () {
+            clearTimeout(tId);
+          };
+        })(timeoutId));
+      }
+    });
+  }
+
   // timeout support
   stream.setTimeout(httpOptions.timeout || 0, function() {
     if (cbAlreadyCalled) return; cbAlreadyCalled = true;
@@ -25652,7 +27370,22 @@ AWS.SequentialExecutor.call(this);
   var prefix = AWS.util.isBrowser() ? &#x27;X-Amz-&#x27; : &#x27;&#x27;;
   return prefix + &#x27;User-Agent&#x27;;
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+  this.setUserAgent();
+},
+
+/**
+ * @api private
+ */
+setUserAgent: function setUserAgent() {
+  this._userAgent = this.headers[this.<span class="apidocCodeKeywordSpan">getUserAgentHeaderName</span>()] = AWS.util.userAgent();
+},
+
+getUserAgentHeaderName: function getUserAgentHeaderName() {
+  var prefix = AWS.util.isBrowser() ? &#x27;X-Amz-&#x27; : &#x27;&#x27;;
+  return prefix + &#x27;User-Agent&#x27;;
+},
+...</pre></li>
     </ul>
 
 
@@ -25718,7 +27451,23 @@ AWS.util.arrayEach(items, function(item) {
     <li>description and source-code<pre class="apidocCodePre">function setUserAgent() {
   this._userAgent = this.headers[this.getUserAgentHeaderName()] = AWS.util.userAgent();
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+  this.method = &#x27;POST&#x27;;
+  this.path = endpoint.path || &#x27;/&#x27;;
+  this.headers = {};
+  this.body = &#x27;&#x27;;
+  this.endpoint = endpoint;
+  this.region = region;
+  this._userAgent = &#x27;&#x27;;
+  this.<span class="apidocCodeKeywordSpan">setUserAgent</span>();
+},
+
+/**
+ * @api private
+ */
+setUserAgent: function setUserAgent() {
+  this._userAgent = this.headers[this.getUserAgentHeaderName()] = AWS.util.userAgent();
+...</pre></li>
     </ul>
 
 
@@ -25828,21 +27577,21 @@ constructor: function Response(request) {
   return this.stream;
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-  } else if (AWS.HttpClient.streamsApiVersion === 2) {
-    stream.end();
-  } else {
-    stream.emit(&#x27;end&#x27;)
-  }
-}
-
-var httpStream = resp.httpResponse.<span class="apidocCodeKeywordSpan">createUnbufferedStream</span>();
-
-if (AWS.HttpClient.streamsApiVersion === 2) {
-  if (shouldCheckContentLength) {
-    var lengthAccumulator = new streams.PassThrough();
-    lengthAccumulator._write = function(chunk) {
-      if (chunk &#x26;&#x26; chunk.length) {
-        receivedLen += chunk.length;
+*   event has fired. This method must be called prior to
+*   {AWS.Request~httpData}.
+* @example Taking control of a stream
+*   request.on(&#x27;httpHeaders&#x27;, function(statusCode, headers) {
+*     if (statusCode &#x3c; 300) {
+*       if (headers.etag === &#x27;xyz&#x27;) {
+*         // pipe the stream, disabling buffering
+*         var stream = this.response.httpResponse.<span class="apidocCodeKeywordSpan">createUnbufferedStream</span>();
+*         stream.pipe(process.stdout);
+*       } else { // abort this request and set a better error message
+*         this.abort();
+*         this.response.error = new Error(&#x27;Invalid ETag&#x27;);
+*       }
+*     }
+*   }).send(console.log);
 ...</pre></li>
     </ul>
 
@@ -28528,9 +30277,9 @@ add(&#x27;VALIDATE_PARAMETERS&#x27;, &#x27;validate&#x27;, function VALIDATE_PAR
 
 addAsync(&#x27;COMPUTE_SHA256&#x27;, &#x27;afterBuild&#x27;, function COMPUTE_SHA256(req, done) {
   req.haltHandlersOnError();
-  if (!req.service.api.signatureVersion) return done(); // none
-  if (req.service.getSignerClass(req) === AWS.Signers.V4) {
-    var body = req.httpRequest.body || &#x27;&#x27;;
+  var operation = req.service.api.operations[req.operation];
+  var authtype = operation ? operation.authtype : &#x27;&#x27;;
+  if (!req.service.api.signatureVersion &#x26;&#x26; !authtype) return done(); // none
 ...</pre></li>
     </ul>
 
@@ -28655,9 +30404,9 @@ add(&#x27;VALIDATE_PARAMETERS&#x27;, &#x27;validate&#x27;, function VALIDATE_PAR
 
 addAsync(&#x27;COMPUTE_SHA256&#x27;, &#x27;afterBuild&#x27;, function COMPUTE_SHA256(req, done) {
   req.haltHandlersOnError();
-  if (!req.service.api.signatureVersion) return done(); // none
-  if (req.service.getSignerClass(req) === AWS.Signers.V4) {
-    var body = req.httpRequest.body || &#x27;&#x27;;
+  var operation = req.service.api.operations[req.operation];
+  var authtype = operation ? operation.authtype : &#x27;&#x27;;
+  if (!req.service.api.signatureVersion &#x26;&#x26; !authtype) return done(); // none
 ...</pre></li>
     </ul>
 
@@ -30075,20 +31824,21 @@ for (var i = 0; shape.required &#x26;&#x26; i &#x3c; shape.required.length; i++)
   return this;
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-this.on(&#x27;validateResponse&#x27;, function addAbortedError(resp) {
-  resp.error = AWS.util.error(new Error(&#x27;Request aborted by user&#x27;), {
-     code: &#x27;RequestAbortedError&#x27;, retryable: false
-  });
-});
-
-if (this.httpRequest.stream) { // abort HTTP stream
-  this.httpRequest.stream.<span class="apidocCodeKeywordSpan">abort</span>();
-  if (this.httpRequest._abortCallback) {
-     this.httpRequest._abortCallback();
-  } else {
-    this.removeAllListeners(&#x27;send&#x27;); // haven&#x27;t sent yet, so let&#x27;s not
-  }
-}
+ *   request.on(&#x27;httpHeaders&#x27;, function(statusCode, headers) {
+ *     if (statusCode &#x3c; 300) {
+ *       if (headers.etag === &#x27;xyz&#x27;) {
+ *         // pipe the stream, disabling buffering
+ *         var stream = this.response.httpResponse.createUnbufferedStream();
+ *         stream.pipe(process.stdout);
+ *       } else { // abort this request and set a better error message
+ *         this.<span class="apidocCodeKeywordSpan">abort</span>();
+ *         this.response.error = new Error(&#x27;Invalid ETag&#x27;);
+ *       }
+ *     }
+ *   }).send(console.log);
+ */
+createUnbufferedStream: function createUnbufferedStream() {
+  this.streaming = true;
 ...</pre></li>
     </ul>
 
@@ -30707,13 +32457,13 @@ add(&#x27;VALIDATE_PARAMETERS&#x27;, &#x27;validate&#x27;, function VALIDATE_PAR
 
 addAsync(&#x27;COMPUTE_SHA256&#x27;, &#x27;afterBuild&#x27;, function COMPUTE_SHA256(req, done) {
   req.<span class="apidocCodeKeywordSpan">haltHandlersOnError</span>();
-  if (!req.service.api.signatureVersion) return done(); // none
+  var operation = req.service.api.operations[req.operation];
+  var authtype = operation ? operation.authtype : &#x27;&#x27;;
+  if (!req.service.api.signatureVersion &#x26;&#x26; !authtype) return done(); // none
   if (req.service.getSignerClass(req) === AWS.Signers.V4) {
     var body = req.httpRequest.body || &#x27;&#x27;;
-    AWS.util.computeSha256(body, function(err, sha) {
-      if (err) {
-        done(err);
-      }
+    if (authtype.indexOf(&#x27;unsigned-body&#x27;) &#x3e;= 0) {
+      req.httpRequest.headers[&#x27;X-Amz-Content-Sha256&#x27;] = &#x27;UNSIGNED-PAYLOAD&#x27;;
 ...</pre></li>
     </ul>
 
@@ -31078,6 +32828,103 @@ isPresigned: function isPresigned() {
   return this;
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.aws-sdk.ResourceGroupsTaggingAPI" id="apidoc.module.aws-sdk.ResourceGroupsTaggingAPI">module aws-sdk.ResourceGroupsTaggingAPI</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.ResourceGroupsTaggingAPI.ResourceGroupsTaggingAPI" id="apidoc.element.aws-sdk.ResourceGroupsTaggingAPI.ResourceGroupsTaggingAPI">
+        function <span class="apidocSignatureSpan">aws-sdk.</span>ResourceGroupsTaggingAPI
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">ResourceGroupsTaggingAPI = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.ResourceGroupsTaggingAPI.__super__" id="apidoc.element.aws-sdk.ResourceGroupsTaggingAPI.__super__">
+        function <span class="apidocSignatureSpan">aws-sdk.ResourceGroupsTaggingAPI.</span>__super__
+        <span class="apidocSignatureSpan">(config)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Service(config) {
+  if (!this.loadServiceClass) {
+    throw AWS.util.error(new Error(),
+      &#x27;Service must be constructed with `new\&#x27; operator&#x27;);
+  }
+  var ServiceClass = this.loadServiceClass(config || {});
+  if (ServiceClass) {
+    var originalConfig = AWS.util.copy(config);
+    var svc = new ServiceClass(config);
+    Object.defineProperty(svc, &#x27;_originalConfig&#x27;, {
+      get: function() { return originalConfig; },
+      enumerable: false,
+      configurable: true
+    });
+    svc._clientId = ++clientCount;
+    return svc;
+  }
+  this.initialize(config);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.aws-sdk.ResourceGroupsTaggingAPI.prototype" id="apidoc.module.aws-sdk.ResourceGroupsTaggingAPI.prototype">module aws-sdk.ResourceGroupsTaggingAPI.prototype</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.ResourceGroupsTaggingAPI.prototype.constructor" id="apidoc.element.aws-sdk.ResourceGroupsTaggingAPI.prototype.constructor">
+        function <span class="apidocSignatureSpan">aws-sdk.ResourceGroupsTaggingAPI.prototype.</span>constructor
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">constructor = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+  var chain = new AWS.CredentialProviderChain();
+  chain.providers.unshift(fileSystemCreds);
+  chain.resolve(function (err, creds) {
+    if (err) throw err;
+    else options.credentials = creds;
+  });
+
+  this.<span class="apidocCodeKeywordSpan">constructor</span>(options);
+
+  return this;
+},
+
+/**
+ * Clears configuration data on this object
+ *
+...</pre></li>
     </ul>
 
 
@@ -32061,7 +33908,23 @@ add(&#x27;INVALIDATE_CREDENTIALS&#x27;, &#x27;retry&#x27;, function INVALIDATE_C
     return klass.apply(this, arguments);
   }
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+* `&#x27;https://ec2.ap-southeast-1.amazonaws.com&#x27;`. If
+* you need to override an endpoint for a service, you can
+* set the endpoint on a service by passing the endpoint
+* object with the `endpoint` option key:
+*
+* ```javascript
+* var ep = new AWS.Endpoint(&#x27;awsproxy.example.com&#x27;);
+* var s3 = new AWS.<span class="apidocCodeKeywordSpan">S3</span>({endpoint: ep});
+* s3.service.endpoint.hostname == &#x27;awsproxy.example.com&#x27;
+* ```
+*
+* Note that if you do not specify a protocol, the protocol will
+* be selected based on your current {AWS.config} configuration.
+*
+* @!attribute protocol
+...</pre></li>
     </ul>
 
 
@@ -32227,20 +34090,21 @@ add(&#x27;INVALIDATE_CREDENTIALS&#x27;, &#x27;retry&#x27;, function INVALIDATE_C
   }));
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-this.on(&#x27;validateResponse&#x27;, function addAbortedError(resp) {
-  resp.error = AWS.util.error(new Error(&#x27;Request aborted by user&#x27;), {
-     code: &#x27;RequestAbortedError&#x27;, retryable: false
-  });
-});
-
-if (this.httpRequest.stream) { // abort HTTP stream
-  this.httpRequest.stream.<span class="apidocCodeKeywordSpan">abort</span>();
-  if (this.httpRequest._abortCallback) {
-     this.httpRequest._abortCallback();
-  } else {
-    this.removeAllListeners(&#x27;send&#x27;); // haven&#x27;t sent yet, so let&#x27;s not
-  }
-}
+ *   request.on(&#x27;httpHeaders&#x27;, function(statusCode, headers) {
+ *     if (statusCode &#x3c; 300) {
+ *       if (headers.etag === &#x27;xyz&#x27;) {
+ *         // pipe the stream, disabling buffering
+ *         var stream = this.response.httpResponse.createUnbufferedStream();
+ *         stream.pipe(process.stdout);
+ *       } else { // abort this request and set a better error message
+ *         this.<span class="apidocCodeKeywordSpan">abort</span>();
+ *         this.response.error = new Error(&#x27;Invalid ETag&#x27;);
+ *       }
+ *     }
+ *   }).send(console.log);
+ */
+createUnbufferedStream: function createUnbufferedStream() {
+  this.streaming = true;
 ...</pre></li>
     </ul>
 
@@ -32759,10 +34623,20 @@ if (!resp.httpResponse.streaming) {
       return self.cleanup(err);
     }
 
+    if (data &#x26;&#x26; typeof data.Location === &#x27;string&#x27;) {
+      data.Location = data.Location.replace(/%2F/g, &#x27;/&#x27;);
+    }
+
     if (Array.isArray(self.tags)) {
       self.service.putObjectTagging(
         {Tagging: {TagSet: self.tags}},
-        self.callback
+        function(e, d) {
+          if (e) {
+            self.callback(e);
+          } else {
+            self.callback(e, data);
+          }
+        }
       );
     } else {
       self.callback(err, data);
@@ -33769,21 +35643,21 @@ abort: function abort() {
   return AWS.Signers.RequestSigner.getVersion(defaultApiVersion);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-  var validation = req.service.config.paramValidation;
-  new AWS.ParamValidator(validation).validate(rules, req.params);
 });
 
 addAsync(&#x27;COMPUTE_SHA256&#x27;, &#x27;afterBuild&#x27;, function COMPUTE_SHA256(req, done) {
   req.haltHandlersOnError();
-  if (!req.service.api.signatureVersion) return done(); // none
+  var operation = req.service.api.operations[req.operation];
+  var authtype = operation ? operation.authtype : &#x27;&#x27;;
+  if (!req.service.api.signatureVersion &#x26;&#x26; !authtype) return done(); // none
   if (req.service.<span class="apidocCodeKeywordSpan">getSignerClass</span>(req) === AWS.Signers.V4) {
     var body = req.httpRequest.body || &#x27;&#x27;;
+    if (authtype.indexOf(&#x27;unsigned-body&#x27;) &#x3e;= 0) {
+      req.httpRequest.headers[&#x27;X-Amz-Content-Sha256&#x27;] = &#x27;UNSIGNED-PAYLOAD&#x27;;
+      return done();
+    }
     AWS.util.computeSha256(body, function(err, sha) {
       if (err) {
-        done(err);
-      }
-      else {
-        req.httpRequest.headers[&#x27;X-Amz-Content-Sha256&#x27;] = sha;
 ...</pre></li>
     </ul>
 
@@ -34549,7 +36423,23 @@ add(&#x27;VALIDATE_RESPONSE&#x27;, &#x27;validateResponse&#x27;, function VALIDA
     callback(err);
   });
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+ *   been loaded into the object (as the `accessKeyId`, `secretAccessKey`,
+ *   and `sessionToken` properties).
+ *   @param err [Error] if an error occurred, this value will be filled
+ */
+get: function get(callback) {
+  var self = this;
+  if (this.needsRefresh()) {
+    this.<span class="apidocCodeKeywordSpan">refresh</span>(function(err) {
+      if (!err) self.expired = false; // reset expired flag
+      if (callback) callback(err);
+    });
+  } else if (callback) {
+    callback();
+  }
+},
+...</pre></li>
     </ul>
 
 
@@ -36410,35 +38300,40 @@ add(&#x27;REDIRECT&#x27;, &#x27;retry&#x27;, function REDIRECT(resp) {
     <h2>
         <a href="#apidoc.element.aws-sdk.Service.prototype.getSignerClass" id="apidoc.element.aws-sdk.Service.prototype.getSignerClass">
         function <span class="apidocSignatureSpan">aws-sdk.Service.prototype.</span>getSignerClass
-        <span class="apidocSignatureSpan">()</span>
+        <span class="apidocSignatureSpan">(request)</span>
         </a>
     </h2>
     <ul>
-    <li>description and source-code<pre class="apidocCodePre">function getSignerClass() {
+    <li>description and source-code<pre class="apidocCodePre">function getSignerClass(request) {
   var version;
+  // get operation authtype if present
+  var operation = request ? request.service.api.operations[request.operation] : null;
+  var authtype = operation ? operation.authtype : &#x27;&#x27;;
   if (this.config.signatureVersion) {
     version = this.config.signatureVersion;
+  } else if (authtype === &#x27;v4&#x27; || authtype === &#x27;v4-unsigned-body&#x27;) {
+    version = &#x27;v4&#x27;;
   } else {
     version = this.api.signatureVersion;
   }
   return AWS.Signers.RequestSigner.getVersion(version);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-  var validation = req.service.config.paramValidation;
-  new AWS.ParamValidator(validation).validate(rules, req.params);
 });
 
 addAsync(&#x27;COMPUTE_SHA256&#x27;, &#x27;afterBuild&#x27;, function COMPUTE_SHA256(req, done) {
   req.haltHandlersOnError();
-  if (!req.service.api.signatureVersion) return done(); // none
+  var operation = req.service.api.operations[req.operation];
+  var authtype = operation ? operation.authtype : &#x27;&#x27;;
+  if (!req.service.api.signatureVersion &#x26;&#x26; !authtype) return done(); // none
   if (req.service.<span class="apidocCodeKeywordSpan">getSignerClass</span>(req) === AWS.Signers.V4) {
     var body = req.httpRequest.body || &#x27;&#x27;;
+    if (authtype.indexOf(&#x27;unsigned-body&#x27;) &#x3e;= 0) {
+      req.httpRequest.headers[&#x27;X-Amz-Content-Sha256&#x27;] = &#x27;UNSIGNED-PAYLOAD&#x27;;
+      return done();
+    }
     AWS.util.computeSha256(body, function(err, sha) {
       if (err) {
-        done(err);
-      }
-      else {
-        req.httpRequest.headers[&#x27;X-Amz-Content-Sha256&#x27;] = sha;
 ...</pre></li>
     </ul>
 
@@ -37243,7 +39138,23 @@ AWS.CredentialProviderChain.defaultProviders = [
     callback(err);
   }
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+ *   been loaded into the object (as the `accessKeyId`, `secretAccessKey`,
+ *   and `sessionToken` properties).
+ *   @param err [Error] if an error occurred, this value will be filled
+ */
+get: function get(callback) {
+  var self = this;
+  if (this.needsRefresh()) {
+    this.<span class="apidocCodeKeywordSpan">refresh</span>(function(err) {
+      if (!err) self.expired = false; // reset expired flag
+      if (callback) callback(err);
+    });
+  } else if (callback) {
+    callback();
+  }
+},
+...</pre></li>
     </ul>
 
 
@@ -37410,7 +39321,23 @@ isPresigned: function isPresigned() {
     return klass.apply(this, arguments);
   }
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+* `&#x27;https://ec2.ap-southeast-1.amazonaws.com&#x27;`. If
+* you need to override an endpoint for a service, you can
+* set the endpoint on a service by passing the endpoint
+* object with the `endpoint` option key:
+*
+* ```javascript
+* var ep = new AWS.Endpoint(&#x27;awsproxy.example.com&#x27;);
+* var s3 = new AWS.<span class="apidocCodeKeywordSpan">S3</span>({endpoint: ep});
+* s3.service.endpoint.hostname == &#x27;awsproxy.example.com&#x27;
+* ```
+*
+* Note that if you do not specify a protocol, the protocol will
+* be selected based on your current {AWS.config} configuration.
+*
+* @!attribute protocol
+...</pre></li>
     </ul>
 
 
@@ -37469,14 +39396,16 @@ isPresigned: function isPresigned() {
     <h2>
         <a href="#apidoc.element.aws-sdk.Signers.V4" id="apidoc.element.aws-sdk.Signers.V4">
         function <span class="apidocSignatureSpan">aws-sdk.Signers.</span>V4
-        <span class="apidocSignatureSpan">(request, serviceName, signatureCache)</span>
+        <span class="apidocSignatureSpan">(request, serviceName, options)</span>
         </a>
     </h2>
     <ul>
-    <li>description and source-code<pre class="apidocCodePre">function V4(request, serviceName, signatureCache) {
+    <li>description and source-code<pre class="apidocCodePre">function V4(request, serviceName, options) {
   AWS.Signers.RequestSigner.call(this, request);
   this.serviceName = serviceName;
-  this.signatureCache = signatureCache;
+  options = options || {};
+  this.signatureCache = typeof options.signatureCache === &#x27;boolean&#x27; ? options.signatureCache : true;
+  this.operation = options.operation;
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -37741,13 +39670,13 @@ isPresigned: function isPresigned() {
   this.serviceClientId = id;
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-
-        try {
-var date = AWS.util.date.getDate();
 var SignerClass = service.getSignerClass(req);
 var signer = new SignerClass(req.httpRequest,
   service.api.signingName || service.api.endpointPrefix,
- service.config.signatureCache);
+  {
+    signatureCache: service.config.signatureCache,
+    operation: operation
+  });
 signer.<span class="apidocCodeKeywordSpan">setServiceClientId</span>(service._clientId);
 
 // clear old authorization headers
@@ -37778,7 +39707,23 @@ delete req.httpRequest.headers[&#x27;X-Amz-Date&#x27;];
     return klass.apply(this, arguments);
   }
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+* `&#x27;https://ec2.ap-southeast-1.amazonaws.com&#x27;`. If
+* you need to override an endpoint for a service, you can
+* set the endpoint on a service by passing the endpoint
+* object with the `endpoint` option key:
+*
+* ```javascript
+* var ep = new AWS.Endpoint(&#x27;awsproxy.example.com&#x27;);
+* var s3 = new AWS.<span class="apidocCodeKeywordSpan">S3</span>({endpoint: ep});
+* s3.service.endpoint.hostname == &#x27;awsproxy.example.com&#x27;
+* ```
+*
+* Note that if you do not specify a protocol, the protocol will
+* be selected based on your current {AWS.config} configuration.
+*
+* @!attribute protocol
+...</pre></li>
     </ul>
 
 
@@ -38557,14 +40502,16 @@ isPresigned: function isPresigned() {
     <h2>
         <a href="#apidoc.element.aws-sdk.Signers.V4.V4" id="apidoc.element.aws-sdk.Signers.V4.V4">
         function <span class="apidocSignatureSpan">aws-sdk.Signers.</span>V4
-        <span class="apidocSignatureSpan">(request, serviceName, signatureCache)</span>
+        <span class="apidocSignatureSpan">(request, serviceName, options)</span>
         </a>
     </h2>
     <ul>
-    <li>description and source-code<pre class="apidocCodePre">function V4(request, serviceName, signatureCache) {
+    <li>description and source-code<pre class="apidocCodePre">function V4(request, serviceName, options) {
   AWS.Signers.RequestSigner.call(this, request);
   this.serviceName = serviceName;
-  this.signatureCache = signatureCache;
+  options = options || {};
+  this.signatureCache = typeof options.signatureCache === &#x27;boolean&#x27; ? options.signatureCache : true;
+  this.operation = options.operation;
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -38742,14 +40689,16 @@ isPresigned: function isPresigned() {
     <h2>
         <a href="#apidoc.element.aws-sdk.Signers.V4.prototype.constructor" id="apidoc.element.aws-sdk.Signers.V4.prototype.constructor">
         function <span class="apidocSignatureSpan">aws-sdk.Signers.V4.prototype.</span>constructor
-        <span class="apidocSignatureSpan">(request, serviceName, signatureCache)</span>
+        <span class="apidocSignatureSpan">(request, serviceName, options)</span>
         </a>
     </h2>
     <ul>
-    <li>description and source-code<pre class="apidocCodePre">function V4(request, serviceName, signatureCache) {
+    <li>description and source-code<pre class="apidocCodePre">function V4(request, serviceName, options) {
   AWS.Signers.RequestSigner.call(this, request);
   this.serviceName = serviceName;
-  this.signatureCache = signatureCache;
+  options = options || {};
+  this.signatureCache = typeof options.signatureCache === &#x27;boolean&#x27; ? options.signatureCache : true;
+  this.operation = options.operation;
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
   var chain = new AWS.CredentialProviderChain();
@@ -38799,10 +40748,11 @@ isPresigned: function isPresigned() {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function hexEncodedBodyHash() {
-  if (this.isPresigned() &#x26;&#x26; this.serviceName === &#x27;s3&#x27; &#x26;&#x26; !this.request.body) {
+  var request = this.request;
+  if (this.isPresigned() &#x26;&#x26; this.serviceName === &#x27;s3&#x27; &#x26;&#x26; !request.body) {
     return &#x27;UNSIGNED-PAYLOAD&#x27;;
-  } else if (this.request.headers[&#x27;X-Amz-Content-Sha256&#x27;]) {
-    return this.request.headers[&#x27;X-Amz-Content-Sha256&#x27;];
+  } else if (request.headers[&#x27;X-Amz-Content-Sha256&#x27;]) {
+    return request.headers[&#x27;X-Amz-Content-Sha256&#x27;];
   } else {
     return this.hexEncodedHash(this.request.body || &#x27;&#x27;);
   }
@@ -39624,7 +41574,23 @@ isPresigned: function isPresigned() {
     });
   });
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+ *   been loaded into the object (as the `accessKeyId`, `secretAccessKey`,
+ *   and `sessionToken` properties).
+ *   @param err [Error] if an error occurred, this value will be filled
+ */
+get: function get(callback) {
+  var self = this;
+  if (this.needsRefresh()) {
+    this.<span class="apidocCodeKeywordSpan">refresh</span>(function(err) {
+      if (!err) self.expired = false; // reset expired flag
+      if (callback) callback(err);
+    });
+  } else if (callback) {
+    callback();
+  }
+},
+...</pre></li>
     </ul>
 
 
@@ -39958,7 +41924,23 @@ isPresigned: function isPresigned() {
     callback(err);
   });
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+ *   been loaded into the object (as the `accessKeyId`, `secretAccessKey`,
+ *   and `sessionToken` properties).
+ *   @param err [Error] if an error occurred, this value will be filled
+ */
+get: function get(callback) {
+  var self = this;
+  if (this.needsRefresh()) {
+    this.<span class="apidocCodeKeywordSpan">refresh</span>(function(err) {
+      if (!err) self.expired = false; // reset expired flag
+      if (callback) callback(err);
+    });
+  } else if (callback) {
+    callback();
+  }
+},
+...</pre></li>
     </ul>
 
 
@@ -40403,6 +42385,2734 @@ chain.resolve(function (err, creds) {
 </div>
 
 <div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.aws-sdk.all" id="apidoc.module.aws-sdk.all">module aws-sdk.all</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.ACM" id="apidoc.element.aws-sdk.all.ACM">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>ACM
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">ACM = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.APIGateway" id="apidoc.element.aws-sdk.all.APIGateway">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>APIGateway
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">APIGateway = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.AppStream" id="apidoc.element.aws-sdk.all.AppStream">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>AppStream
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">AppStream = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.ApplicationAutoScaling" id="apidoc.element.aws-sdk.all.ApplicationAutoScaling">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>ApplicationAutoScaling
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">ApplicationAutoScaling = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.AutoScaling" id="apidoc.element.aws-sdk.all.AutoScaling">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>AutoScaling
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">AutoScaling = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.Batch" id="apidoc.element.aws-sdk.all.Batch">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>Batch
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">Batch = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.Budgets" id="apidoc.element.aws-sdk.all.Budgets">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>Budgets
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">Budgets = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.CUR" id="apidoc.element.aws-sdk.all.CUR">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>CUR
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">CUR = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.CloudDirectory" id="apidoc.element.aws-sdk.all.CloudDirectory">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>CloudDirectory
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">CloudDirectory = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.CloudFormation" id="apidoc.element.aws-sdk.all.CloudFormation">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>CloudFormation
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">CloudFormation = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.CloudFront" id="apidoc.element.aws-sdk.all.CloudFront">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>CloudFront
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">CloudFront = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.CloudHSM" id="apidoc.element.aws-sdk.all.CloudHSM">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>CloudHSM
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">CloudHSM = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.CloudSearch" id="apidoc.element.aws-sdk.all.CloudSearch">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>CloudSearch
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">CloudSearch = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.CloudSearchDomain" id="apidoc.element.aws-sdk.all.CloudSearchDomain">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>CloudSearchDomain
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">CloudSearchDomain = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.CloudTrail" id="apidoc.element.aws-sdk.all.CloudTrail">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>CloudTrail
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">CloudTrail = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.CloudWatch" id="apidoc.element.aws-sdk.all.CloudWatch">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>CloudWatch
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">CloudWatch = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.CloudWatchEvents" id="apidoc.element.aws-sdk.all.CloudWatchEvents">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>CloudWatchEvents
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">CloudWatchEvents = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.CloudWatchLogs" id="apidoc.element.aws-sdk.all.CloudWatchLogs">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>CloudWatchLogs
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">CloudWatchLogs = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.CodeBuild" id="apidoc.element.aws-sdk.all.CodeBuild">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>CodeBuild
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">CodeBuild = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.CodeCommit" id="apidoc.element.aws-sdk.all.CodeCommit">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>CodeCommit
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">CodeCommit = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.CodeDeploy" id="apidoc.element.aws-sdk.all.CodeDeploy">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>CodeDeploy
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">CodeDeploy = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.CodePipeline" id="apidoc.element.aws-sdk.all.CodePipeline">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>CodePipeline
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">CodePipeline = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.CognitoIdentity" id="apidoc.element.aws-sdk.all.CognitoIdentity">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>CognitoIdentity
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">CognitoIdentity = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.CognitoIdentityServiceProvider" id="apidoc.element.aws-sdk.all.CognitoIdentityServiceProvider">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>CognitoIdentityServiceProvider
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">CognitoIdentityServiceProvider = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.CognitoSync" id="apidoc.element.aws-sdk.all.CognitoSync">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>CognitoSync
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">CognitoSync = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.ConfigService" id="apidoc.element.aws-sdk.all.ConfigService">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>ConfigService
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">ConfigService = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.DMS" id="apidoc.element.aws-sdk.all.DMS">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>DMS
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">DMS = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.DataPipeline" id="apidoc.element.aws-sdk.all.DataPipeline">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>DataPipeline
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">DataPipeline = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.DeviceFarm" id="apidoc.element.aws-sdk.all.DeviceFarm">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>DeviceFarm
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">DeviceFarm = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.DirectConnect" id="apidoc.element.aws-sdk.all.DirectConnect">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>DirectConnect
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">DirectConnect = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.DirectoryService" id="apidoc.element.aws-sdk.all.DirectoryService">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>DirectoryService
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">DirectoryService = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.Discovery" id="apidoc.element.aws-sdk.all.Discovery">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>Discovery
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">Discovery = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.DynamoDB" id="apidoc.element.aws-sdk.all.DynamoDB">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>DynamoDB
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">DynamoDB = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.DynamoDBStreams" id="apidoc.element.aws-sdk.all.DynamoDBStreams">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>DynamoDBStreams
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">DynamoDBStreams = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.EC2" id="apidoc.element.aws-sdk.all.EC2">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>EC2
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">EC2 = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.ECR" id="apidoc.element.aws-sdk.all.ECR">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>ECR
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">ECR = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.ECS" id="apidoc.element.aws-sdk.all.ECS">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>ECS
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">ECS = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.EFS" id="apidoc.element.aws-sdk.all.EFS">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>EFS
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">EFS = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.ELB" id="apidoc.element.aws-sdk.all.ELB">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>ELB
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">ELB = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.ELBv2" id="apidoc.element.aws-sdk.all.ELBv2">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>ELBv2
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">ELBv2 = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.EMR" id="apidoc.element.aws-sdk.all.EMR">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>EMR
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">EMR = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.ES" id="apidoc.element.aws-sdk.all.ES">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>ES
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">ES = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.ElastiCache" id="apidoc.element.aws-sdk.all.ElastiCache">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>ElastiCache
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">ElastiCache = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.ElasticBeanstalk" id="apidoc.element.aws-sdk.all.ElasticBeanstalk">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>ElasticBeanstalk
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">ElasticBeanstalk = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.ElasticTranscoder" id="apidoc.element.aws-sdk.all.ElasticTranscoder">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>ElasticTranscoder
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">ElasticTranscoder = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.Firehose" id="apidoc.element.aws-sdk.all.Firehose">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>Firehose
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">Firehose = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.GameLift" id="apidoc.element.aws-sdk.all.GameLift">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>GameLift
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">GameLift = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.Glacier" id="apidoc.element.aws-sdk.all.Glacier">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>Glacier
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">Glacier = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.Health" id="apidoc.element.aws-sdk.all.Health">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>Health
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">Health = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.IAM" id="apidoc.element.aws-sdk.all.IAM">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>IAM
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">IAM = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.ImportExport" id="apidoc.element.aws-sdk.all.ImportExport">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>ImportExport
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">ImportExport = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.Inspector" id="apidoc.element.aws-sdk.all.Inspector">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>Inspector
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">Inspector = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.Iot" id="apidoc.element.aws-sdk.all.Iot">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>Iot
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">Iot = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.IotData" id="apidoc.element.aws-sdk.all.IotData">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>IotData
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">IotData = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.KMS" id="apidoc.element.aws-sdk.all.KMS">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>KMS
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">KMS = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.Kinesis" id="apidoc.element.aws-sdk.all.Kinesis">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>Kinesis
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">Kinesis = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.KinesisAnalytics" id="apidoc.element.aws-sdk.all.KinesisAnalytics">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>KinesisAnalytics
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">KinesisAnalytics = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.Lambda" id="apidoc.element.aws-sdk.all.Lambda">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>Lambda
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">Lambda = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.LexRuntime" id="apidoc.element.aws-sdk.all.LexRuntime">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>LexRuntime
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">LexRuntime = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.Lightsail" id="apidoc.element.aws-sdk.all.Lightsail">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>Lightsail
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">Lightsail = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.MTurk" id="apidoc.element.aws-sdk.all.MTurk">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>MTurk
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">MTurk = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.MachineLearning" id="apidoc.element.aws-sdk.all.MachineLearning">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>MachineLearning
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">MachineLearning = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.MarketplaceCommerceAnalytics" id="apidoc.element.aws-sdk.all.MarketplaceCommerceAnalytics">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>MarketplaceCommerceAnalytics
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">MarketplaceCommerceAnalytics = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.MarketplaceMetering" id="apidoc.element.aws-sdk.all.MarketplaceMetering">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>MarketplaceMetering
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">MarketplaceMetering = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.MobileAnalytics" id="apidoc.element.aws-sdk.all.MobileAnalytics">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>MobileAnalytics
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">MobileAnalytics = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.OpsWorks" id="apidoc.element.aws-sdk.all.OpsWorks">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>OpsWorks
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">OpsWorks = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.OpsWorksCM" id="apidoc.element.aws-sdk.all.OpsWorksCM">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>OpsWorksCM
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">OpsWorksCM = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.Organizations" id="apidoc.element.aws-sdk.all.Organizations">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>Organizations
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">Organizations = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.Pinpoint" id="apidoc.element.aws-sdk.all.Pinpoint">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>Pinpoint
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">Pinpoint = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.Polly" id="apidoc.element.aws-sdk.all.Polly">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>Polly
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">Polly = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.RDS" id="apidoc.element.aws-sdk.all.RDS">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>RDS
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">RDS = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.Redshift" id="apidoc.element.aws-sdk.all.Redshift">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>Redshift
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">Redshift = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.Rekognition" id="apidoc.element.aws-sdk.all.Rekognition">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>Rekognition
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">Rekognition = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.ResourceGroupsTaggingAPI" id="apidoc.element.aws-sdk.all.ResourceGroupsTaggingAPI">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>ResourceGroupsTaggingAPI
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">ResourceGroupsTaggingAPI = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.Route53" id="apidoc.element.aws-sdk.all.Route53">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>Route53
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">Route53 = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.Route53Domains" id="apidoc.element.aws-sdk.all.Route53Domains">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>Route53Domains
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">Route53Domains = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.S3" id="apidoc.element.aws-sdk.all.S3">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>S3
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">S3 = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+* `&#x27;https://ec2.ap-southeast-1.amazonaws.com&#x27;`. If
+* you need to override an endpoint for a service, you can
+* set the endpoint on a service by passing the endpoint
+* object with the `endpoint` option key:
+*
+* ```javascript
+* var ep = new AWS.Endpoint(&#x27;awsproxy.example.com&#x27;);
+* var s3 = new AWS.<span class="apidocCodeKeywordSpan">S3</span>({endpoint: ep});
+* s3.service.endpoint.hostname == &#x27;awsproxy.example.com&#x27;
+* ```
+*
+* Note that if you do not specify a protocol, the protocol will
+* be selected based on your current {AWS.config} configuration.
+*
+* @!attribute protocol
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.SES" id="apidoc.element.aws-sdk.all.SES">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>SES
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">SES = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.SMS" id="apidoc.element.aws-sdk.all.SMS">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>SMS
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">SMS = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.SNS" id="apidoc.element.aws-sdk.all.SNS">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>SNS
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">SNS = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.SQS" id="apidoc.element.aws-sdk.all.SQS">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>SQS
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">SQS = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.SSM" id="apidoc.element.aws-sdk.all.SSM">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>SSM
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">SSM = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.STS" id="apidoc.element.aws-sdk.all.STS">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>STS
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">STS = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.SWF" id="apidoc.element.aws-sdk.all.SWF">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>SWF
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">SWF = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.ServiceCatalog" id="apidoc.element.aws-sdk.all.ServiceCatalog">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>ServiceCatalog
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">ServiceCatalog = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.Shield" id="apidoc.element.aws-sdk.all.Shield">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>Shield
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">Shield = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.SimpleDB" id="apidoc.element.aws-sdk.all.SimpleDB">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>SimpleDB
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">SimpleDB = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.Snowball" id="apidoc.element.aws-sdk.all.Snowball">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>Snowball
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">Snowball = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.StepFunctions" id="apidoc.element.aws-sdk.all.StepFunctions">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>StepFunctions
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">StepFunctions = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.StorageGateway" id="apidoc.element.aws-sdk.all.StorageGateway">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>StorageGateway
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">StorageGateway = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.Support" id="apidoc.element.aws-sdk.all.Support">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>Support
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">Support = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.WAF" id="apidoc.element.aws-sdk.all.WAF">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>WAF
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">WAF = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.WAFRegional" id="apidoc.element.aws-sdk.all.WAFRegional">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>WAFRegional
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">WAFRegional = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.WorkDocs" id="apidoc.element.aws-sdk.all.WorkDocs">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>WorkDocs
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">WorkDocs = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.WorkSpaces" id="apidoc.element.aws-sdk.all.WorkSpaces">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>WorkSpaces
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">WorkSpaces = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.all.XRay" id="apidoc.element.aws-sdk.all.XRay">
+        function <span class="apidocSignatureSpan">aws-sdk.all.</span>XRay
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">XRay = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.aws-sdk.browser_default" id="apidoc.module.aws-sdk.browser_default">module aws-sdk.browser_default</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.browser_default.ACM" id="apidoc.element.aws-sdk.browser_default.ACM">
+        function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>ACM
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">ACM = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.browser_default.APIGateway" id="apidoc.element.aws-sdk.browser_default.APIGateway">
+        function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>APIGateway
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">APIGateway = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.browser_default.ApplicationAutoScaling" id="apidoc.element.aws-sdk.browser_default.ApplicationAutoScaling">
+        function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>ApplicationAutoScaling
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">ApplicationAutoScaling = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.browser_default.AutoScaling" id="apidoc.element.aws-sdk.browser_default.AutoScaling">
+        function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>AutoScaling
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">AutoScaling = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.browser_default.CUR" id="apidoc.element.aws-sdk.browser_default.CUR">
+        function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>CUR
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">CUR = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.browser_default.CloudFormation" id="apidoc.element.aws-sdk.browser_default.CloudFormation">
+        function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>CloudFormation
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">CloudFormation = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.browser_default.CloudFront" id="apidoc.element.aws-sdk.browser_default.CloudFront">
+        function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>CloudFront
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">CloudFront = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.browser_default.CloudHSM" id="apidoc.element.aws-sdk.browser_default.CloudHSM">
+        function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>CloudHSM
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">CloudHSM = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.browser_default.CloudTrail" id="apidoc.element.aws-sdk.browser_default.CloudTrail">
+        function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>CloudTrail
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">CloudTrail = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.browser_default.CloudWatch" id="apidoc.element.aws-sdk.browser_default.CloudWatch">
+        function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>CloudWatch
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">CloudWatch = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.browser_default.CloudWatchEvents" id="apidoc.element.aws-sdk.browser_default.CloudWatchEvents">
+        function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>CloudWatchEvents
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">CloudWatchEvents = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.browser_default.CloudWatchLogs" id="apidoc.element.aws-sdk.browser_default.CloudWatchLogs">
+        function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>CloudWatchLogs
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">CloudWatchLogs = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.browser_default.CodeCommit" id="apidoc.element.aws-sdk.browser_default.CodeCommit">
+        function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>CodeCommit
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">CodeCommit = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.browser_default.CodeDeploy" id="apidoc.element.aws-sdk.browser_default.CodeDeploy">
+        function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>CodeDeploy
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">CodeDeploy = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.browser_default.CodePipeline" id="apidoc.element.aws-sdk.browser_default.CodePipeline">
+        function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>CodePipeline
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">CodePipeline = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.browser_default.CognitoIdentity" id="apidoc.element.aws-sdk.browser_default.CognitoIdentity">
+        function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>CognitoIdentity
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">CognitoIdentity = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.browser_default.CognitoIdentityServiceProvider" id="apidoc.element.aws-sdk.browser_default.CognitoIdentityServiceProvider">
+        function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>CognitoIdentityServiceProvider
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">CognitoIdentityServiceProvider = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.browser_default.CognitoSync" id="apidoc.element.aws-sdk.browser_default.CognitoSync">
+        function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>CognitoSync
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">CognitoSync = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.browser_default.ConfigService" id="apidoc.element.aws-sdk.browser_default.ConfigService">
+        function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>ConfigService
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">ConfigService = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.browser_default.DeviceFarm" id="apidoc.element.aws-sdk.browser_default.DeviceFarm">
+        function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>DeviceFarm
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">DeviceFarm = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.browser_default.DirectConnect" id="apidoc.element.aws-sdk.browser_default.DirectConnect">
+        function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>DirectConnect
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">DirectConnect = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.browser_default.DynamoDB" id="apidoc.element.aws-sdk.browser_default.DynamoDB">
+        function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>DynamoDB
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">DynamoDB = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.browser_default.DynamoDBStreams" id="apidoc.element.aws-sdk.browser_default.DynamoDBStreams">
+        function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>DynamoDBStreams
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">DynamoDBStreams = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.browser_default.EC2" id="apidoc.element.aws-sdk.browser_default.EC2">
+        function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>EC2
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">EC2 = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.browser_default.ECR" id="apidoc.element.aws-sdk.browser_default.ECR">
+        function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>ECR
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">ECR = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.browser_default.ECS" id="apidoc.element.aws-sdk.browser_default.ECS">
+        function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>ECS
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">ECS = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.browser_default.ELB" id="apidoc.element.aws-sdk.browser_default.ELB">
+        function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>ELB
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">ELB = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.browser_default.ELBv2" id="apidoc.element.aws-sdk.browser_default.ELBv2">
+        function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>ELBv2
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">ELBv2 = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.browser_default.EMR" id="apidoc.element.aws-sdk.browser_default.EMR">
+        function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>EMR
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">EMR = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.browser_default.ElastiCache" id="apidoc.element.aws-sdk.browser_default.ElastiCache">
+        function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>ElastiCache
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">ElastiCache = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.browser_default.ElasticBeanstalk" id="apidoc.element.aws-sdk.browser_default.ElasticBeanstalk">
+        function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>ElasticBeanstalk
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">ElasticBeanstalk = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.browser_default.ElasticTranscoder" id="apidoc.element.aws-sdk.browser_default.ElasticTranscoder">
+        function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>ElasticTranscoder
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">ElasticTranscoder = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.browser_default.Firehose" id="apidoc.element.aws-sdk.browser_default.Firehose">
+        function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>Firehose
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">Firehose = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.browser_default.GameLift" id="apidoc.element.aws-sdk.browser_default.GameLift">
+        function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>GameLift
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">GameLift = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.browser_default.Inspector" id="apidoc.element.aws-sdk.browser_default.Inspector">
+        function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>Inspector
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">Inspector = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.browser_default.Iot" id="apidoc.element.aws-sdk.browser_default.Iot">
+        function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>Iot
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">Iot = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.browser_default.IotData" id="apidoc.element.aws-sdk.browser_default.IotData">
+        function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>IotData
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">IotData = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.browser_default.KMS" id="apidoc.element.aws-sdk.browser_default.KMS">
+        function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>KMS
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">KMS = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.browser_default.Kinesis" id="apidoc.element.aws-sdk.browser_default.Kinesis">
+        function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>Kinesis
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">Kinesis = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.browser_default.Lambda" id="apidoc.element.aws-sdk.browser_default.Lambda">
+        function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>Lambda
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">Lambda = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.browser_default.LexRuntime" id="apidoc.element.aws-sdk.browser_default.LexRuntime">
+        function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>LexRuntime
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">LexRuntime = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.browser_default.MTurk" id="apidoc.element.aws-sdk.browser_default.MTurk">
+        function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>MTurk
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">MTurk = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.browser_default.MachineLearning" id="apidoc.element.aws-sdk.browser_default.MachineLearning">
+        function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>MachineLearning
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">MachineLearning = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.browser_default.MarketplaceCommerceAnalytics" id="apidoc.element.aws-sdk.browser_default.MarketplaceCommerceAnalytics">
+        function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>MarketplaceCommerceAnalytics
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">MarketplaceCommerceAnalytics = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.browser_default.MobileAnalytics" id="apidoc.element.aws-sdk.browser_default.MobileAnalytics">
+        function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>MobileAnalytics
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">MobileAnalytics = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.browser_default.OpsWorks" id="apidoc.element.aws-sdk.browser_default.OpsWorks">
+        function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>OpsWorks
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">OpsWorks = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.browser_default.Polly" id="apidoc.element.aws-sdk.browser_default.Polly">
+        function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>Polly
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">Polly = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.browser_default.RDS" id="apidoc.element.aws-sdk.browser_default.RDS">
+        function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>RDS
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">RDS = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.browser_default.Redshift" id="apidoc.element.aws-sdk.browser_default.Redshift">
+        function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>Redshift
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">Redshift = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.browser_default.Rekognition" id="apidoc.element.aws-sdk.browser_default.Rekognition">
+        function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>Rekognition
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">Rekognition = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.browser_default.Route53" id="apidoc.element.aws-sdk.browser_default.Route53">
+        function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>Route53
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">Route53 = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.browser_default.Route53Domains" id="apidoc.element.aws-sdk.browser_default.Route53Domains">
+        function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>Route53Domains
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">Route53Domains = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.browser_default.S3" id="apidoc.element.aws-sdk.browser_default.S3">
+        function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>S3
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">S3 = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+* `&#x27;https://ec2.ap-southeast-1.amazonaws.com&#x27;`. If
+* you need to override an endpoint for a service, you can
+* set the endpoint on a service by passing the endpoint
+* object with the `endpoint` option key:
+*
+* ```javascript
+* var ep = new AWS.Endpoint(&#x27;awsproxy.example.com&#x27;);
+* var s3 = new AWS.<span class="apidocCodeKeywordSpan">S3</span>({endpoint: ep});
+* s3.service.endpoint.hostname == &#x27;awsproxy.example.com&#x27;
+* ```
+*
+* Note that if you do not specify a protocol, the protocol will
+* be selected based on your current {AWS.config} configuration.
+*
+* @!attribute protocol
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.browser_default.SES" id="apidoc.element.aws-sdk.browser_default.SES">
+        function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>SES
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">SES = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.browser_default.SNS" id="apidoc.element.aws-sdk.browser_default.SNS">
+        function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>SNS
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">SNS = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.browser_default.SQS" id="apidoc.element.aws-sdk.browser_default.SQS">
+        function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>SQS
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">SQS = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.browser_default.SSM" id="apidoc.element.aws-sdk.browser_default.SSM">
+        function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>SSM
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">SSM = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.browser_default.STS" id="apidoc.element.aws-sdk.browser_default.STS">
+        function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>STS
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">STS = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.browser_default.ServiceCatalog" id="apidoc.element.aws-sdk.browser_default.ServiceCatalog">
+        function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>ServiceCatalog
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">ServiceCatalog = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.browser_default.StorageGateway" id="apidoc.element.aws-sdk.browser_default.StorageGateway">
+        function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>StorageGateway
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">StorageGateway = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.browser_default.WAF" id="apidoc.element.aws-sdk.browser_default.WAF">
+        function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>WAF
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">WAF = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.aws-sdk.browser_default.WorkDocs" id="apidoc.element.aws-sdk.browser_default.WorkDocs">
+        function <span class="apidocSignatureSpan">aws-sdk.browser_default.</span>WorkDocs
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">WorkDocs = function () {
+  if (klass !== Object) {
+    return klass.apply(this, arguments);
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.aws-sdk.state_machine" id="apidoc.module.aws-sdk.state_machine">module aws-sdk.state_machine</a></h1>
 
 
@@ -40755,21 +45465,21 @@ add(&#x27;HTTP_DATA&#x27;, &#x27;httpData&#x27;, function HTTP_DATA(chunk, resp)
   });
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-});
-
-addAsync(&#x27;COMPUTE_SHA256&#x27;, &#x27;afterBuild&#x27;, function COMPUTE_SHA256(req, done) {
-  req.haltHandlersOnError();
-  if (!req.service.api.signatureVersion) return done(); // none
-  if (req.service.getSignerClass(req) === AWS.Signers.V4) {
-    var body = req.httpRequest.body || &#x27;&#x27;;
-    AWS.util.<span class="apidocCodeKeywordSpan">computeSha256</span>(body, function(err, sha) {
-      if (err) {
-        done(err);
-      }
-      else {
-        req.httpRequest.headers[&#x27;X-Amz-Content-Sha256&#x27;] = sha;
-        done();
-      }
+if (!req.service.api.signatureVersion &#x26;&#x26; !authtype) return done(); // none
+if (req.service.getSignerClass(req) === AWS.Signers.V4) {
+  var body = req.httpRequest.body || &#x27;&#x27;;
+  if (authtype.indexOf(&#x27;unsigned-body&#x27;) &#x3e;= 0) {
+    req.httpRequest.headers[&#x27;X-Amz-Content-Sha256&#x27;] = &#x27;UNSIGNED-PAYLOAD&#x27;;
+    return done();
+  }
+  AWS.util.<span class="apidocCodeKeywordSpan">computeSha256</span>(body, function(err, sha) {
+    if (err) {
+      done(err);
+    }
+    else {
+      req.httpRequest.headers[&#x27;X-Amz-Content-Sha256&#x27;] = sha;
+      done();
+    }
 ...</pre></li>
     </ul>
 
@@ -41027,7 +45737,23 @@ function getAsyncCredentials() {
       enumerable: false, writable: true, configurable: true });
   });
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+   *   @example Create a credentials object with AWS credentials
+   *     var creds = new AWS.Credentials({
+   *       accessKeyId: &#x27;akid&#x27;, secretAccessKey: &#x27;secret&#x27;, sessionToken: &#x27;session&#x27;
+   *     });
+   */
+  constructor: function Credentials() {
+// hide secretAccessKey from being displayed with util.inspect
+AWS.util.<span class="apidocCodeKeywordSpan">hideProperties</span>(this, [&#x27;secretAccessKey&#x27;]);
+
+this.expired = false;
+this.expireTime = null;
+if (arguments.length === 1 &#x26;&#x26; typeof arguments[0] === &#x27;object&#x27;) {
+  var creds = arguments[0].credentials || arguments[0];
+  this.accessKeyId = creds.accessKeyId;
+  this.secretAccessKey = creds.secretAccessKey;
+...</pre></li>
     </ul>
 
 
@@ -41120,7 +45846,23 @@ AWS.Config = AWS.util.<span class="apidocCodeKeywordSpan">inherit</span>({
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function isBrowser() { return process &#x26;&#x26; process.browser; }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+ * @api private
+ */
+setUserAgent: function setUserAgent() {
+  this._userAgent = this.headers[this.getUserAgentHeaderName()] = AWS.util.userAgent();
+},
+
+getUserAgentHeaderName: function getUserAgentHeaderName() {
+  var prefix = AWS.util.<span class="apidocCodeKeywordSpan">isBrowser</span>() ? &#x27;X-Amz-&#x27; : &#x27;&#x27;;
+  return prefix + &#x27;User-Agent&#x27;;
+},
+
+/**
+ * @api private
+ */
+appendToUserAgent: function appendToUserAgent(agentPartial) {
+...</pre></li>
     </ul>
 
 
@@ -41384,7 +46126,24 @@ AWS.util.<span class="apidocCodeKeywordSpan">mixin</span>(AWS.Request, AWS.Seque
     });
   };
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+  }
+});
+
+/**
+ * @api private
+ */
+AWS.Credentials.addPromisesToClass = function addPromisesToClass(PromiseDependency) {
+  this.prototype.getPromise = AWS.util.<span class="apidocCodeKeywordSpan">promisifyMethod</span>(&#x27;get&#x27;, PromiseDependency
+);
+  this.prototype.refreshPromise = AWS.util.promisifyMethod(&#x27;refresh&#x27;, PromiseDependency);
+};
+
+/**
+ * @api private
+ */
+AWS.Credentials.deletePromisesFromClass = function deletePromisesFromClass() {
+...</pre></li>
     </ul>
 
 
@@ -41443,7 +46202,23 @@ AWS.util.<span class="apidocCodeKeywordSpan">mixin</span>(AWS.Request, AWS.Seque
 
   return items.join(&#x27;&#x26;&#x27;);
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+  /**
+   * @return [String] the query string portion of the {path}
+   */
+  search: function search() {
+    var query = this.path.split(&#x27;?&#x27;, 2)[1];
+    if (query) {
+      query = AWS.util.queryStringParse(query);
+      return AWS.util.<span class="apidocCodeKeywordSpan">queryParamsToString</span>(query);
+    }
+    return &#x27;&#x27;;
+  }
+
+});
+
+/**
+...</pre></li>
     </ul>
 
 
@@ -41458,7 +46233,22 @@ AWS.util.<span class="apidocCodeKeywordSpan">mixin</span>(AWS.Request, AWS.Seque
     <li>description and source-code<pre class="apidocCodePre">function queryStringParse(qs) {
   return util.querystring.parse(qs);
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+  /**
+   * @return [String] the query string portion of the {path}
+   */
+  search: function search() {
+    var query = this.path.split(&#x27;?&#x27;, 2)[1];
+    if (query) {
+      query = AWS.util.<span class="apidocCodeKeywordSpan">queryStringParse</span>(query);
+      return AWS.util.queryParamsToString(query);
+    }
+    return &#x27;&#x27;;
+  }
+
+});
+...</pre></li>
     </ul>
 
 
@@ -41630,7 +46420,23 @@ if (!acceptedType) {
     <li>description and source-code<pre class="apidocCodePre">function urlParse(url) {
   return util.url.parse(url);
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+if (!endpoint.match(/^http/)) {
+  var useSSL = config &#x26;&#x26; config.sslEnabled !== undefined ?
+    config.sslEnabled : AWS.config.sslEnabled;
+  endpoint = (useSSL ? &#x27;https&#x27; : &#x27;http&#x27;) + &#x27;://&#x27; + endpoint;
+}
+
+AWS.util.update(this, AWS.util.<span class="apidocCodeKeywordSpan">urlParse</span>(endpoint));
+
+// Ensure the port property is set as an integer
+if (this.port) {
+  this.port = parseInt(this.port, 10);
+} else {
+  this.port = this.protocol === &#x27;https:&#x27; ? 443 : 80;
+}
+...</pre></li>
     </ul>
 
 
@@ -41648,7 +46454,22 @@ if (!acceptedType) {
   if (name === &#x27;nodejs&#x27;) agent += &#x27; &#x27; + util.engine();
   return agent;
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+  this.setUserAgent();
+},
+
+/**
+ * @api private
+ */
+setUserAgent: function setUserAgent() {
+  this._userAgent = this.headers[this.getUserAgentHeaderName()] = AWS.util.<span class="apidocCodeKeywordSpan">userAgent</span>();
+},
+
+getUserAgentHeaderName: function getUserAgentHeaderName() {
+  var prefix = AWS.util.isBrowser() ? &#x27;X-Amz-&#x27; : &#x27;&#x27;;
+  return prefix + &#x27;User-Agent&#x27;;
+},
+...</pre></li>
     </ul>
 
 
@@ -42292,21 +47113,21 @@ extractCredentials: function extractCredentials(options) {
   return bidirectionalIndexOf(this, val, byteOffset, encoding, true);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-    }
+    addAsync(&#x27;COMPUTE_SHA256&#x27;, &#x27;afterBuild&#x27;, function COMPUTE_SHA256(req, done) {
+req.haltHandlersOnError();
+var operation = req.service.api.operations[req.operation];
+var authtype = operation ? operation.authtype : &#x27;&#x27;;
+if (!req.service.api.signatureVersion &#x26;&#x26; !authtype) return done(); // none
+if (req.service.getSignerClass(req) === AWS.Signers.V4) {
+  var body = req.httpRequest.body || &#x27;&#x27;;
+  if (authtype.<span class="apidocCodeKeywordSpan">indexOf</span>(&#x27;unsigned-body&#x27;) &#x3e;= 0) {
+    req.httpRequest.headers[&#x27;X-Amz-Content-Sha256&#x27;] = &#x27;UNSIGNED-PAYLOAD&#x27;;
+    return done();
   }
-},
-
-validateEnum: function validateRange(shape, value, context) {
-  if (this.validation[&#x27;enum&#x27;] &#x26;&#x26; shape[&#x27;enum&#x27;] !== undefined) {
-    // Fail if the string value is not present in the enum list
-    if (shape[&#x27;enum&#x27;].<span class="apidocCodeKeywordSpan">indexOf</span>(value) === -1) {
-      this.fail(&#x27;EnumError&#x27;, &#x27;Found string value of &#x27; + value + &#x27;, but &#x27;
-        + &#x27;expected &#x27; + shape[&#x27;enum&#x27;].join(&#x27;|&#x27;) + &#x27; for &#x27; + context);
+  AWS.util.computeSha256(body, function(err, sha) {
+    if (err) {
+      done(err);
     }
-  }
-},
-
-validateType: function validateType(value, context, acceptedTypes, type) {
 ...</pre></li>
     </ul>
 
@@ -43926,21 +48747,21 @@ add(&#x27;FINALIZE_ERROR&#x27;, &#x27;retry&#x27;, function FINALIZE_ERROR(resp)
   }
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-      service.config.getCredentials(function (err, credentials) {
-        if (err) {
-req.response.error = err;
-return done();
-        }
 
-        try {
-var date = AWS.util.date.<span class="apidocCodeKeywordSpan">getDate</span>();
-var SignerClass = service.getSignerClass(req);
-var signer = new SignerClass(req.httpRequest,
-  service.api.signingName || service.api.endpointPrefix,
- service.config.signatureCache);
-signer.setServiceClientId(service._clientId);
+  /**
+   * @return [Boolean] whether the credentials object should call {refresh}
+   * @note Subclasses should override this method to provide custom refresh
+   *   logic.
+   */
+  needsRefresh: function needsRefresh() {
+var currentTime = AWS.util.date.<span class="apidocCodeKeywordSpan">getDate</span>().getTime();
+var adjustedTime = new Date(currentTime + this.expiryWindow * 1000);
 
-// clear old authorization headers
+if (this.expireTime &#x26;&#x26; adjustedTime &#x3e; this.expireTime) {
+  return true;
+} else {
+  return this.expired || !this.accessKeyId || !this.secretAccessKey;
+}
 ...</pre></li>
     </ul>
 
